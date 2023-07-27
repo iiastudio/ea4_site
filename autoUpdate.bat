@@ -1,5 +1,5 @@
 @echo off
-cd /d "E:\xampp\htdocs\iia_site\"
+cd /d "E:/xampp/htdocs/iia_site"
 git init
 git pull origin main
 git add .
