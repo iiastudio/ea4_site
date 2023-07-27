@@ -1,0 +1,366 @@
+{
+        "data":{
+                "info":{
+                    "menu":["About","Project","Approach","Video","Studio","Gallery","Contacts"],
+                    "menu_tw":["關於","作品","設計方法","影片","教學團隊","集錦","聯絡我們"],
+                    "sections":[
+                        {
+                            "title":"<span class='section-title__highlight'>Supporters</span> and Facilities",
+                            "subtitle":"visit for further information",
+                            "title_tw":"補助<span class='section-title__highlight'>單位</span>",
+                            "subtitle_tw":"進一步資訊"
+                        },
+                        {
+                            "title":"EA4 <span class='section-title__highlight'>Studio</span> Program",
+                            "subtitle":"Tamkang University Department of Architecture",
+                            "content_a": ["<img src='http://placehold.it/60x80' class='accordion__icon' alt='Accordion Icon'>Preface","<span class='section-title__highlight'>EA4 Studio Program</span> was initiated in 1996 by Professors Chen Cheng-Chen and Cen Xin-Zhang. Inspired by the mentorship idea of the Bauhaus, a <span class='section-title__highlight'>Studio</span> introduced teaching groups with various guidance themes to advise students on diverse architectural design thinking tools."],
+                            "content_b": ["<img src='http://placehold.it/60x80' class='accordion__icon' alt='Accordion Icon'>Goal","This program provides senior architecture students professional skills to analyze the network connections between architecture, people, environment, and era from various perspectives, issues, or innovative technologies. This program expands students' understanding of architecture beyond traditional buildings through diverse perspective, and devoted to developing students' own individual aesthetic style."],
+                            "content_c": ["<img src='http://placehold.it/60x80' class='accordion__icon' alt='Accordion Icon'>Features","There are over 15 topics in this program right now, includes spatial scene writing, sustainable environmental management, urban structure reading, design theory construction, digital technology manufacturing, future spatial construction, wooden structure creation, urban data mining, structural art form, and landscape urbanism."],
+                            "title_tw":"建築設計 <span class='section-title__highlight'>教學研究室</span> 計畫",
+                            "subtitle_tw":"淡江大學建築學系",
+                            "content_a_tw": ["<img src='http://placehold.it/60x80' class='accordion__icon' alt='Accordion Icon'>緣起","本教學研究室計劃始於1996年，由陳珍誠老師和陳信樟老師共同開展。以包浩斯的師徒制工作方式作為藍本，通過引入不同指導主題的研究室教學群，為學生提供更加多元的建築設計思考工具。"],
+                            "content_b_tw": ["<img src='http://placehold.it/60x80' class='accordion__icon' alt='Accordion Icon'>目標","本計畫旨在深化高年級建築學生的專業程度，透過不同領域、議題或嶄新技術的角度，重新審視建築與人、環境、時代的網絡連結關係，期待為學生帶來更多元的觀點，並提供整合、融會發展為個人風格的可能性。"],
+                            "content_c_tw": ["<img src='http://placehold.it/60x80' class='accordion__icon' alt='Accordion Icon'>特色","目前研究室涵蓋的領域，包括空間場景寫作、永續環境經營、都市涵構閱讀、設計理論建構、數位科技製造、未來空間構造、木構形式創造、都市數據挖掘、構造藝術形式、景觀城市主義等議題"],
+
+                            "title_2":"<span class='section-title__highlight'>Informational Hub</span> for EA4 Studio Program",
+                            "subtitle_2":"Intelligence Infromation Architecture Studio",
+                            "content_2": ["Introducing the Information Science and Computer Application Technology workshop, and learning the ways of obtaining and analyzing data.",
+                                          "Explore the concept of parameter, and address design challenges beyond the limitations of application instructions.",
+                                          "Introducing Visual Recognition and Mixture-Reality tools to transcript the information from surroundings and activities.",
+                                          "Considering how to apply digital data to Spatial Design Methodology.",
+                                          "Develop the ability of independent thinking with scientific recording, analysis, prediction, and verification."],
+                            "title_2_tw":"資訊化<span class='section-title__highlight'>整合集線平台</span> ",
+                            "subtitle_2_tw":"智慧資訊建築教學研究室",
+                            "content_2_tw": ["加入資訊科學與計算機應用技術課程，建立學習數位資料的取得與分析方法。",
+                                             "超越應用程式的指令限制，針對設計議題，組織發展出具個人化的參數化技術使用流程。",
+                                             "引入視覺辨識技術與擴增實境工具，協助學員取得環境與活動的即時資訊。",
+                                             "思考如何將數據化的資訊應用到空間設計發展上。",
+                                             "培養獨立自主進行發現、紀錄、分析、預測、檢驗的資訊科學化空間設計方法。"]
+                        },
+                        {
+                            "title":"Studio <span class='section-title__highlight'>Approaches</span> ",
+                            "subtitle":"Perspectives from Technololgies to Contemprory issues",
+                            "title_tw":"教學研究室 <span class='section-title__highlight'>設計方法</span> 彙整",
+                            "subtitle_tw":"面向當代資訊技術的設計策略",
+
+                            "title_2":"Apporaches <span class='section-title__highlight'>Classifications</span>",
+                            "subtitle_2":"Types and Apporaches of Informational Technology",
+                            "title_2_tw":"<span class='section-title__highlight'>資訊化設計操作</span> 類別",
+                            "subtitle_2_tw":"基於當代技術的設計方法"
+                        },
+                        {
+                            "title":"Meet our <span class='section-title__highlight'>Amazing Studios<span>",
+                            "subtitle":"<span class='section-title__highlight'>EA4 Studios</span> at TKU Dept. of Architecture ",
+                            "title_tw":"研究室 <span class='section-title__highlight'>教學團隊</span>",
+                            "subtitle_tw":"淡江大學建築學系四年級設計課程人員編制"
+                        },
+                        {
+                            "title":"Activities and <span class='section-title__highlight'>Achievement</span>",
+                            "subtitle":"visit for our achievement",
+                            "title_tw":"活動 與 <span class='section-title__highlight'>成果</span>",
+                            "subtitle_tw":"歡迎瀏覽我們的成果"
+                        },
+                        {
+                            "title":"Contact <span class='section-title__highlight'> us </span>",
+                            "subtitle":"contact us via email for further information",
+                            "title_tw":"<span class='section-title__highlight'>聯繫</span> 我們",
+                            "subtitle_tw":"與本教學團隊進一步聯繫"
+                        }
+                    ]
+                    
+                },
+                "events":[
+                    {
+                        "name":"event1",
+                        "name_tw":"事件1",
+                        "img_path":"http://placehold.it/432x768"
+                    },
+                    {
+                        "name":"event2",
+                        "name_tw":"事件2",
+                        "img_path":"http://placehold.it/432x768"
+                    },
+                    {
+                        "name":"event3",
+                        "name_tw":"事件3",
+                        "img_path":"http://placehold.it/432x768"
+                    },
+                    {
+                        "name":"event4",
+                        "name_tw":"事件4",
+                        "img_path":"http://placehold.it/432x768"
+                    },
+                    {
+                        "name":"event5",
+                        "name_tw":"事件5",
+                        "img_path":"http://placehold.it/432x768"
+                    },
+                    {
+                        "name":"event6",
+                        "name_tw":"事件6",
+                        "img_path":"http://placehold.it/432x768"
+                    }
+                ],
+                "supporters":[
+                    {
+                        "name":"TamKang",
+                        "name_tw":"淡江大學",
+                        "type":"University",
+                        "type_tw":"學校財團法人",
+                        "img_path":"assets/img/supporters/tku.png",
+                        "url":"https://www.tku.edu.tw/"
+                    },
+                    {
+                        "name":"Architecture",
+                        "name_tw":"建築學系",
+                        "type":"TamKang U.",
+                        "type_tw":"淡江大學",
+                        "img_path":"assets/img/supporters/tkua.png",
+                        "url":"http://www.arch.tku.edu.tw/"
+                    },
+                    {
+                        "name":"TeachPractice",
+                        "name_tw":"教學實踐研究",
+                        "type":"MOE Program",
+                        "type_tw":"教育部計畫",
+                        "img_path":"assets/img/supporters/moe_trp.png",
+                        "url":"https://tpr.moe.edu.tw/"
+                    }
+                ],
+                "advisors":[
+                    {
+                        "name":"Hsiao Chi-Fu",
+                        "studio_title":"Intelligence Information",
+                        "img_path":"assets/img/studios/chi-fu.png",
+                        "descript":"Apporaches of information technololgy in architecture.",
+                        "name_tw":"蕭吉甫",
+                        "studio_title_tw":"智慧資訊建築",
+                        "descript_tw":"iia研究將當代資訊技術應用到建築空間中的相關設計方法。"                   
+                    },
+                    {
+                        "name":"Yu Ying-Chang",
+                        "studio_title":"Composition",
+                        "img_path":"assets/img/studios/ying-chang.png",
+                        "descript":"Contemporary architectural technololgy in architecture.",
+                        "name_tw":"游瑛樟",
+                        "studio_title_tw":"構造建築",
+                        "descript_tw":"構造與建築設計工作室：組構。"
+                    },
+                    {
+                        "name":"Lin Chen-Ying",
+                        "studio_title":"Environment",
+                        "img_path":"assets/img/studios/jenny.png",
+                        "descript":"Environment technololgy in architecture.",
+                        "name_tw":"林珍瑩",
+                        "studio_title_tw":"環境建築",
+                        "descript_tw":"環境中的建築應用方法。"
+                    },
+                    {
+                        "name":"Hideki Hirahara",
+                        "studio_title":"Notation",
+                        "img_path":"assets/img/studios/hiraka.png",
+                        "descript":"Contemporary architectural theory studio in Notation.",
+                        "name_tw":"平原英樹",
+                        "studio_title_tw":"理論建築",
+                        "descript_tw":"當代建築理論工作室：譜記。"
+                    },
+                    {
+                        "name":"Hong Shi-Hua",
+                        "studio_title":"Performative Architecture",
+                        "img_path":"assets/img/studios/shui-wua.png",
+                        "descript":"Performative architecture in various scales",
+                        "name_tw":"洪世驊",
+                        "studio_title_tw":"功能建築",
+                        "descript_tw":"超功能建築設計工作室。"
+                    },
+                    {
+                        "name":"Chung Yu-Hua",
+                        "studio_title":"Responsive Environment",
+                        "img_path":"assets/img/studios/yu-wua.png",
+                        "descript":"Responsive environment design Studio.",
+                        "name_tw":"鍾裕華",
+                        "studio_title_tw":"應境建築",
+                        "descript_tw":"回應環境工作室。"
+                    },
+                    {
+                        "name":"Tsai Da-Ren",
+                        "studio_title":"Architectural Standards",
+                        "img_path":"assets/img/studios/dar-en.png",
+                        "descript":"Architectural standards studies in research.",
+                        "name_tw":"蔡大仁",
+                        "studio_title_tw":"大仁建築",
+                        "descript_tw":"建築技術規則工作室。"
+                    },
+                    {
+                        "name":"Huang Ren-Jie",
+                        "studio_title":"Additive",
+                        "img_path":"assets/img/studios/ren-jei.png",
+                        "descript":"Additive technology of architecture.",
+                        "name_tw":"黃仁杰",
+                        "studio_title_tw":"加法建築",
+                        "descript_tw":"層積製造工作室。"
+                    },
+                    {
+                        "name":"Song Wei-Xiang",
+                        "studio_title":"Sustainable",
+                        "img_path":"assets/img/studios/wei-shin.png",
+                        "descript":"Sustainable approaches in architecture.",
+                        "name_tw":"宋偉祥",
+                        "studio_title_tw":"永續建築",
+                        "descript_tw":"永續建築工作室。"
+                    },
+                    {
+                        "name":"Weng Wei-Chen",
+                        "studio_title":"Schematic",
+                        "img_path":"assets/img/studios/wei-chen.png",
+                        "descript":"Schematic and reorginze architecture design.",
+                        "name_tw":"翁偉真",
+                        "studio_title_tw":"拆解建築",
+                        "descript_tw":"概念設計工作室。"
+                    },
+                    {
+                        "name":"Chen Yo-Sheng",
+                        "studio_title":"Design Build",
+                        "img_path":"assets/img/studios/yo-san.png",
+                        "descript":"Design and build of construction.",
+                        "name_tw":"陳右昇",
+                        "studio_title_tw":"實做建築",
+                        "descript_tw":"設計建造工作室。"
+                    }
+                ],
+                "approaches":[
+                    {
+                        "date_year": 2023,
+                        "name_tw": "陳沁蕓",
+                        "name": "Qin-Yun, Chen",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "動·思·共鳴",
+                        "title": "InMotion",
+                        "descript_tw": "海龜保育特展の序章——加深觀者印象：空間改變情緒，情緒影響姿態，姿態操縱空間。",
+                        "descript": "Enhance the audience's impression in the prologue of the Sea Turtle Conservation Exhibition by altering the space, influencing emotions, and manipulating postures.",
+                        "tags": [
+                          "xr",
+                          "bim"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Qin-Yun.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "陳欣佑",
+                        "name": "Xin-You, Chen",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "基於交戰行為的場景設計",
+                        "title": "A Scenario Based on Fire Combat",
+                        "descript_tw": "以作戰行為作為場景設計的切入點，先分析遊戲角色在場景中使用各種槍枝的行為，再平剖面設計對應場景物件，使場景更有利於特定槍枝作戰，達到交戰程度最大化。",
+                        "descript": "To design a scene that maximizes engagement, this study begins with analyzing the behavior of game characters using various firearms. From there, design corresponding scene objects on a planar level that are conducive to specific firearm combat. By using combat behavior as the starting point for scene design, you can create a more immersive experience for players.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Xin-You.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "楊心柔",
+                        "name": "Xing-Rou, Young",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "犬樂園",
+                        "title": "Doggy Playground",
+                        "descript_tw": "基於小狗的認知能力，發展適合於小狗遊戲的空間設計。",
+                        "descript": "Develop space design suitable for dog playground based on dogs' cognitive abilities.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Xing-Rou.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "鄭永彥",
+                        "name": "Yung-Yan, Cheng",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "構造解剖學",
+                        "title": "The Anatomy of Structure",
+                        "descript_tw": "利用不同出入口的人口流動場域分析發展皮層形式，再通過受力演算能夠支撐皮層的桁架結構。",
+                        "descript": "Analysis of particles flowing using different entrances and exits in urban to develop a skin surface, and then plan a structure system that can withstand the skin.",
+                        "tags": [
+                          "big-data",
+                          "bim",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Yung-Yan.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "吳姵萱",
+                        "name": "Pei-Hsuan, Wu",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "情緒調色盤",
+                        "title": "The Emotional Plaette of Space",
+                        "descript_tw": "不同情緒的人看空間都帶有不同的特色，通過第三人稱的視角，領略各種情緒所呈現的空間美學。",
+                        "descript": "Different emotions perceive spaces with distinct characteristics. Through a third-person perspective, one can appreciate the spatial aesthetics presented by various emotional states.",
+                        "tags": [
+                          "xr",
+                          "bim",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Pei-Hsuan.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "陳昭瑾",
+                        "name": "Chao-Chin, Chen",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "漁市前，於是後",
+                        "title": "Time After Day After Day",
+                        "descript_tw": "透過懸疑小說來敘述時間軸對於不同角色之間場景與視角的變化，利用「伏筆」去探討時間的連續性與角色之間的交集，並將其套入到漁港空間中，透過黑鮪魚的卸貨流程說明不同人物之間的時間轉換與場景的流動。",
+                        "descript": "Design : Use suspense novels to narrate the changes in the timeline for scenes and perspectives between different characters. Use 'Foreshadowing' to explore the continuity of time and the intersection between characters, and incorporate it into the fishing port space.",
+                        "tags": [
+                          "big-data",
+                          "bim",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Chao-Chin.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "朱品蓉",
+                        "name": "Pin-Rong, Chu",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "大屯火山群的脈動",
+                        "title": "The Pulsation of the Tatun Volcano Group",
+                        "descript_tw": "透過轉譯機制，抽離了「臺北滅城」的恐懼想像，重新詮釋人與火山的相互關係。",
+                        "descript": "Through a series of translation steps, I detach the fearful landscape of Taipei's Destruction, reinterpret the mutual relation between human & volcano.",
+                        "tags": [
+                          "big-data",
+                          "xr",
+                          "bim",
+                          "cam"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Pin-Rong.png"
+                      },
+                      {
+                        "date_year": 2023,
+                        "name_tw": "張智涵",
+                        "name": "Chih-Han, Chang",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "邊界自由噬",
+                        "title": "Float with Wave",
+                        "descript_tw": "藉由研究將海浪的特性和規則，得出其擾動的特性並將其轉化為空間，藉由此空間來擾動路徑、人為與自然的邊界效應。",
+                        "descript": "The wave interact with other wave and the sea floor,cause them to disturbance. In this design I capture this rule and recreate the movement of waves to a space ,so it can disturbance the boundary of route, space, or even a structure that separate people form nature.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2023_Chih-Han.png"
+                      }
+                ]
+        }
+}
