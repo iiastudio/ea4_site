@@ -1,8 +1,8 @@
 {
         "data":{
                 "info":{
-                    "menu":["About","Project","Approach","Video","Studio","Gallery","Contacts"],
-                    "menu_tw":["關於","作品","設計方法","影片","教學團隊","集錦","聯絡我們"],
+                    "menu":["About","Project","Studio","Gallery","Perspective","P5js","GH","Python","Contacts"],
+                    "menu_tw":["關於","作品","教學團隊","集錦","設計方法","P5js","GH","Python","聯絡我們"],
                     "sections":[
                         {
                             "title":"<span class='section-title__highlight'>Supporters</span> and Facilities",
