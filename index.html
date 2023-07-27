@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title>iia.site.</title>
+	<!-- Page description -->
+	<meta name="description" content="HTML landing page for TKUA-EA4.">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- End of Meta -->
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/img/common/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/img/common/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/common/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/common/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/common/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/img/common/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/img/common/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/img/common/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/common/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="assets/img/common/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="assets/img/common/favicon/manifest.json">
+	<link rel="shortcut icon" href="assets/img/common/favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/img/common/favicon/mstile-144x144.png">
+	<meta name="msapplication-config" content="assets/img/common/favicon/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- End of Favicon -->
+	<!-- StyleSheets -->
+	<link rel="stylesheet" href="dist/style.css">
+	<link rel="stylesheet" href="dist/customstyle.css">
+	<!-- End of StyleSheets -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	<!-- P5js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+	<!--  babylon renderer  -->
+	<script src="https://cdn.babylonjs.com/babylon.js"></script>
+	<script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.js"></script>
+</head>
+
+<body class="js-preload-me ">
+	<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+	<!-- Preloader -->
+	<div class="preloader js-preloader ">
+		<span class="preloader__circle preloader__circle--primary"></span>
+		<span class="preloader__circle preloader__circle--secondary"></span>
+		<span class="preloader__circle preloader__circle--tertiary"></span>
+	</div>
+	<!-- End of Preloader -->
+	<canvas id='renderCanvas'></canvas>
+	<!-- Page -->
+	<div class="page js-page ">
+		<!-- Mobile Menu -->
+		<div id="sidr">
+			<div class="mobile-menu__close js-mobile-menu__close"></div>
+			<ul class="mobile-menu js-mobile-menu ">
+				<li class="mobile-menu__item ">
+					<a href="#about" class="mobile-menu__link js-scroll-to">About</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#" class="mobile-menu__link">Project</a>
+					<ul class="mobile-menu__child">
+						<li class="mobile-menu__item ">
+							<a href="#approaches" class="mobile-menu__link js-scroll-to">Approach</a>
+						</li>
+						<li class="mobile-menu__item ">
+							<a href="#video" class="mobile-menu__link js-scroll-to">Video</a>
+						</li>
+					</ul>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#studio" class="mobile-menu__link js-scroll-to">Studio</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#gallery" class="mobile-menu__link js-scroll-to">Gallery</a>
+				</li>
+				<li class="mobile-menu__item ">
+					<a href="#subscribe" class="mobile-menu__link js-scroll-to">Contacts</a>
+				</li>
+				<li class="mobile-menu__item">
+					
+					<div>
+						<label class="switch">
+							<input type="checkbox" onclick="lngclick(this)" checked>
+							<span class="slider"></span>
+						</label>
+					</div>
+					
+				</li>
+			</ul>
+		</div>
+		<!-- End of Mobile Menu -->
+		<!-- Header -->
+		<header class="header js-header ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<!-- Logo -->
+						<div class="logo ">
+							<a href="index.html" class="logo__link">
+								<img src="assets/img/common/logo/logo.png" alt="Logo" class="logo__image js-logo__image" data-switch="true"> </a>
+						</div>
+						<!-- End of Logo -->
+					</div>
+					<div class="col-md-20 col-sm-20 col-xs-12">
+						<!-- Menu -->
+						<nav>
+							<ul class="menu menu--right js-menu sf-menu ">
+								<li class="menu__item ">
+									<a href="#about" class="menu__link js-scroll-to">About</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#" class="menu__link">Project</a>
+									<ul class="menu__child">
+										<li class="menu__item ">
+											<a href="#approaches" class="menu__link js-scroll-to">Approach</a>
+										</li>
+										<li class="menu__item ">
+											<a href="#video" class="menu__link js-scroll-to">Video</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item ">
+									<a href="#studio" class="menu__link js-scroll-to">Studio</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#gallery" class="menu__link js-scroll-to">Gallery</a>
+								</li>
+								<li class="menu__item ">
+									<a href="#subscribe" class="menu__link js-scroll-to">Contacts</a>
+								</li>
+								<li class="menu__item ">
+									<div>
+									<label class="switch">
+										<input type="checkbox" onclick="lngclick(this)" checked>
+										<span class="slider"></span>
+									</label>
+								</div>
+								</li>
+							</ul>
+						</nav>
+						<!-- End of Menu -->
+						<!-- Menu Trigger -->
+						<a class="menu-trigger js-menu-trigger " href='sidr'> </a>
+						<!-- End of Menu Trigger -->
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End of Header -->
+		<!-- Hero -->
+		<div class="hero ">
+			<!-- Slider -->
+			<div class="carousel  ">
+				<div class="carousel__outer">
+					<div class="carousel__inner js-carousel owl-carousel" id="events">
+								
+					</div>
+				</div>
+			</div>
+			<!-- End of Slider -->
+		</div>
+		<!-- End of Hero -->
+		<!-- ####################################### supperters ####################################### -->
+		<section class="section section--skin-3 section--large" id='supporters'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center section-title--light">
+							<span class='section-title__highlight'>Supporters</span> and Facilities</h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle section-subtitle--center "> visit for further information </p>
+						<!-- End of Section Subtitle -->
+					</div>
+				</div>
+				<div class="row" id="supporters">
+				</div>
+			</div>
+		</section>
+		<!-- End of Section -->
+		<!-- ####################################### about ####################################### -->
+		<section class="section section--grey section--large" id='about'>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<!-- Push -->
+						<div class="push push--60  "> </div>
+						<!-- End of Push -->
+						<!-- Section Title -->
+						<h2 class="section-title "> EA4 <span class='section-title__highlight'>Studio</span> Program </h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle "> Tamkang University Department of Architecture </p>
+						<!-- End of Section Subtitle -->
+						
+						<!-- Accordion -->
+						<ul class="accordion js-accordion ">
+							<li class="accordion__item">
+								<h3 class="accordion__title">
+									<img src="http://placehold.it/60x80" class="accordion__icon" alt="Accordion Icon"> Preface </h3>
+								<div class="accordion__content">
+									<p><span class='section-title__highlight'>EA4 Studio Program</span> was initiated in 1996 by Professors Chen Cheng-Chen and Cen Xin-Zhang. Inspired by the mentorship idea of the Bauhaus, a <span class='section-title__highlight'>Studio</span> introduced teaching groups with various guidance themes to advise students on diverse architectural design thinking tools.</p>
+								</div>
+							</li>
+							<li class="accordion__item">
+								<h3 class="accordion__title">
+									<img src="http://placehold.it/60x80" class="accordion__icon" alt="Accordion Icon"> Goal </h3>
+								<div class="accordion__content">
+									<p>This program provides senior architecture students professional skills to analyze the network connections between architecture, people, environment, and era from various perspectives, issues, or innovative technologies. This program expands students' understanding of architecture beyond traditional buildings through diverse perspective, and devoted to developing students' own individual aesthetic style.</p>
+								</div>
+							</li>
+							<li class="accordion__item">
+								<h3 class="accordion__title">
+									<img src="http://placehold.it/60x80" class="accordion__icon" alt="Accordion Icon"> Features </h3>
+								<div class="accordion__content">
+									<p>There are over 15 topics in this program right now, includes spatial scene writing, sustainable environmental management, urban structure reading, design theory construction, digital technology manufacturing, future spatial construction, wooden structure creation, urban data mining, structural art form, and landscape urbanism.</p>
+								</div>
+							</li>
+						</ul>
+						<!-- End of Accordion -->
+					</div>
+					<div class="col-lg-12 col-md-11 col-md-offset-1 col-lg-offset-0">
+						<!-- Screens Preview -->
+						<div class="screens-preview screens-preview--right  ">
+							<img src="http://placehold.it/640x1130" class="screens-preview__primary" alt="Primary Screenshot">
+							<img src="http://placehold.it/500x880" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
+						<!-- End of Screens Preview -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-13 col-md-13">
+						<!-- Screens Preview -->
+						<div class="screens-preview  ">
+							<img src="http://placehold.it/640x1130" class="screens-preview__primary" alt="Primary Screenshot">
+							<img src="http://placehold.it/500x880" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
+						<!-- End of Screens Preview -->
+					</div>
+					<div class="col-lg-11 col-md-10 col-lg-offset-0 col-md-offset-1">
+						<!-- Push -->
+						<div class="push push--100  "> </div>
+						<!-- End of Push -->
+						<!-- Section Title -->
+						<h2 class="section-title "> <span class='section-title__highlight'>Informational Hub</span> for EA4 Studio Program </h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle "> Intelligence Infromation Architecture Studio </p>
+						<!-- End of Section Subtitle -->
+						
+						<!-- List -->
+						<ul class="list list--check  ">
+							<li class="list__item">Introducing the Information Science and Computer Application Technology workshop, and learning the ways of obtaining and analyzing data.</li>
+							<li class="list__item">Explore the concept of parameter, and address design challenges beyond the limitations of application instructions.</li>
+							<li class="list__item">Introducing Visual Recognition and Mixture-Reality tools to transcript the information from surroundings and activities.</li>
+							<li class="list__item">Considering how to apply digital data to Spatial Design Methodology.</li>
+							<li class="list__item">Develop the ability of independent thinking with scientific recording, analysis, prediction, and verification.</li>
+						</ul>
+						<!-- End of List -->						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Section -->
+		<!-- ####################################### approaches  ####################################### -->
+		<section class="section section--large" id='approaches'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center section-title--light"> Studio <span class='section-title__highlight'>Approaches</span> </h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle section-subtitle--center "> Perspectives from Technololgies to Contemprory issues </p>
+						<!-- End of Section Subtitle -->
+						<!-- Tabs -->
+						<div class="tabs js-tabs ">
+							<ul class="tabs__header">
+								<li class="tabs__title">
+									<a class="tabs__link" href="#big-data">
+										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">Big-Data</a>
+								</li>
+								<li class="tabs__title">
+									<a class="tabs__link" href="#xr">
+										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">XR</a>
+								</li>
+								<li class="tabs__title">
+									<a class="tabs__link" href="#bim">
+										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">BIM</a>
+								</li>
+								<li class="tabs__title">
+									<a class="tabs__link" href="#transcript">
+										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon"> Trans. </a>
+								</li>
+								<li class="tabs__title">
+									<a class="tabs__link" href="#construction">
+										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">Cons.</a>
+								</li>
+								<li class="tabs__title">
+									<a class="tabs__link" href="#cam">
+										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">CAM</a>
+								</li>
+
+							</ul>
+							<div id="big-data" class="tabs__content">
+								<div class="tabs__izometric"></div>
+								<div class="tabs__regular">
+									<div class="row"></div>
+								</div>
+							</div>
+							<div id="xr" class="tabs__content">
+								<div class="tabs__izometric"></div>
+								<div class="tabs__regular">
+									<div class="row"></div>
+								</div>
+							</div>
+							<div id="bim" class="tabs__content">
+								<div class="tabs__izometric"></div>
+								<div class="tabs__regular">
+									<div class="row"></div>
+								</div>
+							</div>
+							<div id="transcript" class="tabs__content">
+								<div class="tabs__izometric"></div>
+								<div class="tabs__regular">
+									<div class="row"></div>
+								</div>
+							</div>
+							<div id="construction" class="tabs__content">
+								<div class="tabs__izometric"></div>
+								<div class="tabs__regular">
+									<div class="row"></div>
+								</div>
+							</div>
+							<div id="cam" class="tabs__content">
+								<div class="tabs__izometric"></div>
+								<div class="tabs__regular">
+									<div class="row"></div>
+								</div>
+							</div>
+						</div>
+						<!-- End of Tabs -->
+						<!-- Push -->
+						<div class="push push--150  "> </div>
+						<!-- End of Push -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Section -->
+		<!-- ####################################### sudio ####################################### -->
+		<section class="section section--grey section--large " id='studio'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center ">Meet our <span class='section-title__highlight'>Amazing Studios</span></h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle section-subtitle--center "> <span class='section-title__highlight'>EA4 Studios</span> at TKU Dept. of Architecture </p>
+						<!-- End of Section Subtitle -->
+					</div>
+				</div>
+				<div class="row" id="studio_advisors">
+				<!-- studio_advisors Section -->
+				<!-- End of studio_advisors Section -->
+				</div>
+			</div>
+		</section>
+		<!-- End of Section -->
+		<!-- ####################################### subscribe #######################################-->
+		<section class="section section--large " id='subscribe'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-20 col-md-offset-2">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center section-title--light ">
+							<span class='section-title__highlight'>Contact</span> us
+						</h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle section-subtitle--center "> contact us via email for further information </p>
+						<!-- End of Section Subtitle -->
+						<!-- Subscribe -->
+						<div class="subscribe  ">
+							<form action="#" class="subscribe__form">
+								<div class="row">
+									<div class="col-md-10 col-lg-12 col-sm-10">
+										<!-- Input -->
+										<div class="input input--icon  ">
+											<i class="fontello-mail input__icon"></i>
+											<input type="text" name="subscribe-email" class="input__field" placeholder="Your e-mail address" id="subscribe-email"> </div>
+										<!-- End of Input -->
+									</div>
+									<div class="col-md-8 col-lg-6 col-sm-8">
+										<!-- Dropdown -->
+										<div class="dropdown dropdown--full dropdown--icon  ">
+											<div class="dropdown__label">
+												<i class="fontello-cd dropdown__icon"></i> Frequency </div>
+											<ul class="dropdown__list">
+												<li class="dropdown__item">Weekly</li>
+												<li class="dropdown__item">Monthly</li>
+											</ul>
+										</div>
+										<!-- End of Dropdown -->
+									</div>
+									<div class="col-md-6 col-lg-6 col-sm-6">
+										<!-- Button -->
+										<div class="button button--subscribe  ">
+											<input type="submit" class="button__input" value="Subscribe"> </div>
+										<!-- End of Button -->
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- End of Subscribe -->
+					</div>
+				</div>
+			</div>
+			<!-- Socials -->
+			<ul class="socials socials--displaced  ">
+				<li class="socials__item">
+					<a href="#" class="socials__button socials__button--facebook">
+						<i class="fontello-facebook socials__icon"></i>
+					</a>
+				</li>
+				<li class="socials__item">
+					<a href="#" class="socials__button socials__button--twitter">
+						<i class="fontello-twitter-bird socials__icon"></i>
+					</a>
+				</li>
+				<li class="socials__item">
+					<a href="#" class="socials__button socials__button--linkedin">
+						<i class="fontello-linkedin socials__icon"></i>
+					</a>
+				</li>
+				<li class="socials__item">
+					<a href="#" class="socials__button socials__button--google">
+						<i class="fontello-gplus socials__icon"></i>
+					</a>
+				</li>
+				<li class="socials__item">
+					<a href="#" class="socials__button socials__button--pinterest">
+						<i class="fontello-pinterest socials__icon"></i>
+					</a>
+				</li>
+			</ul>
+			<!-- End of Socials -->
+		</section>
+		<!-- End of Section -->
+		<!-- ####################################### gallery #######################################  -->
+		<section class="section section--grey section--large " id='gallery'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-24">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center "> Activities and <span class='section-title__highlight'>Achievement</span></h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle section-subtitle--center "> visit for further information </p>
+						<!-- End of Section Subtitle -->
+					</div>
+				</div>
+			</div>
+			<!-- Carousel -->
+			<div class="carousel  ">
+				<div class="carousel__outer">
+					<div class="carousel__inner js-carousel owl-carousel">
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Edit screen</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Tasks</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Achievements</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Search</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Card overlay</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Player</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Dashboard</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Shop</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Camera</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">Stats</h3>
+						</div>
+						<div class="carousel__slide">
+							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
+							<h3 class="carousel__title">New article</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of Carousel -->
+		</section>
+		<!-- End of Section -->
+		<!-- ####################################### footer #######################################-->
+		<footer class="footer ">
+			<a href="#" class="footer__scroll-top js-scroll-top">
+				<i class="fontello-level-up footer__scroll-icon"></i>
+			</a>
+			<!-- End of Push -->
+			<!-- Instagram Widget -->
+			<ul class="instagram-widget  ">
+				<li class="instagram-widget__item instagram-widget__item--icon">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link instagram-widget__link--icon">
+						<i class="fontello-instagram instagram-widget__icon"></i>
+					</a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+				<li class="instagram-widget__item">
+					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
+						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
+				</li>
+			</ul>
+			<!-- End of Instagram Widget -->
+		</footer>
+		<!-- End of Footer -->
+	</div>
+	<!-- End of Page -->
+	<!-- Scripts -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="dist/script.js"></script>
+
+	<!-- Generate 3d background content at background -->
+	<script src="dist/bg3d.js"></script>
+	<!-- Generate JSON content -->
+	<script src="dist/loadjson.js"></script>
+	
+	<!-- End of Scripts -->
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<!-- 
+<script>
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+e.src='//www.google-analytics.com/analytics.js';
+r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+-->
+	<!-- End of Analytics -->
+
+
+</body>
+
+</html>
