@@ -72,33 +72,8 @@
                 "events":[
                     {
                         "name":"event1",
-                        "name_tw":"事件1",
-                        "img_path":"http://placehold.it/432x768"
-                    },
-                    {
-                        "name":"event2",
-                        "name_tw":"事件2",
-                        "img_path":"http://placehold.it/432x768"
-                    },
-                    {
-                        "name":"event3",
-                        "name_tw":"事件3",
-                        "img_path":"http://placehold.it/432x768"
-                    },
-                    {
-                        "name":"event4",
-                        "name_tw":"事件4",
-                        "img_path":"http://placehold.it/432x768"
-                    },
-                    {
-                        "name":"event5",
-                        "name_tw":"事件5",
-                        "img_path":"http://placehold.it/432x768"
-                    },
-                    {
-                        "name":"event6",
-                        "name_tw":"事件6",
-                        "img_path":"http://placehold.it/432x768"
+                        "name_tw":"系列工作坊1",
+                        "img_path":"assets/img/events/event_workshop1.png"
                     }
                 ],
                 "supporters":[
