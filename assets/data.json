@@ -69,11 +69,26 @@
                     ]
                     
                 },
-                "events":[
-                    {
-                        "name":"event1",
+                "events":[ 
+                   {
+                    "name":"review11211",
+                    "name_tw":"1121期中評圖",
+                    "img_path":"assets/img/events/event_review11211.png"
+                   },
+                   {
+                        "name":"workshop1",
                         "name_tw":"系列工作坊1",
                         "img_path":"assets/img/events/event_workshop1.png"
+                    },
+                    {
+                      "name":"review11212",
+                      "name_tw":"1121期末評圖",
+                      "img_path":"assets/img/events/event_review11212.png"
+                    },
+                    {
+                      "name":"workshop2",
+                      "name_tw":"系列工作坊2",
+                      "img_path":"assets/img/events/event_workshop2.png"
                     }
                 ],
                 "supporters":[
@@ -207,7 +222,7 @@
                     {
                         "date_year": 2023,
                         "name_tw": "陳沁蕓",
-                        "name": "Qin-Yun, Chen",
+                        "name": "Chen Qin-Yun",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "動·思·共鳴",
@@ -223,7 +238,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "陳欣佑",
-                        "name": "Xin-You, Chen",
+                        "name": "Chen Xin-You",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "基於交戰行為的場景設計",
@@ -239,7 +254,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "楊心柔",
-                        "name": "Xing-Rou, Young",
+                        "name": "Young Xing-Rou",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "犬樂園",
@@ -254,7 +269,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "鄭永彥",
-                        "name": "Yung-Yan, Cheng",
+                        "name": "Cheng Yung-Yan",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "構造解剖學",
@@ -271,7 +286,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "吳姵萱",
-                        "name": "Pei-Hsuan, Wu",
+                        "name": "Wu Pei-Hsuan",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "情緒調色盤",
@@ -288,7 +303,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "陳昭瑾",
-                        "name": "Chao-Chin, Chen",
+                        "name": "Chen Chao-Chin",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "漁市前，於是後",
@@ -305,7 +320,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "朱品蓉",
-                        "name": "Pin-Rong, Chu",
+                        "name": "Chu Pin-Rong",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "大屯火山群的脈動",
@@ -323,7 +338,7 @@
                       {
                         "date_year": 2023,
                         "name_tw": "張智涵",
-                        "name": "Chih-Han, Chang",
+                        "name": "Chang Chih-Han",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
                         "title_tw": "邊界自由噬",
@@ -335,6 +350,105 @@
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2023_Chih-Han.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "彭彥苓",
+                        "name": "Peng Yan-Ling",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "空間單元組構",
+                        "title": "Crafting Diverse Spaces through Unit Composition",
+                        "descript_tw": "藉由研究將海浪的特性和規則，得出其擾動的特性並將其轉化為空間，藉由此空間來擾動路徑、人為與由旋轉特性延伸發展可變動的單元，將其結合模組化形成多種可自由組織的空間樣態。",
+                        "descript": "Extending from the rotational characteristics, developing variable units, and combining them modularly to create a variety of freely configurable spatial patterns.",
+                        "tags": [
+                          "big-data",
+                          "bim",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2024_Yan-Ling.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林姵妏",
+                        "name": "Lin Pei-Wen",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "光．徑",
+                        "title": "Light, Path",
+                        "descript_tw": "藉由基地的紋理與光線交織，畫作配合轉場變化，展現出新型式的淡水戶外美術館。",
+                        "descript": "By interweaving the texture and light at the site, and the paintings coordinating the transitions, I show a new type of Tamsui outdoor art museum.",
+                        "tags": [
+                          "big-data",
+                          "transcript",
+                          "xr"
+                        ],
+                        "img_path": "assets/img/approaches/2024_Pei-Wen.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林暐潔",
+                        "name": "Lin Wei-Jie",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "水。舞",
+                        "title": "Water, Dance",
+                        "descript_tw": "投影各種水的紋路以及人體偵測技術將畫面投影至現實環境，讓現實與虛擬在同個空間產生融合與對話。",
+                        "descript": "The projection of various water patterns and human detection technology project the images onto the real environment, creating a fusion and interaction between reality and virtuality within the same space.",
+                        "tags": [
+                          "transcript",
+                          "xr"
+                        ],
+                        "img_path": "assets/img/approaches/2024_Wei-Jie.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "許安琇",
+                        "name": "Shiu An-Shiou",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "祭拜派對",
+                        "title": "Worship Party",
+                        "descript_tw": "面對老一代習俗的改變現在許多年輕人更注重於實際快速且能立竿見影的抒發層面而非單純依靠求神拜佛。我想創造出一種建構在尊崇傳統基礎上屬於新一代族群的祭拜方式。",
+                        "descript": "Due to the changing trend of the older generation, many young people nowadays prioritize practical, fast, and immediate ways of expressing themselves, rather than solely relying on seeking divine intervention. I aim to create a worship method that respects tradition while also appealing to the new generation.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2024_An-Shiou.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蘇琬霞",
+                        "name": "Su Wan-Xia",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "馬廄空間的反轉",
+                        "title": "The Reversal of Stable Space",
+                        "descript_tw": "面對老一代習俗的改變現在許多年輕人更注重於實際快速且能立竿見影的抒發層面而非單純依靠求神拜佛。我想創造出一種建構在尊崇傳統基礎上屬於新一代族群的祭拜方式。",
+                        "descript": "Designing stable space through the life of a racehorse, the competition and confinement arising from stable space metaphorically represent a dystopian world.",
+                        "tags": [
+                          "big-data",
+                          "transcript"
+                        ],
+                        "img_path": "assets/img/approaches/2024_Wan-Xia.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "謝孝恆",
+                        "name": "Xie Xiao-Heng",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "有機。遺跡",
+                        "title": "Organism x Ruins Symbiosis S-structure",
+                        "descript_tw": "基於榕樹的生長模式的觀察研究，建構一套基於起始點、目標點、感知環境規則的仿生演算方法，並配合結構檢驗工具與數據分析方法，找到一種可能被合理應用於數位構築技術上的有機構造設計方法。",
+                        "descript": "Based on observations on the growth pattern of banyan trees, a biomimetic algorithm method is developed in this study. This method takes into account the starting point, target point, and rules of the surrounding environment. By combining this method with structural inspection tools and data analysis methods, the goal is to discover a feasible organic structural design approach that can be implemented in digital construction technology.",
+                        "tags": [
+                          "big-data",
+                          "bim",
+                          "transcript",
+                          "cam"
+                        ],
+                        "img_path": "assets/img/approaches/2024_Xiao-Heng.png"
                       }
                 ]
         }

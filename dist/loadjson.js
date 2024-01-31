@@ -215,6 +215,25 @@ function input_approaches(data){
     })  
 }
 function update_approaches(data,lng){
+    // if (lng==="en"){
+    //     data.forEach((v,i)=>{
+    //         $("#studio_advisors .member__name")[i].classList.remove("twBold");
+    //         $("#studio_advisors .member__name")[i].textContent=v.name
+    //         $("#studio_advisors .member__position")[i].classList.remove("twFont");
+    //         $("#studio_advisors .member__position")[i].textContent=v.studio_title
+    //         $("#studio_advisors .member__quote")[i].classList.remove("twLight");
+    //         $("#studio_advisors .member__quote")[i].textContent=v.descript
+    //     })
+    // }else{
+    //     data.forEach((v,i)=>{
+    //         $("#studio_advisors .member__name")[i].classList.add("twBold");
+    //         $("#studio_advisors .member__name")[i].textContent=v.name_tw
+    //         $("#studio_advisors .member__position")[i].classList.add("twFont");
+    //         $("#studio_advisors .member__position")[i].textContent=v.studio_title_tw
+    //         $("#studio_advisors .member__quote")[i].classList.add("twLight");
+    //         $("#studio_advisors .member__quote")[i].textContent=v.descript_tw
+    //     })
+    // }
     if (lng==="en"){
         data.forEach((d)=>{
             let doms = $("."+d.name.split(',')[0])
@@ -237,7 +256,7 @@ function update_approaches(data,lng){
                 doms[i].innerHTML =`</br>
                                     <h4 class="twFont">`+d.name_tw+`</h4></br>
                                     <h3 class="twBold">`+d.title_tw+`</h3></br>
-                                    `+d.descript+`
+                                    `+d.descript_tw+`
                                     </br></br>
                                     <p class="twFont"> [指導教授] `+d.advisor_tw+` </p>`
             }
@@ -245,6 +264,11 @@ function update_approaches(data,lng){
     }
     
 }
+
+
+
+
+
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 carousel 中
 function input_events(data){
     let cc = $("#events")
