@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .transition{
 	.transition(all);
 }
@@ -28,4 +29,36 @@
 
 .transition-color-background{
 	.transition-custom(opacity .25s ease, background-color .25s ease);
+=======
+.transition{
+	.transition(all);
+}
+
+.transition-size(){
+	-webkit-transition: width .25s ease, height .25s ease;
+	   -moz-transition: width .25s ease, height .25s ease;
+	    -ms-transition: width .25s ease, height .25s ease;
+	     -o-transition: width .25s ease, height .25s ease;
+	        transition: width .25s ease, height .25s ease;
+}
+
+.transition-opacity{
+	.transition(opacity);
+}
+
+.transition-background{
+	.transition(background-color);
+}
+
+.transition-transform{
+	-webkit-transition: -webkit-transform .25s ease;
+	   -moz-transition: -moz-transform .25s ease;
+	    -ms-transition: -ms-transform .25s ease;
+	     -o-transition: -o-transform .25s ease;
+	        transition: transform .25s ease;
+}
+
+.transition-color-background{
+	.transition-custom(opacity .25s ease, background-color .25s ease);
+>>>>>>> 6c64ec922bfd710a542f016516ef3d76d20446f9
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @break-small-x: 480px;
 @break-small: 768px;
 @break-medium: 991px;
@@ -22,4 +23,30 @@
 
 @media all and (max-width: @break-small-x) {
     .media-mixin(@break-small-x);
+=======
+@break-small-x: 480px;
+@break-small: 768px;
+@break-medium: 991px;
+@break-large: 1024px;
+@break-large-x: 1199px;
+
+@media all and (max-width: @break-large-x) {
+    .media-mixin(@break-large-x);
+}
+
+@media all and (max-width: @break-large) {
+    .media-mixin(@break-large);
+}
+
+@media all and (max-width: @break-medium) {
+    .media-mixin(@break-medium);
+}
+
+@media all and (max-width: @break-small) {
+    .media-mixin(@break-small);
+}
+
+@media all and (max-width: @break-small-x) {
+    .media-mixin(@break-small-x);
+>>>>>>> 6c64ec922bfd710a542f016516ef3d76d20446f9
 }

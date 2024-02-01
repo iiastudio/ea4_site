@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ==========================================================================
    Block: Link List
    Dependencies: no dependencies
@@ -19,4 +20,27 @@
 			color: @color__primary;
 		}
 	}
+=======
+/* ==========================================================================
+   Block: Link List
+   Dependencies: no dependencies
+   ========================================================================== */
+
+.link-list{
+	&__item{
+		font-family: @font__secondary;
+		font-size: 16px;
+		padding: 15px 0;
+	}
+
+	&__link{
+		color: @color__text;
+		letter-spacing: 0.01em;
+		.transition(color);
+
+		&:hover{
+			color: @color__primary;
+		}
+	}
+>>>>>>> 6c64ec922bfd710a542f016516ef3d76d20446f9
 }
