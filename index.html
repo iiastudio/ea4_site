@@ -35,6 +35,7 @@
 	<!-- StyleSheets -->
 	<link rel="stylesheet" href="dist/style.css">
 	<link rel="stylesheet" href="dist/customstyle.css">
+	<!-- <link rel="stylesheet" href="dist/modal.css"> -->
 	<!-- End of StyleSheets -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<!-- P5js -->
@@ -43,6 +44,9 @@
 	<!--  babylon renderer  -->
 	<script src="https://cdn.babylonjs.com/babylon.js"></script>
 	<script src="https://cdn.babylonjs.com/materialsLibrary/babylonjs.materials.js"></script>
+	<!--  Modals  -->
+	<!-- <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script> -->
+	
 </head>
 
 <body class="js-preload-me ">
@@ -97,7 +101,7 @@
 					
 					<div>
 						<label class="switch">
-							<input type="checkbox" onclick="lngclick(this)" checked>
+							<input type="checkbox" id="lngcheck_mob" onclick="lngclick(this)" checked>
 							<span class="slider"></span>
 						</label>
 					</div>
@@ -154,7 +158,7 @@
 								<li class="menu__item ">
 									<div>
 										<label class="switch">
-											<input type="checkbox" onclick="lngclick(this)" checked>
+											<input type="checkbox" id="lngcheck" onclick="lngclick(this)" checked >
 											<span class="slider"></span>
 										</label>
 									</div>
@@ -221,21 +225,21 @@
 						<ul class="accordion js-accordion ">
 							<li class="accordion__item">
 								<h3 class="accordion__title">
-									<img src="http://placehold.it/60x80" class="accordion__icon" alt="Accordion Icon"> Preface </h3>
+									<img src="assets/img/common/note/bookmark_60x60.png" class="accordion__icon" alt="Accordion Icon"> Preface </h3>
 								<div class="accordion__content">
 									<p><span class='section-title__highlight'>EA4 Studio Program</span> was initiated in 1996 by Professors Chen Cheng-Chen and Cen Xin-Zhang. Inspired by the mentorship idea of the Bauhaus, a <span class='section-title__highlight'>Studio</span> introduced teaching groups with various guidance themes to advise students on diverse architectural design thinking tools.</p>
 								</div>
 							</li>
 							<li class="accordion__item">
 								<h3 class="accordion__title">
-									<img src="http://placehold.it/60x80" class="accordion__icon" alt="Accordion Icon"> Goal </h3>
+									<img src="assets/img/common/note/bookmark_60x60.png" class="accordion__icon" alt="Accordion Icon"> Goal </h3>
 								<div class="accordion__content">
 									<p>This program provides senior architecture students professional skills to analyze the network connections between architecture, people, environment, and era from various perspectives, issues, or innovative technologies. This program expands students' understanding of architecture beyond traditional buildings through diverse perspective, and devoted to developing students' own individual aesthetic style.</p>
 								</div>
 							</li>
 							<li class="accordion__item">
 								<h3 class="accordion__title">
-									<img src="http://placehold.it/60x80" class="accordion__icon" alt="Accordion Icon"> Features </h3>
+									<img src="assets/img/common/note/bookmark_60x60.png" class="accordion__icon" alt="Accordion Icon"> Features </h3>
 								<div class="accordion__content">
 									<p>There are over 15 topics in this program right now, includes spatial scene writing, sustainable environmental management, urban structure reading, design theory construction, digital technology manufacturing, future spatial construction, wooden structure creation, urban data mining, structural art form, and landscape urbanism.</p>
 								</div>
@@ -246,8 +250,8 @@
 					<div class="col-lg-12 col-md-11 col-md-offset-1 col-lg-offset-0">
 						<!-- Screens Preview -->
 						<div class="screens-preview screens-preview--right  ">
-							<img src="http://placehold.it/640x1130" class="screens-preview__primary" alt="Primary Screenshot">
-							<img src="http://placehold.it/500x880" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
+							<img src="assets/img/about/ab_00_l.png" class="screens-preview__primary" alt="Primary Screenshot">
+							<img src="assets/img/about/ab_00_s.png" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
 						<!-- End of Screens Preview -->
 					</div>
 				</div>
@@ -255,8 +259,8 @@
 					<div class="col-lg-13 col-md-13">
 						<!-- Screens Preview -->
 						<div class="screens-preview  ">
-							<img src="http://placehold.it/640x1130" class="screens-preview__primary" alt="Primary Screenshot">
-							<img src="http://placehold.it/500x880" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
+							<img src="assets/img/about/ab_01_l.png" class="screens-preview__primary" alt="Primary Screenshot">
+							<img src="assets/img/about/ab_01_s.png" class="screens-preview__secondary" alt="Secondary Screenshot"> </div>
 						<!-- End of Screens Preview -->
 					</div>
 					<div class="col-lg-11 col-md-10 col-lg-offset-0 col-md-offset-1">
@@ -300,27 +304,27 @@
 							<ul class="tabs__header">
 								<li class="tabs__title">
 									<a class="tabs__link" href="#big-data">
-										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">Big-Data</a>
+										<img src="assets/img/common/note/database_60x60.png" class="tabs__icon" alt="Tab icon">Big-Data</a>
 								</li>
 								<li class="tabs__title">
 									<a class="tabs__link" href="#xr">
-										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">XR</a>
+										<img src="assets/img/common/note/xr_60x60.png" class="tabs__icon" alt="Tab icon">XR</a>
 								</li>
 								<li class="tabs__title">
 									<a class="tabs__link" href="#bim">
-										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">BIM</a>
+										<img src="assets/img/common/note/bim_60x60.png" class="tabs__icon" alt="Tab icon">BIM</a>
 								</li>
 								<li class="tabs__title">
 									<a class="tabs__link" href="#transcript">
-										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon"> Trans. </a>
+										<img src="assets/img/common/note/trans_60x60.png" class="tabs__icon" alt="Tab icon"> Trans. </a>
 								</li>
 								<li class="tabs__title">
 									<a class="tabs__link" href="#construction">
-										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">Cons.</a>
+										<img src="assets/img/common/note/const_60x60.png" class="tabs__icon" alt="Tab icon">Cons.</a>
 								</li>
 								<li class="tabs__title">
 									<a class="tabs__link" href="#cam">
-										<img src="http://placehold.it/60x60" class="tabs__icon" alt="Tab icon">CAM</a>
+										<img src="assets/img/common/note/cam_60x60.png" class="tabs__icon" alt="Tab icon">CAM</a>
 								</li>
 
 							</ul>
@@ -371,19 +375,33 @@
 		</section>
 		<!-- End of Section -->
 		<!-- ####################################### sudio ####################################### -->
-		<section class="section section--grey section--large " id='studio'>
-			<div class="container">
+		<section class="section section--grey section--large " id='studio' >
+			<div class="container" >
 				<div class="row">
 					<div class="col-md-24">
 						<!-- Section Title -->
-						<h2 class="section-title section-title--center ">Meet our <span class='section-title__highlight'>Amazing Studios</span></h2>
+						<h2 class="section-title section-title--center " >Meet our <span class='section-title__highlight'>Amazing Studios</span></h2>
 						<!-- End of Section Title -->
 						<!-- Section Subtitle -->
-						<p class="section-subtitle section-subtitle--center "> <span class='section-title__highlight'>EA4 Studios</span> at TKU Dept. of Architecture </p>
+						<p class="section-subtitle section-subtitle--center " > <span class='section-title__highlight'>EA4 Studios</span> at TKU Dept. of Architecture </p>
 						<!-- End of Section Subtitle -->
 					</div>
 				</div>
-				<div class="row" id="studio_advisors">
+				<div class="row" id="studio_advisors" >
+					
+					<!-- <div class="col-md-12 col-sm-12 col-lg-6" data-micromodal-trigger="modal-1">
+						<div class="member  ">
+							<div class="member__photo-wrapper">
+								<img src="assets/img/studios/chi-fu.png" class="member__photo" alt="Advisor Photo">
+								<div class="member__cover">
+									<blockquote class="member__quote">Apporaches of information technololgy in architecture.</blockquote>
+								</div>
+							</div>
+							<h3 class="member__name">Hsiao Chi-Fu</h3>
+							<p class="member__position">Intelligence Information</p>
+						</div>
+					</div> -->
+					
 				<!-- studio_advisors Section -->
 				<!-- End of studio_advisors Section -->
 				</div>
@@ -391,54 +409,28 @@
 		</section>
 		<!-- End of Section -->
 		<!-- ####################################### subscribe #######################################-->
-		<section class="section section--large " id='subscribe'>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-20 col-md-offset-2">
-						<!-- Section Title -->
-						<h2 class="section-title section-title--center section-title--light "> Contact <span class='section-title__highlight'> us </span> <span class='section-title__highlight'>Contact</span> us</h2>
-						<!-- End of Section Title -->
-						<!-- Section Subtitle -->
-						<p class="section-subtitle section-subtitle--center "> contact us via email for further information </p>
-						<!-- End of Section Subtitle -->
-						<!-- Subscribe -->
-						<div class="subscribe  ">
-							<form action="#" class="subscribe__form">
-								<div class="row">
-									<div class="col-md-10 col-lg-12 col-sm-10">
-										<!-- Input -->
-										<div class="input input--icon  ">
-											<i class="fontello-mail input__icon"></i>
-											<input type="text" name="subscribe-email" class="input__field" placeholder="Your e-mail address" id="subscribe-email"> </div>
-										<!-- End of Input -->
-									</div>
-									<div class="col-md-8 col-lg-6 col-sm-8">
-										<!-- Dropdown -->
-										<div class="dropdown dropdown--full dropdown--icon  ">
-											<div class="dropdown__label">
-												<i class="fontello-cd dropdown__icon"></i> Frequency </div>
-											<ul class="dropdown__list">
-												<li class="dropdown__item">Weekly</li>
-												<li class="dropdown__item">Monthly</li>
-											</ul>
-										</div>
-										<!-- End of Dropdown -->
-									</div>
-									<div class="col-md-6 col-lg-6 col-sm-6">
-										<!-- Button -->
-										<div class="button button--subscribe  ">
-											<input type="submit" class="button__input" value="Subscribe"> </div>
-										<!-- End of Button -->
-									</div>
-								</div>
-							</form>
-						</div>
-						<!-- End of Subscribe -->
-					</div>
-				</div>
-			</div>
+		<section class="section section--large ">
+			<a href="#" class="footer__scroll-top js-scroll-top">
+				<i class="fontello-level-up footer__scroll-icon"></i>
+			</a>
+			<!-- End of Push -->
+			<!-- Instagram Widget -->
+			<ul class="instagram-widget  ">
+				<li class="instagram-widget__item">
+					<img src="assets/img/gallery/g001.png" class="instagram-widget__image" alt="Instagram Photo" id="g001"
+					data-micromodal-trigger="modal-1"
+					data-custom-data='{"title": "Workshop", "descript": "this is workshop pic."}'>
+				</li>
+				<li class="instagram-widget__item">
+					<img src="assets/img/gallery/g002.png" class="instagram-widget__image" alt="Instagram Photo" id="g002"
+					data-micromodal-trigger="modal-1"
+					data-custom-data="{'title':'Review','descript':'this is review pic'}">
+				</li>
+			</ul>
+			<!-- End of Instagram Widget -->
+			
 			<!-- Socials -->
-			<ul class="socials socials--displaced  ">
+			<!-- <ul class="socials socials--displaced  ">
 				<li class="socials__item">
 					<a href="#" class="socials__button socials__button--facebook">
 						<i class="fontello-facebook socials__icon"></i>
@@ -464,7 +456,7 @@
 						<i class="fontello-pinterest socials__icon"></i>
 					</a>
 				</li>
-			</ul>
+			</ul> -->
 			<!-- End of Socials -->
 		</section>
 		<!-- End of Section -->
@@ -474,7 +466,7 @@
 				<div class="row">
 					<div class="col-md-24">
 						<!-- Section Title -->
-						<h2 class="section-title section-title--center "> Activities and <span class='section-title__highlight'>Achievement</span></h2>
+						<h2 class="section-title section-title--center " > Activities and <span class='section-title__highlight'>Achievement</span></h2>
 						<!-- End of Section Title -->
 						<!-- Section Subtitle -->
 						<p class="section-subtitle section-subtitle--center "> visit for further information </p>
@@ -484,9 +476,9 @@
 			</div>
 			<!-- Carousel -->
 			<div class="carousel  ">
-				<div class="carousel__outer">
-					<div class="carousel__inner js-carousel owl-carousel">
-						<div class="carousel__slide">
+				<div class="carousel__outer" >
+					<div class="carousel__inner js-carousel owl-carousel" id='gallery_carousel'>
+						<!-- <div class="carousel__slide">
 							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
 							<h3 class="carousel__title">Edit screen</h3>
 						</div>
@@ -529,7 +521,7 @@
 						<div class="carousel__slide">
 							<img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
 							<h3 class="carousel__title">New article</h3>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -537,70 +529,154 @@
 		</section>
 		<!-- End of Section -->
 		<!-- ####################################### footer #######################################-->
-		<footer class="footer ">
-			<a href="#" class="footer__scroll-top js-scroll-top">
-				<i class="fontello-level-up footer__scroll-icon"></i>
-			</a>
-			<!-- End of Push -->
-			<!-- Instagram Widget -->
-			<ul class="instagram-widget  ">
-				<li class="instagram-widget__item instagram-widget__item--icon">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link instagram-widget__link--icon">
-						<i class="fontello-instagram instagram-widget__icon"></i>
-					</a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-				<li class="instagram-widget__item">
-					<a href="https://www.instagram.com/vladsargu/" class="instagram-widget__link">
-						<img src="http://placehold.it/288x288" class="instagram-widget__image" alt="Instagram Photo"> </a>
-				</li>
-			</ul>
-			<!-- End of Instagram Widget -->
+		<footer class="footer " id='subscribe'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-20 col-md-offset-2">
+						<!-- Section Title -->
+						<h2 class="section-title section-title--center section-title--light "> Contact <span class='section-title__highlight'> us </span></h2>
+						<!-- End of Section Title -->
+						<!-- Section Subtitle -->
+						<p class="section-subtitle section-subtitle--center "> contact us via email for further information </p>
+						<!-- End of Section Subtitle -->
+						<!-- Subscribe -->
+						<div class="subscribe  ">
+							<form action="#" class="subscribe__form">
+								<div class="row">
+									<div class="col-md-10 col-lg-12 col-sm-10">
+										<!-- Input -->
+										<div class="input input--icon  ">
+											<i class="fontello-mail input__icon"></i>
+											<input type="text" name="subscribe-email" class="input__field" placeholder="Your e-mail address" id="subscribe-email"> </div>
+										<!-- End of Input -->
+									</div>
+									<div class="col-md-8 col-lg-6 col-sm-8">
+										<!-- Dropdown -->
+										<div class="dropdown dropdown--full dropdown--icon  ">
+											<div class="dropdown__label">
+												<i class="fontello-cd dropdown__icon"></i> Frequency </div>
+											<ul class="dropdown__list">
+												<li class="dropdown__item">Weekly</li>
+												<li class="dropdown__item">Monthly</li>
+											</ul>
+										</div>
+										<!-- End of Dropdown -->
+									</div>
+									<div class="col-md-6 col-lg-6 col-sm-6">
+										<!-- Button -->
+										<div class="button button--subscribe  ">
+											<input type="submit" class="button__input" value="Subscribe"> </div>
+										<!-- End of Button -->
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- End of Subscribe -->
+					</div>
+				</div>
+			</div>
+			<section class="section section--grey section--large">
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-4 col-sm-12 col-xs-12">
+							<!-- Link List -->
+							<nav class="link-list  ">
+								<ul>
+									<li class="link-list__item">
+										<a href="#about" class="link-list__link js-scroll-to">More Information</a>
+									</li>
+									<li class="link-list__item">
+										<a href="#studio" class="link-list__link js-scroll-to">Advisors</a>
+									</li>
+									<li class="link-list__item">
+										<a href="#approaches" class="link-list__link js-scroll-to">Studio Works</a>
+									</li>
+									<li class="link-list__item">
+										<a href="#" class="link-list__link ">Terms</a> | <a href="#" class="link-list__link ">Privacy</a>										
+									</li>
+								</ul>
+							</nav>
+							<!-- End of Link List -->
+						</div>
+						
+
+
+						<!-- Logo -->
+						<!-- <div class="logo col-md-4">
+							<a href="index.html" class="logo__link">
+								<img src="assets/img/common/logo/logo-dark.png" alt="Logo" class="logo__image"> </a>
+						</div> -->
+						<!-- End of Logo -->
+						<!-- descript -->
+						<div class="col-md-offset-2 col-md-18">
+							<p class="footer__message">IIA introducing the Information Science and Computer Application Technology workshop, and learning the ways of obtaining and analyzing data. Explore the concept of parameter, and address design challenges beyond the limitations of application instructions. ntroducing Visual Recognition and Mixture-Reality tools to transcript the information from surroundings and activities. Considering how to apply digital data to Spatial Design Methodology. Develop the ability of independent thinking with scientific recording, analysis, prediction, and verification.</p>
+							<p>Copyright©2015 Tamkang University。Dept. Architecture。IIA studio</p>
+							<p>TEL: +886 2-2621-5656 #2610 | Email: chifu.research@gmail.com</p>
+						</div>
+						<!-- End of descript -->
+						
+						
+					</div>
+				</div>
+			</section>
 		</footer>
 		<!-- End of Footer -->
 	</div>
 	<!-- End of Page -->
+	
+	<!-- Overlay Modal -->
+	<!-- Modal -->
+	<div id="modalAdvisor" aria-hidden="true" class="modal" tabindex="-1">
+		<div class="modal-content" >
+
+			<!-- <span class="close">&times;</span>
+			<p>This is a modal. You can put any content here.</p> -->
+			<!-- <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title"> -->
+				<header class="modal__header" >
+						<div class="row" >
+							<h1 class="modal__title">Modal Title</h2>
+							<h5 class="modal__studio_title" style="padding-top:0.5em;">Modal Second Title</h5>
+						</div>
+						<button class="modal__close"></button>
+				</header>
+				<main class="modal__content" >
+					
+					<div class="row" >
+						<hr style="border-width:2px; margin-top:-1em;">
+						<div class="col-lg-6 desc">
+						</div>
+						<div class="col-lg-18 imgview">
+							<div class="owl-carousel" id="modalCarousel">
+										
+							</div>
+						</div>
+					</div>
+				</main>
+				<footer class="modal__footer">
+				  <!-- <button class="modal__btn" data-micromodal-close aria-label="Close modal">Close</button> -->
+				</footer>
+			<!-- </div> -->
+		</div>
+	</div>
+			
+
 	<!-- Scripts -->
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src="dist/script.js"></script>
+
+	
 
 	<!-- Generate 3d background content at background -->
 	<script src="dist/bg3d.js"></script>
 	<!-- Generate JSON content -->
 	<script src="dist/loadjson.js"></script>
-	
+	<!-- modal content -->
+	<!-- <script type="module" src="dist/scriptmodals.js"></script> -->
 	<!-- End of Scripts -->
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script> -->
+		  
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<!-- 
 <script>

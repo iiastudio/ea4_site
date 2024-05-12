@@ -1,6 +1,9 @@
 
 // var jsondata
 var res;
+var lng = $('#lngcheck_mob').checked
+const dateNow = new Date();
+// var lng = $('#lngcheck_mob').checked
 fetch("assets/data.json")
 .then(response => response.json())
 .then(data => {
@@ -9,6 +12,7 @@ fetch("assets/data.json")
     input_supporters(res.supporters)
     input_events(res.events)
     input_approaches(res.approaches)
+    input_gallery(res.gallery)
     // update_info(res.info,"en")
     // update_events(res.events,"en")
     // update_advisors(res.advisors,"en")
@@ -18,6 +22,42 @@ fetch("assets/data.json")
 .catch(error => {
     console.error("error_alert:", error);
 });
+
+// modal
+$(window).on('load',()=>{
+    update_carousel();
+    // $('#modalCarousel').imagesLoaded( ()=> {
+        // $('#modalCarousel').owlCarousel({
+        //     autoWidth: true,
+        //     margin: 20,
+        //     height:50px,
+        //     afterAction : ()=>{
+        //         var elem = this.owl.owlItems;
+        //         var index = this.owl.visibleItems;
+        //         var height = elem.eq(index).height();
+        //         //.owl-wrapper is the element that we are high.
+        //         elem.parents('.owl-wrapper, .owl-carousel').css('height', height);
+        //     }
+        // });
+    // });
+
+    $(".modal__close").click((e)=>{
+        // close_btn ^ header ^ content ^ modal
+        let domModal = e.target.parentElement.parentElement.parentElement;
+        domModal.style.display="none";
+        let necc = $("#modalCarousel")
+        let necclen=necc.find('.item').length
+        for (let i=0; i<necclen; i++) {
+            necc.trigger('remove.owl.carousel', [i])
+                .trigger('refresh.owl.carousel');
+            }
+    });
+
+
+});
+
+// MicroModal.init();
+
 
 // const sketch = (p)=>{
 //     p.preload = ()=>{
@@ -55,7 +95,7 @@ function update_info(data,lng){
         $("#supporters .section-title")[0].innerHTML = data.sections[0].title
         $("#supporters .section-subtitle")[0].classList.remove("twLight");
         $("#supporters .section-subtitle")[0].innerHTML = data.sections[0].subtitle
-        // abouts 1
+        // about 1
         $("#about .section-title")[0].classList.remove("twBold");
         $("#about .section-title")[0].innerHTML = data.sections[1].title
         $("#about .section-subtitle")[0].classList.remove("twLight");
@@ -75,7 +115,7 @@ function update_info(data,lng){
             $("#about .accordion__title")[2].innerHTML = data.sections[1].content_c[0]
             $("#about .accordion__content")[2].classList.remove("twLight");
             $("#about .accordion__content")[2].innerHTML = data.sections[1].content_c[1]
-        // abouts 2
+        // about 2
         $("#about .section-title")[1].classList.remove("twBold");
         $("#about .section-title")[1].innerHTML = data.sections[1].title_2
         $("#about .section-subtitle")[1].classList.remove("twLight");
@@ -214,6 +254,53 @@ function input_approaches(data){
         })
     })  
 }
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 gallery 中
+function input_gallery(data){
+    let cc = $("#gallery_carousel")
+    cc.owlCarousel({
+        items: data.length,
+        loop: true,
+        margin: 10
+      });
+
+    data.forEach((d)=>{
+        let newItem=
+        `<div class="carousel__slide">
+            <img src="`+d.img_path+`" class="carousel__image" alt="Carousel Slide Image" >
+		    <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
+        </div>
+        ` 
+        cc.trigger('add.owl.carousel', [$(newItem)]);
+    })
+    cc.trigger('refresh.owl.carousel');
+}
+function update_gallery(data,lng){
+    let owlcs = $("#gallery_carousel .active .carousel__title")
+
+    if (lng==="en"){
+        // 針對 owlcs active 的 元件name_tw
+        for (let i =0; i<owlcs.length;i+=1 ){
+            data.forEach((v)=>{
+                if (owlcs[i].textContent == v.name_tw){
+                    owlcs[i].innerHTML = `<span class='section-title__highlight'>`+v.name+`</span>`
+                    return false
+                }
+            })
+        }
+    }else{
+        // 針對 owlcs active 的 元件比對 name
+        for (let i =0; i<owlcs.length;i+=1 ){
+            data.forEach((v)=>{
+                if (owlcs[i].textContent == v.name){
+                    owlcs[i].innerHTML = `<span class='section-title__highlight twFont'>`+v.name_tw+`</span>`
+                    return false
+                }
+            })
+        }
+    }
+    $("#gallery_carousel").trigger('refresh.owl.carousel');
+}
+
 function update_approaches(data,lng){
     // if (lng==="en"){
     //     data.forEach((v,i)=>{
@@ -281,7 +368,7 @@ function input_events(data){
     data.forEach((d)=>{
         let newItem=
         `<div class="carousel__slide">
-            <img src="`+d.img_path+`" class="carousel__image" alt="Carousel Slide Image">
+            <img src="`+d.img_path+`" class="carousel__image" alt="Carousel Slide Image" >
 		    <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
         </div>
         ` 
@@ -318,44 +405,128 @@ function update_events(data,lng){
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 老師群 中
 function input_advisors(data){
     let cc = document.getElementById("studio_advisors")
+    // cc.setAttribute('data-micromodal-trigger', 'modal-1'); // add modal 
+
     data.forEach((d)=>{
         let ne = document.createElement("div")
         // image size = 540X540
         ne.classList.add("col-md-12","col-sm-12","col-lg-6")
+        
+        
+        let state='<img src="assets/img/common/note/inactive_60x60.png" class="column" style="float: left; height:1.2em;">'
+        
+        if (d.type == 3){
+            state='<img src="assets/img/common/note/active_60x60.png" class="column" style="float: left; height:1.2em;">'
+        }else{
+            if (d.type==1 && (dateNow.getMonth()>=7 || dateNow.getMonth()<1)){
+                state='<img src="assets/img/common/note/active_60x60.png" class="column" style="float: left; height:1.2em;">'
+            }else if (d.type==2 && (dateNow.getMonth()<7 && dateNow.getMonth()>=1)){
+                state='<img src="assets/img/common/note/active_60x60.png" class="column" style="float: left; height:1.2em;">'
+            }
+        }
+
         ne.innerHTML=
         `
         <div class="member  ">
-            <div class="member__photo-wrapper">
-                <img src="`+d.img_path+`" class="member__photo" alt="Advisor Photo">
+            <div class="member__photo-wrapper" >
+                <img src="`+d.img_path+`" class="member__photo" alt="Advisor Photo" >
                 <div class="member__cover">
-                    <blockquote class="member__quote">`+d.descript+`</blockquote>
+                    <blockquote class="member__quote" >`+d.studio_title+`</blockquote>
                 </div>
             </div>
-            <h3 class="member__name">`+d.name+`</h3>
-            <p class="member__position">`+d.studio_title+`</p>
+            <div class="row" style="margin-top:-0.5em; margin-bottom:1em;text-align: center;">
+                `+state+`
+                <h2 class="member__name column" style="float: left;">`+d.name+`</h3>
+            </div>
         </div>
         `
+        ne.setAttribute('data-modal-trigger', 'modalAdvisor');
+        ne.setAttribute('data-custom-data', JSON.stringify(d));
+
+        ne.addEventListener('click',(e)=>{
+                // window.location.reload();
+            // $(window).on('load',()=>{
+                let tmodal = ne.getAttribute('data-modal-trigger');
+                $('#'+tmodal).css("display","block");
+                let tdata = JSON.parse(ne.getAttribute('data-custom-data'));
+    
+                $("#modalCarousel .owl-stage").css("display:flex !important; height: 300px !important")
+                
+                let necc = $("#modalCarousel");
+
+                // necc.trigger("destroy.owl.carousel");
+
+                
+                // console.log('a')
+                // $(window).on('load',()=>{
+                
+
+                
+                tdata.img_paths.forEach((d)=>{
+                    let newItem=
+                    `<div class="item">
+                        <img src="`+d+`" class="member__photo" alt="Carousel Slide Image" style="height: 300px !important">
+                    </div>
+                    ` 
+                    necc.trigger('add.owl.carousel', [$(newItem)]);
+                })
+                // console.log(necc.find(".owl-item"))
+                
+                necc.owlCarousel({
+                    autoWidth: true,
+                    margin: 10, 
+                    nav:false,
+                });
+
+                necc.trigger('refresh.owl.carousel');     
+    
+                // en
+                if (lng==="en"){
+                    console.log('acen')
+                    $('#'+tmodal+' .modal__title')[0].innerHTML=state+tdata.name
+                    $('#'+tmodal+' .modal__studio_title')[0].textContent = tdata.studio_title;
+                    $('#'+tmodal+' .modal__content .desc').html('<p>'+tdata.descript.replace(/\r\n?/g, '<br />')+'</p>');
+                    // console.log($('#'+tmodal+' .modal__content .desc').innerHTML)
+                    // $('#'+tmodal+' .modal__content .desc').innerHTML = tdata.descript;
+                }else{
+                    console.log('ac')
+                    $('#'+tmodal+' .modal__title')[0].innerHTML=state+tdata.name_tw
+                    $('#'+tmodal+' .modal__studio_title')[0].textContent = tdata.studio_title_tw;
+                    $('#'+tmodal+' .modal__content .desc').html('<p>'+tdata.descript_tw.replace(/\r\n?/g, '<br />')+'</p>');
+    
+                    // console.log($('#'+tmodal+' .modal__content p'))
+                    // $('#'+tmodal+' .modal__content .desc').innerHTML = tdata.descript_tw;
+                }
+                
+                
+
+
+            // })
+        })
+        
         cc.appendChild(ne)
     })   
 }
 function update_advisors(data,lng){
     if (lng==="en"){
         data.forEach((v,i)=>{
+            // $("#studio_advisors .member__quote")[i].setAttribute('data-micromodal-trigger', 'modal-1');
             $("#studio_advisors .member__name")[i].classList.remove("twBold");
             $("#studio_advisors .member__name")[i].textContent=v.name
-            $("#studio_advisors .member__position")[i].classList.remove("twFont");
-            $("#studio_advisors .member__position")[i].textContent=v.studio_title
+            // $("#studio_advisors .member__position")[i].classList.remove("twFont");
+            // $("#studio_advisors .member__position")[i].textContent=v.studio_title
             $("#studio_advisors .member__quote")[i].classList.remove("twLight");
-            $("#studio_advisors .member__quote")[i].textContent=v.descript
+            $("#studio_advisors .member__quote")[i].textContent=v.studio_title
         })
     }else{
         data.forEach((v,i)=>{
+            // $("#studio_advisors .member__quote")[i].setAttribute('data-micromodal-trigger', 'modal-1');
             $("#studio_advisors .member__name")[i].classList.add("twBold");
             $("#studio_advisors .member__name")[i].textContent=v.name_tw
-            $("#studio_advisors .member__position")[i].classList.add("twFont");
-            $("#studio_advisors .member__position")[i].textContent=v.studio_title_tw
+            // $("#studio_advisors .member__position")[i].classList.add("twFont");
+            // $("#studio_advisors .member__position")[i].textContent=v.studio_title_tw
             $("#studio_advisors .member__quote")[i].classList.add("twLight");
-            $("#studio_advisors .member__quote")[i].textContent=v.descript_tw
+            $("#studio_advisors .member__quote")[i].textContent=v.studio_title_tw
         })
     }
 }
@@ -368,7 +539,7 @@ function input_supporters(data){
         ne.classList.add("col-lg-6","col-md-8","col-lg-offset-2")
         ne.innerHTML=
         `
-            <a class="download-button  " href="#">
+            <a class="download-button  " href="`+d.url+`" target="_blank">
                 <img src="`+d.img_path+`" class="download-button__icon" alt="Platform Icon">
                 <span class="download-button__platform">`+d.type+`</span>
                 <span class="download-button__store">`+d.name+`</span>
@@ -395,17 +566,27 @@ function update_supporters(data,lng){
     }
 }
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 協助單位 中
+
 function lngclick(elt){
-    // console.log(elt.checked)
+    // console.log(lng)
     // checked == true > 英文 : false > 中文
-    if (elt.checked) {lng="en"}
-    else {lng="tw"}
+    if (elt.checked) {
+        lng="en"
+        $('#lngcheck_mob').checked =true
+        $('#lngcheck').checked =true
+     }
+    else {
+        lng="tw"
+        $('#lngcheck_mob').checked =false
+        $('#lngcheck').checked =false
+    }
 
     update_info(res.info,lng)
     update_events(res.events,lng)
     update_advisors(res.advisors,lng)
     update_supporters(res.supporters,lng)
     update_approaches(res.approaches,lng)
+    update_gallery(res.gallery,lng)
 }
 // `
 // <img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
@@ -456,3 +637,21 @@ function lngclick(elt){
 // </div>
 // <!-- End of Member -->
 // </div>
+function update_carousel(){
+    console.log('ab')
+    let necc = $("#modalCarousel")
+    necc.owlCarousel({
+        autoWidth: true,
+        autoHeight: false,
+        items:5,
+        margin: 20,
+        responsiveClass:true,
+        loop: false,   
+        nav:false,
+        responsive:{
+            0:{
+            items:1,
+            autoHeight:true
+            }
+    }});
+}
