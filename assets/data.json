@@ -541,6 +541,22 @@
                           "cam"
                         ],
                         "img_path": "assets/img/approaches/2024_Xiao-Heng.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "朱雋濠",
+                        "name": "Zhu Jun-Hao",
+                        "advisor_tw": "陳佑昇",
+                        "advisor": "Chen Yo-Sheng",
+                        "title_tw": "雲構",
+                        "title": "Cloud Structure",
+                        "descript_tw": "針對基地上使用者的活動，應對停留時間與人體尺度的關係，身體力行地以正交系統建構的木架構造物。",
+                        "descript": "Regarding the activity of the users on the base, we construct a wooden frame structure orthogonally, in response to the relationship between the dwell time and the human scale.",
+                        "tags": [
+                          "transcript",
+                          "construction"
+                        ],
+                        "img_path": "assets/img/approaches/2024_Jun-Hao.png"
                       }
                 ],
                 "gallery":[ 
