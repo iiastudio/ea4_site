@@ -580,22 +580,6 @@
                       },
                       {
                         "date_year": 2024,
-                        "name_tw": "陳柏宇",
-                        "semester": 2,
-                        "name": "Chen Paul ",
-                        "advisor_tw": "蔡大仁",
-                        "advisor": "Cai Da-Ren",
-                        "title_tw": "男友寄放區",
-                        "title": "Boyfriend storage area",
-                        "descript_tw": "這是一個專屬於男性的逃離空間，當女友逛街逛到失去時間觀念時，躲進這裏可以擁有屬於自己的時光。",
-                        "descript": "This is an escape space exclusively for men. When your girlfriend loses her sense of time while shopping, you can hide here and have your own time.",
-                        "tag": [
-                          "transcript"
-                        ],
-                        "img_path": "assets/img/approaches/2024_2_Paul.png"
-                      },
-                      {
-                        "date_year": 2024,
                         "name_tw": "林冠甫",
                         "semester": 2,
                         "name": "Lin Kuan-Fu",
@@ -605,7 +589,7 @@
                         "title": "What if……",
                         "descript_tw": "在一個未來充滿危險的環境，在樹上的一個庇護所以及生存方式。",
                         "descript": "Living in the tree shelter that can provide dangerous environment and live safety and sustainably.",
-                        "tag": [
+                        "tags": [
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Kuan-Fu.png"
@@ -621,7 +605,7 @@
                         "title": "Instantaneous Bridge",
                         "descript_tw": "人的思考不斷地在自我、大眾、意識和資訊四個世界中循環。我們在這些世界中不斷學習、接收、傳達和創造，透過這些經驗來回移動，建立起那座不斷移動的瞬間的橋，連接未曾經歷之處。",
                         "descript": "Human thought continuously cycles through the four worlds of self, public, consciousness, and information. We continuously learn, receive, communicate, and create within these worlds. Through these experiences, we move back and forth, building the ever-moving instantaneous bridge that connects us to uncharted territories.",
-                        "tag": [
+                        "tags": [
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Peng-Yen.png"
@@ -637,7 +621,7 @@
                         "title": "If introverted persons can be themselves.",
                         "descript_tw": "在現行社會體制下，人們因各中因素，必須溝通交流，在此情況下，i行人個的人必須偽裝成e行人，因此，身為i行人的我才會提出這個設計假說，並利用人們隨處可見的機能：便利商店作為此次設計的program，並利用箇中設計手法，將各個program打散並隱藏在現有建築裡。",
                         "descript": "In the current societal system, people must communicate and interact due to various factors. In this situation, individuals who belong to Group I must disguise themselves as Group E individuals. Therefore, as someone belonging to Group I, I propose this design hypothesis and utilize the ubiquitous convenience stores as the program for this design. Using this design approach, various programs will be dispersed and concealed within existing buildings.",
-                        "tag": [
+                        "tags": [
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Jia-Ming.png"
@@ -653,7 +637,7 @@
                         "title": "Path of Enigma",
                         "descript_tw": "尋找各種迷失方向的方法，並結合新學習的技術，列舉並圖示化空間生成的邏輯，最後用此邏輯做出現實的生活空間。",
                         "descript": "Explore various methods of navigating lost directions and incorporate newly learned techniques to enumerate and visualize the logic of spatial generation. Finally, use this logic to create real-life living spaces.",
-                        "tag": [
+                        "tags": [
                           "bim",
                           "transcript"
                         ],
@@ -670,7 +654,7 @@
                         "title": "CONNECT",
                         "descript_tw": "嘗試利用3d列印製造多適應性的家具，以隨手可得的竹筷作為桿件，設計出能夠接合竹筷的接頭，並以單元去拼湊出可使用的家具。",
                         "descript": "I try to use 3D printing to create multi-adaptive furniture, using bamboo chopsticks at our fingertips as rods. Then, I design joints that can join the bamboo chopsticks, and piece together furniture from units.",
-                        "tag": [
+                        "tags": [
                           "cam"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Betty.png"
@@ -686,7 +670,7 @@
                         "title": "Faith Calibration Institution",
                         "descript_tw": "我們存在在一個權力主導的世界，從以前的宗教信仰到如今的大數據以及人工智慧發展，權力只是從集中式的宗教被轉移到更接近我們身邊，此次設計以宗教與科技作為出發點，討論群體、系統、空間彼此關係的中心與去中心化。",
                         "descript": "The world we live in is dominated by power, which has shifted from the centralized religious beliefs of the past to the realms of big data and artificial intelligence today. This design takes religion and technology as its starting point to discuss the centralization and decentralization of relationships among communities, systems, and spaces.",
-                        "tag": [
+                        "tags": [
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Yi-Yun.png"
@@ -702,7 +686,7 @@
                         "title": "l exist（House with/without a form）",
                         "descript_tw": "以基地概念為設計目標，目標體現建築的存在，從外面感受不到的存在，在進到建築的那一刻透過聲音和角度傳達存在的是甚麼？",
                         "descript": "\"Designing with the concept of a base as the goal, the aim is to embody the existence of the architecture. An existence not felt from the outside, but revealed the moment one enters the building through sound and angles—what is it that exists?\"",
-                        "tag": [
+                        "tags": [
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Yu-Ting.png"
@@ -718,7 +702,7 @@
                         "title": "House with [ without ] a form",
                         "descript_tw": "有長谷川豪的上尾の長屋中開始轉化其形式，並外顯出他原本內部的街，串聯空間的一條街，使他垂直化的同時，讓他擁有強烈的公共性",
                         "descript": "In Go Hasegawa's \"Nagayamon House in Ageo,\" he began transforming its form, making the originally internal street explicit. By linking the spaces with a street that becomes vertical, he imparts a strong sense of publicness to the design.",
-                        "tag": [
+                        "tags": [
                           "transcript"
                         ],
                         "img_path": "assets/img/approaches/2024_2_Cheng-You.png"
@@ -734,7 +718,7 @@
                         "title": "GreenSource",
                         "descript_tw": "本項目位於新竹科學園區旁，以水資源收集和都市農業為核心，旨在改善周邊住宅區的水資源隱私過度、社會互動缺乏等問題，提升宜居性行走體驗和社區互動。",
                         "descript": "Located next to Hsinchu Science Park, this project focuses on water resource collection and urban agriculture to address privacy concerns and social isolation in the surrounding residential areas, enhancing livability and community interaction.",
-                        "tag": [
+                        "tags": [
                           "bim",
                           "big-data"
                         ],
@@ -751,7 +735,7 @@
                         "title": "Apocalypse's Regeneration Draftsss...",
                         "descript_tw": "本案旨在提出城市在面臨洪水時的一個自動化生成撤離居所的草案，本案基地位在雅加達，是一個即將面臨洪水而消失的城市，我透過參數化的方法分析城市建物布局，希望提出自動化生成的操作流程結合循環系統的設計，讓城市運用原有資源去面對洪水甚至轉化災害為本體的關鍵元素。",
                         "descript": "This project aims to propose a draft for the automated generation of evacuation shelters in urban areas facing flooding. The site is located in Jakarta, a city on the verge of being submerged by floods. By utilizing parametric methods to analyze the layout of urban buildings, I hope to present an automated process combined with a cyclical system design. This will enable the city to utilize its existing resources to confront flooding and even transform the disaster into a critical element of the city's essence.",
-                        "tag": [
+                        "tags": [
                           "bim",
                           "big-data"
                         ],
