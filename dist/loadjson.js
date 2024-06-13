@@ -304,6 +304,7 @@ function update_gallery(data,lng){
 function update_approaches(data,lng){
     if (lng==="en"){
         data.forEach((v,i)=>{
+
             $("#approaches .member__quote h4")[i].classList.remove("twLight");
             $("#approaches .member__quote h4")[i].textContent=v.name
             $("#approaches .member__quote h3")[i].classList.remove("twLight");
@@ -311,7 +312,7 @@ function update_approaches(data,lng){
             $("#approaches .member__quote h6")[i].classList.remove("twLight");
             $("#approaches .member__quote h6")[i].textContent=v.descript
             $("#approaches .member__quote h5")[i].classList.remove("twLight");
-            $("#approaches .member__quote h5")[i].textContent=v.advisor
+            $("#approaches .member__quote h5")[i].textContent=` [advisor] `+v.advisor
         })
     }else{
         data.forEach((v,i)=>{
@@ -322,7 +323,7 @@ function update_approaches(data,lng){
             $("#approaches .member__quote h6")[i].classList.add("twLight");
             $("#approaches .member__quote h6")[i].textContent=v.descript_tw
             $("#approaches .member__quote h5")[i].classList.add("twLight");
-            $("#approaches .member__quote h5")[i].textContent=v.advisor_tw
+            $("#approaches .member__quote h5")[i].textContent=` [指導教授] `+v.advisor_tw
         })
     }
     
