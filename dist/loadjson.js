@@ -312,7 +312,7 @@ function update_approaches(data,lng){
             $("#approaches .member__quote h6")[i].classList.remove("twLight");
             $("#approaches .member__quote h6")[i].textContent=v.descript
             $("#approaches .member__quote h5")[i].classList.remove("twLight");
-            $("#approaches .member__quote h5")[i].textContent=` [advisor] `+v.advisor
+            $("#approaches .member__quote h5")[i].textContent=` [ADVISOR] `+v.advisor
         })
     }else{
         data.forEach((v,i)=>{
