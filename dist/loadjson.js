@@ -226,9 +226,9 @@ function input_approaches(data){
                                         </br>
                                         <h4>`+d.name+`</h4></br>
                                         <h3>`+d.title+`</h3></br>
-                                        `+d.descript+`
+                                        <h6>`+d.descript+`</h6></br>
                                         </br></br>
-                                        <p> [advisor] `+d.advisor+` </p>
+                                        <h5> [advisor] `+d.advisor+` </h5>
                                     </div>
                                 </div>
                             </div>` 
@@ -244,9 +244,9 @@ function input_approaches(data){
                                         </br>
                                         <h4>`+d.name+`</h4></br>
                                         <h3>`+d.title+`</h3></br>
-                                        `+d.descript+`
+                                        <h6>`+d.descript+`</h6></br>
                                         </br></br>
-                                        <p> [advisor] `+d.advisor+` </p>
+                                        <h5> [advisor] `+d.advisor+` </h5>
                                     </div>
                                 </div>
                             </div>`                        
@@ -302,53 +302,59 @@ function update_gallery(data,lng){
 }
 
 function update_approaches(data,lng){
-    // if (lng==="en"){
-    //     data.forEach((v,i)=>{
-    //         $("#studio_advisors .member__name")[i].classList.remove("twBold");
-    //         $("#studio_advisors .member__name")[i].textContent=v.name
-    //         $("#studio_advisors .member__position")[i].classList.remove("twFont");
-    //         $("#studio_advisors .member__position")[i].textContent=v.studio_title
-    //         $("#studio_advisors .member__quote")[i].classList.remove("twLight");
-    //         $("#studio_advisors .member__quote")[i].textContent=v.descript
-    //     })
-    // }else{
-    //     data.forEach((v,i)=>{
-    //         $("#studio_advisors .member__name")[i].classList.add("twBold");
-    //         $("#studio_advisors .member__name")[i].textContent=v.name_tw
-    //         $("#studio_advisors .member__position")[i].classList.add("twFont");
-    //         $("#studio_advisors .member__position")[i].textContent=v.studio_title_tw
-    //         $("#studio_advisors .member__quote")[i].classList.add("twLight");
-    //         $("#studio_advisors .member__quote")[i].textContent=v.descript_tw
-    //     })
-    // }
     if (lng==="en"){
-        data.forEach((d)=>{
-            let doms = $("."+d.name.split(',')[0])
-            for(let i=0;i<doms.length;i+=1){
-                doms[i].classList.remove("twLight");
-                doms[i].innerHTML =`</br>
-                                    <h4>`+d.name+`</h4></br>
-                                    <h3>`+d.title+`</h3></br>
-                                    `+d.descript+`
-                                    </br></br>
-                                    <p> [advisor] `+d.advisor+` </p>`
-            }
+        data.forEach((v,i)=>{
+            $("#approaches .member__quote h4")[i].classList.remove("twLight");
+            $("#approaches .member__quote h4")[i].textContent=v.name
+            $("#approaches .member__quote h3")[i].classList.remove("twLight");
+            $("#approaches .member__quote h3")[i].textContent=v.title
+            $("#approaches .member__quote h6")[i].classList.remove("twLight");
+            $("#approaches .member__quote h6")[i].textContent=v.descript
+            $("#approaches .member__quote h5")[i].classList.remove("twLight");
+            $("#approaches .member__quote h5")[i].textContent=v.advisor
         })
     }else{
-        // 針對 owlcs active 的 元件比對 name
-        data.forEach((d)=>{
-            let doms = $("."+d.name.split(',')[0])
-            for(let i=0;i<doms.length;i+=1){
-                doms[i].classList.add("twLight");
-                doms[i].innerHTML =`</br>
-                                    <h4 class="twFont">`+d.name_tw+`</h4></br>
-                                    <h3 class="twBold">`+d.title_tw+`</h3></br>
-                                    `+d.descript_tw+`
-                                    </br></br>
-                                    <p class="twFont"> [指導教授] `+d.advisor_tw+` </p>`
-            }
+        data.forEach((v,i)=>{
+            $("#approaches .member__quote h4")[i].classList.add("twLight");
+            $("#approaches .member__quote h4")[i].textContent=v.name_tw
+            $("#approaches .member__quote h3")[i].classList.add("twLight");
+            $("#approaches .member__quote h3")[i].textContent=v.title_tw
+            $("#approaches .member__quote h6")[i].classList.add("twLight");
+            $("#approaches .member__quote h6")[i].textContent=v.descript_tw
+            $("#approaches .member__quote h5")[i].classList.add("twLight");
+            $("#approaches .member__quote h5")[i].textContent=v.advisor_tw
         })
     }
+    
+    // if (lng==="en"){
+    //     data.forEach((d)=>{
+    //         let doms = $("."+d.name.split(',')[0])
+    //         for(let i=0;i<doms.length;i+=1){
+    //             doms[i].classList.remove("twLight");
+    //             doms[i].innerHTML =`</br>
+    //                                 <h4>`+d.name+`</h4></br>
+    //                                 <h3>`+d.title+`</h3></br>
+    //                                 `+d.descript+`
+    //                                 </br></br>
+    //                                 <p> [advisor] `+d.advisor+` </p>`
+    //         }
+    //     })
+    // }else{
+        
+    //     // 針對 owlcs active 的 元件比對 name
+    //     data.forEach((d)=>{
+    //         let doms = $("."+d.name.split(',')[0])
+    //         for(let i=0;i<doms.length;i+=1){
+    //             doms[i].classList.add("twLight");
+    //             doms[i].innerHTML =`</br>
+    //                                 <h4 class="twFont">`+d.name_tw+`</h4></br>
+    //                                 <h3 class="twBold">`+d.title_tw+`</h3></br>
+    //                                 `+d.descript_tw+`
+    //                                 </br></br>
+    //                                 <p class="twFont"> [指導教授] `+d.advisor_tw+` </p>`
+    //         }
+    //     })
+    // }
     
 }
 
@@ -568,6 +574,7 @@ function update_supporters(data,lng){
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 協助單位 中
 
 function lngclick(elt){
+    
     // console.log(lng)
     // checked == true > 英文 : false > 中文
     if (elt.checked) {
