@@ -580,84 +580,150 @@
                       },
                       {
                         "date_year": 2024,
-                        "name_tw": "林冠甫",
+                        "name_tw": "王令均",
                         "semester": 2,
-                        "name": "Lin Kuan-Fu",
-                        "advisor_tw": "翁偉真",
-                        "advisor": "Weng Wei-Chen",
-                        "title_tw": "如果有一天…..",
-                        "title": "What if……",
-                        "descript_tw": "在一個未來充滿危險的環境，在樹上的一個庇護所以及生存方式。",
-                        "descript": "Living in the tree shelter that can provide dangerous environment and live safety and sustainably.",
+                        "name": "Wang Ling-Chun",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "點綴&清澄白河",
+                        "title": "EMBELLISHMENT&Kiyosumi-shirakawa",
+                        "descript_tw": "上半學期是在做關於我在京都實習所感觸的一些文化以及現象，而我試圖去改善它。下學期是跟日本人一起討論如何用咖啡杯工作室感便這個地區。",
+                        "descript": "In the first half of the semester, I focused on the cultural aspects and phenomena I encountered during my internship in Kyoto and my attempts to improve them. In the second half of the semester, I will discuss with Japanese people how to use the coffee cup workshop to transform this area.",
                         "tags": [
                           "transcript"
                         ],
-                        "img_path": "assets/img/approaches/2024_2_Kuan-Fu.png"
+                        "cloudad": "https://drive.google.com/open?id=1qv-PpiE_IIsdAT9pYaAR9xSbIFY8No0N",
+                        "filename": "2024_2_Ling-Chun.png",
+                        "img_path": "assets/img/approaches/2024_2_Ling-Chun.png"
                       },
                       {
                         "date_year": 2024,
-                        "name_tw": "彭彥苓",
+                        "name_tw": "王立凡",
                         "semester": 2,
-                        "name": "Lin Peng-Yen ",
-                        "advisor_tw": "翁偉真",
-                        "advisor": "Weng Wei-Chen",
-                        "title_tw": "瞬間的橋",
-                        "title": "Instantaneous Bridge",
-                        "descript_tw": "人的思考不斷地在自我、大眾、意識和資訊四個世界中循環。我們在這些世界中不斷學習、接收、傳達和創造，透過這些經驗來回移動，建立起那座不斷移動的瞬間的橋，連接未曾經歷之處。",
-                        "descript": "Human thought continuously cycles through the four worlds of self, public, consciousness, and information. We continuously learn, receive, communicate, and create within these worlds. Through these experiences, we move back and forth, building the ever-moving instantaneous bridge that connects us to uncharted territories.",
-                        "tags": [
-                          "transcript"
-                        ],
-                        "img_path": "assets/img/approaches/2024_2_Peng-Yen.png"
-                      },
-                      {
-                        "date_year": 2024,
-                        "name_tw": "高家明",
-                        "semester": 2,
-                        "name": "Kao Jia-Ming",
-                        "advisor_tw": "翁偉真",
-                        "advisor": "Weng Wei-Chen",
-                        "title_tw": "如果 i人能舒適地做自己...",
-                        "title": "If introverted persons can be themselves.",
-                        "descript_tw": "在現行社會體制下，人們因各中因素，必須溝通交流，在此情況下，i行人個的人必須偽裝成e行人，因此，身為i行人的我才會提出這個設計假說，並利用人們隨處可見的機能：便利商店作為此次設計的program，並利用箇中設計手法，將各個program打散並隱藏在現有建築裡。",
-                        "descript": "In the current societal system, people must communicate and interact due to various factors. In this situation, individuals who belong to Group I must disguise themselves as Group E individuals. Therefore, as someone belonging to Group I, I propose this design hypothesis and utilize the ubiquitous convenience stores as the program for this design. Using this design approach, various programs will be dispersed and concealed within existing buildings.",
-                        "tags": [
-                          "transcript"
-                        ],
-                        "img_path": "assets/img/approaches/2024_2_Jia-Ming.png"
-                      },
-                      {
-                        "date_year": 2024,
-                        "name_tw": "熊行英",
-                        "semester": 2,
-                        "name": "Hsiung Hsing-Ying",
+                        "name": "Wang Li-Fan",
                         "advisor_tw": "蕭吉甫",
                         "advisor": "Hsiao Chi-Fu",
-                        "title_tw": "迷失之徑",
-                        "title": "Path of Enigma",
-                        "descript_tw": "尋找各種迷失方向的方法，並結合新學習的技術，列舉並圖示化空間生成的邏輯，最後用此邏輯做出現實的生活空間。",
-                        "descript": "Explore various methods of navigating lost directions and incorporate newly learned techniques to enumerate and visualize the logic of spatial generation. Finally, use this logic to create real-life living spaces.",
+                        "title_tw": "反映擴散",
+                        "title": "Reaction-Diffusion",
+                        "descript_tw": "透過reaction-diffusion的生成邏輯，試圖推導出壁癌產生的過程，並將白華生長與參數變化的關係連結起來，以模組化的方式重塑。\n",
+                        "descript": "By employing the generative logic of reaction-diffusion, we attempt to deduce the process of wall cancer formation. Additionally, we aim to link the growth of efflorescence with changes in parameters, reconstructing it in a modular manner",
                         "tags": [
                           "bim",
                           "transcript"
                         ],
-                        "img_path": "assets/img/approaches/2024_2_Hsing-Ying.png"
+                        "cloudad": "https://drive.google.com/open?id=1YfgeNFCcCfcgOeeU0byCxgK3wrqrwXFo",
+                        "filename": "2024_2_Li-Fan.png",
+                        "img_path": "assets/img/approaches/2024_2_Li-Fan.png"
                       },
                       {
                         "date_year": 2024,
-                        "name_tw": "林姵妏",
+                        "name_tw": "王庭祥",
                         "semester": 2,
-                        "name": "Lin Betty",
-                        "advisor_tw": "黃仁杰",
-                        "advisor": "Huang Ren-Jie",
-                        "title_tw": "竹筷與3D列印的連結",
-                        "title": "CONNECT",
-                        "descript_tw": "嘗試利用3d列印製造多適應性的家具，以隨手可得的竹筷作為桿件，設計出能夠接合竹筷的接頭，並以單元去拼湊出可使用的家具。",
-                        "descript": "I try to use 3D printing to create multi-adaptive furniture, using bamboo chopsticks at our fingertips as rods. Then, I design joints that can join the bamboo chopsticks, and piece together furniture from units.",
+                        "name": "Wang Ting-Xiang",
+                        "advisor_tw": "蔡大仁",
+                        "advisor": "Cai Da-Ren",
+                        "title_tw": "忘/空間",
+                        "title": "The infinite corridor of self-ecperience",
+                        "descript_tw": "這學期的設計為House with/without a form主要有三階段,第一階段的王大閎自宅設計先做為一開始的練習,第二階段的案例分析我選擇Vault house作為我的分析對像,從中找出案例中透過空間開口大小的變化和每個開口間的空間互相連結的特性,擷取不斷變化的空間與空間的延續性作為我對地三階段置入基地的空間概念,置入基地後,由於空間的延續性需要一定的長度才能展現出來,於是一開始我以彎折的方式將空間連結,但是,過大的轉折會破壞連續性,於是我開始以小角度去連接空間,而基地的大小不能讓我在平面上的彎曲實現,於是我轉到垂直向彎曲,於是呈現出其圓形的狀態,圓形的空間在利用上,垂直動線必定是需要解決的,我從一開始在圓管中以z字形向上爬升,但這也會使空間的完整性減弱,於是我順著圓的弧度去做樓梯,當樓梯的級深到達28公分時,我開始固定斜率將其空間向外伸出,形成一個通道,保留空間的完整性,而基地上本來有通風塔的事情,我在圓空間的底部留有通道,使氣流能在圓管的內部流動,不會額外插出兩根通風管,使圓中間的洞被切斷,最後我在整體動線上,開了一些細小的孔洞,使空間營造神聖的氛圍,後方的垂直動線也以中世紀歐洲的旋轉樓梯的氛圍去做,讓行者在這個空間中忘掉外在的雜亂想法,開始沉澱下來,達到一個趨向於\"悲傷\"的空間\n",
+                        "descript": "This semester's design project, \"House with/without a form,\" consists of three stages. The first stage involves designing the self-residence of Wang Da-hong as an initial exercise. In the second stage, I selected the Vault House as my case study, analyzing the variations in spatial openings and the connections between spaces. From this analysis, I derived the concept of continuously evolving space for the third stage, where I integrate the design into the site.\n\nDue to the need for a certain length to express spatial continuity, I initially connected the spaces with bends. However, excessive turns disrupted the continuity, so I started connecting the spaces with small angles. The site’s size did not allow for these bends on a horizontal plane, so I transitioned to vertical curves, creating a circular form. Utilizing circular space necessitated solving vertical circulation issues. I initially considered a zigzag ascent within the circular tube, but this weakened spatial integrity. Consequently, I designed the staircase to follow the curve of the circle.\n\nWhen the stair depth reached 28 centimeters, I fixed the slope and extended the space outward, forming a passage that maintained spatial integrity. Considering the existing ventilation towers on the site, I left a passage at the bottom of the circular space to allow airflow within the tube without protruding additional ventilation ducts, thereby preserving the central hole of the circle.\n\nFinally, to enhance the overall circulation, I created small openings that evoke a sacred atmosphere. The vertical circulation at the back was designed to resemble medieval European spiral staircases, encouraging the occupants to leave behind external distractions and achieve a contemplative state, thus creating a space that tends towards \"melancholy.\"",
                         "tags": [
-                          "cam"
+                          "transcript"
                         ],
-                        "img_path": "assets/img/approaches/2024_2_Betty.png"
+                        "cloudad": "https://drive.google.com/open?id=1Jhpqg_ZGJp1XzsGht-8cGh46tru-oDeH",
+                        "filename": "2024_2_Ting-Xiang.png",
+                        "img_path": "assets/img/approaches/2024_2_Ting-Xiang.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "王啟明",
+                        "semester": 2,
+                        "name": "Wang Chi-Ming",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "你是誰？",
+                        "title": "Who you are",
+                        "descript_tw": "透過三部開放性結構的影片並設置了三種對應性之角色。\n讓觀眾建立劇情，可聽可視的範圍內，劇情及結局並非線性敘事，像看不見的城市之目錄，鼓勵創造自身的劇情，正視內心想法。",
+                        "descript": "Through three films with an open structure, three corresponding roles are set up.\nThe audience is allowed to create a plot within the audible and visual range. The plot and ending are not linear narratives. They are like a catalog of invisible cities. They are encouraged to create their own plots and face their inner thoughts.\n",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1hxYh51sm58iboiqYQLXURyFwrNSKiFHo",
+                        "filename": "2024_2_Chi-Ming.png",
+                        "img_path": "assets/img/approaches/2024_2_Chi-Ming.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "王清弘",
+                        "semester": 2,
+                        "name": "Wang Ching-Hung",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "地下北京",
+                        "title": "Underground Beijing",
+                        "descript_tw": "本設計在通過建築設計批判和諷刺中國政府在北京因為權力與慾望的掌控，而對待人民及城市的方式，事情的動機是從發現政府對於胡同及四合院的拆遷、對當地居民權益的忽視，以及對城市文化歷史脈絡的破壞及消費作為思考的開端。",
+                        "descript": "This design critiques architectural design and satirizes the Chinese government for its treatment of people and cities in Beijing, driven by the control of power and desire. The motivation stems from the discovery of the government's disregard for the rights of local residents during the demolition of hutongs and siheyuan, as well as the destruction and commodification of the city's cultural and historical context.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=16ffJbnc--3zV3biDi_FD6RF5C3ew6FQ5",
+                        "filename": "2024_2_Ching-Hung.png",
+                        "img_path": "assets/img/approaches/2024_2_Ching-Hung.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "朱雋濠",
+                        "semester": 2,
+                        "name": "Chu Chun-Hao",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "類盔甲可動結構數位構築",
+                        "title": "Armor-like movable structure digital construction",
+                        "descript_tw": "由EVA泛用人型決戰兵器人造人出發 研究人體特定姿態力學與附加部件盔甲應力關係 以掏菸此特定姿態 透過參數化的單元尋找空間型態 使裝置的可動能被控制並且可被構築",
+                        "descript": "Starting from the EVA.\nStudy the mechanics of specific human postures and the stress relationship with attached armor components. Using the specific posture of drawing a cigarette as an example, employ parameterized units to identify spatial configurations, enabling the controlled and constructible movement of the device.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1xyf1woLVGk4neE5yJf-m-AUdCpMOFQiA",
+                        "filename": "2024_2_Chun-Hao.png",
+                        "img_path": "assets/img/approaches/2024_2_Chun-Hao.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "艾昶宏",
+                        "semester": 2,
+                        "name": "Ai Chang-Hong",
+                        "advisor_tw": "洪世驊",
+                        "advisor": "Hong Shi-Hua",
+                        "title_tw": "公園城市",
+                        "title": "GreenCity",
+                        "descript_tw": "內湖擁有許多山丘盆地，以前農業時代許多農地和自然水文。如今都市發展下，居住在內湖的居民與水和山的關係變得薄弱，內湖的地貌也被交通網絡切割的支離破碎，我將過藍帶與綠帶將內湖重新縫合，創造一個鄰里凝聚力高，並且生活中與水文高度連結的公園城市。",
+                        "descript": "Neihu is characterized by numerous hills and basins, which were once home to extensive farmland and natural hydrology during the agricultural era. However, with urban development, the relationship between Neihu residents and the water and mountains has weakened, and the landscape has been fragmented by the transportation network. I plan to re-stitch Neihu using blue and green belts, creating a high-neighborhood-cohesion park city with strong connections to hydrology in daily life.",
+                        "tags": [
+                          "bim",
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1J6UCrIm_jx1xKy8IuLgGD4WgJQTd0ipe",
+                        "filename": "2024_2_Chang-Hong.png",
+                        "img_path": "assets/img/approaches/2024_2_Chang-Hong.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "吳婷玉",
+                        "semester": 2,
+                        "name": "Wu Ting-Yu ",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "青年旅舍(避難所)+公園",
+                        "title": "Youth Hostel(Shelter)+Park",
+                        "descript_tw": "這學期的設計是跟東京電機大學的合作設計，基地為東京清澄白河，主題為在這座富有生活氣息的城市中，設計屬於當地生活的小範圍建築，我們大組的設計提案為屬於基地的都市生活圈，每個小組都有在這個生活圈的定位，我妹小組的定位是居住行為，設計提案思考到极端天气越来越频繁，但在目前的城市中，避难所的距离和密度无法为老人和高密度人群提供即时避难，本设计将避难圈的规模缩小到 3-4 个街区，重新规划设计了青年旅舍以及公園，其功能包括共用房间以及避难空间的阶段性可变设计，平时作为青年旅舍以及公园使用，但在灾难发生时为转变为附近居民的避难空间。",
+                        "descript": "This semester's design is a collaborative design with Tokyo Denki University, the base is Tokyo's Seishin Shirakawa River, the theme is to design a small area of buildings that belong to local life in this city rich in life, our large group's design proposal is an urban living circle that belongs to the base, each group has a position in this living circle, my sister's group's position is the behavior of habitation, the design proposal contemplates the fact that extreme weather is becoming more and more frequent, but the In the current city, the distance and density of shelters can not provide immediate refuge for the elderly and high-density people, this design will reduce the size of the refuge circle to 3-4 blocks, re-planning and design of the youth hostel and the park, whose functions include shared rooms as well as the refuge space of the stage of variable design, usually as a youth hostel as well as the park, but in the case of disaster for the transformation of the neighborhood into the refuge space for residents. In the event of a disaster, the park would be transformed into an evacuation space for neighborhood residents.",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=16qN3v2iVM1ZP6Sl0CCos_rCe_mb4kILq",
+                        "filename": "2024_2_Ting-Yu.png",
+                        "img_path": "assets/img/approaches/2024_2_Ting-Yu.png"
                       },
                       {
                         "date_year": 2024,
@@ -673,7 +739,63 @@
                         "tags": [
                           "transcript"
                         ],
+                        "cloudad": "https://drive.google.com/open?id=1PJ6fhKFW2IE8BD8N5eJsesftWypok0GC",
+                        "filename": "2024_2_Yi-Yun.png",
                         "img_path": "assets/img/approaches/2024_2_Yi-Yun.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "李偲妤",
+                        "semester": 2,
+                        "name": "Lee Sih-Yu",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "如果我是一隻魚",
+                        "title": "If I were a fish.",
+                        "descript_tw": "如果我是一隻魚，除了探討人與環境之間的關係，如何模糊邊界，使人融入其中，也討論到最初設定看與被看的議題。",
+                        "descript": "\nIf I were a fish, besides exploring the relationship between humans and the environment, I would also blur the boundaries to allow humans to blend into it. This would lead to discussions on the issues of perspective—being seen and seeing.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1D11m_HbTcUxdsB6InuCXtuYvmw2RUglI",
+                        "filename": "2024_2_Sih-Yu.png",
+                        "img_path": "assets/img/approaches/2024_2_Sih-Yu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "李傑騏",
+                        "semester": 2,
+                        "name": "Li Jie-Qi",
+                        "advisor_tw": "蔡大仁",
+                        "advisor": "Cai Da-Ren",
+                        "title_tw": "蔡大仁組設計",
+                        "title": "House with or without Form",
+                        "descript_tw": "本設計為漫畫家工作室和私人漫畫圖書館，透過牆營造透視感並引導動線，內部空間如漫畫分格，展示內部生活。",
+                        "descript": "The design is a comic artist's studio and private library. A rotated corner wall creates strong perspectives and guides users inside. Interior spaces mimic comic panels, allowing views of activities in public rooms through large windows.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=16Hilzh-BTv1nkpVqtwusTTcKl_iUDZ-I",
+                        "filename": "2024_2_Jie-Qi.png",
+                        "img_path": "assets/img/approaches/2024_2_Jie-Qi.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "李瑜萱",
+                        "semester": 2,
+                        "name": "Li Yu-Syuan",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "陶土三維列印之陶磚設計與應用",
+                        "title": "Ceramic 3D Printing - Ceramic Brick Design and Application",
+                        "descript_tw": "以陶磚單元的組構為基礎，發展出三種不同型態的設計。藉由陶土三維列印技術，設計並製造出具有穿透性的陶磚模矩單元。此款陶磚可透水、透植物、透風、透景與透光。",
+                        "descript": "Based on the tectonic of ceramic brick units, three different types of designs were developed. Using clay three-dimensional printing technology, penetrating ceramic brick mold units are designed and manufactured. These ceramic bricks are permeable to water, plants, wind, views and light.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1pNJ91PCf94exB-nAlEFto1YodXQ8M4Lu",
+                        "filename": "2024_2_Yu-Syuan.png",
+                        "img_path": "assets/img/approaches/2024_2_Yu-Syuan.png"
                       },
                       {
                         "date_year": 2024,
@@ -682,30 +804,34 @@
                         "name": "Shen Yu-Ting",
                         "advisor_tw": "蔡大仁",
                         "advisor": "Cai Da-Ren",
-                        "title_tw": "我存在",
-                        "title": "l exist（House with/without a form）",
-                        "descript_tw": "以基地概念為設計目標，目標體現建築的存在，從外面感受不到的存在，在進到建築的那一刻透過聲音和角度傳達存在的是甚麼？",
-                        "descript": "\"Designing with the concept of a base as the goal, the aim is to embody the existence of the architecture. An existence not felt from the outside, but revealed the moment one enters the building through sound and angles—what is it that exists?\"",
+                        "title_tw": "我存在，房子有沒有形式",
+                        "title": "I EXIST, House with/without a form",
+                        "descript_tw": "三個概念:存在、分離、自由為發展基礎，不同角度的存在，體現建築的存在，從外面感受不到，在進到建築的那一刻透過聲音和角度傳達存在的是甚麼？",
+                        "descript": "Three concepts: existence, separation, and freedom form the foundation of development. The existence from different angles embodies the architecture's presence, which is not felt from the outside. Upon entering the building, what is it that exists, conveyed through sound and angles?",
                         "tags": [
                           "transcript"
                         ],
+                        "cloudad": "https://drive.google.com/open?id=13UQchagQbhQCyNuCIIzAyPXCIVRscYDN",
+                        "filename": "2024_2_Yu-Ting.png",
                         "img_path": "assets/img/approaches/2024_2_Yu-Ting.png"
                       },
                       {
                         "date_year": 2024,
-                        "name_tw": "楊承祐",
+                        "name_tw": "辛思",
                         "semester": 2,
-                        "name": "Yang Cheng-You",
+                        "name": "Hsin Ssu",
                         "advisor_tw": "蔡大仁",
                         "advisor": "Cai Da-Ren",
-                        "title_tw": "從概念到房子",
-                        "title": "House with [ without ] a form",
-                        "descript_tw": "有長谷川豪的上尾の長屋中開始轉化其形式，並外顯出他原本內部的街，串聯空間的一條街，使他垂直化的同時，讓他擁有強烈的公共性",
-                        "descript": "In Go Hasegawa's \"Nagayamon House in Ageo,\" he began transforming its form, making the originally internal street explicit. By linking the spaces with a street that becomes vertical, he imparts a strong sense of publicness to the design.",
+                        "title_tw": "聲音的家",
+                        "title": "House without form",
+                        "descript_tw": "基地位在明耀百貨旁的豎井通風塔上，設計需結合通風管道及水塔體積，並將之融合進自己的設計。基於上述條件想到風從風管經過，可以做一個聲音的家。",
+                        "descript": "The site is located on a shaft ventilation tower next to Ming Yao Department Store, and the design needs to combine the volume of ventilation ducts and water towers, and integrate them into its own design. Based on the above conditions, I thought that the wind passing through the air duct can make a sound home.",
                         "tags": [
                           "transcript"
                         ],
-                        "img_path": "assets/img/approaches/2024_2_Cheng-You.png"
+                        "cloudad": "https://drive.google.com/open?id=19XWYPeTHr4Y93-6KCG-GOmtsHMrMRs3M",
+                        "filename": "2024_2_Ssu.png",
+                        "img_path": "assets/img/approaches/2024_2_Ssu.png"
                       },
                       {
                         "date_year": 2024,
@@ -722,7 +848,662 @@
                           "bim",
                           "big-data"
                         ],
+                        "cloudad": "https://drive.google.com/open?id=1xiGu5jvdkhbjRPVOI7WqGvrVOm2oxhbZ",
+                        "filename": "2024_2_Ting-Yu.png",
                         "img_path": "assets/img/approaches/2024_2_Ting-Yu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林冠甫",
+                        "semester": 2,
+                        "name": "Lin Kuan-Fu",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "如果有一天…..",
+                        "title": "What if……",
+                        "descript_tw": "在一個未來充滿危險的環境，在樹上的一個庇護所以及生存方式。",
+                        "descript": "Living in the tree shelter that can provide dangerous environment and live safety and sustainably.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=138Fiuo2VCcmoJ8EZDFkfSKiqInBY2LGN",
+                        "filename": "2024_2_Kuan-Fu.png",
+                        "img_path": "assets/img/approaches/2024_2_Kuan-Fu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林姵妏",
+                        "semester": 2,
+                        "name": "Lin Pei-Wen",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "竹筷與三維列印的連結",
+                        "title": "CONNECT",
+                        "descript_tw": "嘗試利用3d列印製造多適應性的家具，以隨手可得的竹筷作為桿件，設計出能夠接合竹筷的接頭，並以單元去拼湊出可使用的家具。",
+                        "descript": "I try to use 3D printing to create multi-adaptive furniture, using bamboo chopsticks at our fingertips as rods. Then, I design joints that can join the bamboo chopsticks, and piece together furniture from units.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Z847c9_PPNXIi-7ISN1dikVcpjiCzKwU",
+                        "filename": "2024_2_Pei-Wen.png",
+                        "img_path": "assets/img/approaches/2024_2_Pei-Wen.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林菀妤",
+                        "semester": 2,
+                        "name": "Lin Wan-Yu",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "訊號商城",
+                        "title": "Mall of a signal",
+                        "descript_tw": "走在巷子裡你會發現很多訊號，這些都會帶給每個人不同的體驗，這些體驗會變成人們對這個地方的形象，這個基地也會有自己的風格。",
+                        "descript": "Walking through the alleys you will find many signals, These will bring different experiences to everyone, which will turn into people's image of this place, and this base will also have its own style.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1KXzifFXAu3HkEqViem3CCuej73ntPrnj",
+                        "filename": "2024_2_Wan-Yu.png",
+                        "img_path": "assets/img/approaches/2024_2_Wan-Yu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林敬智",
+                        "semester": 2,
+                        "name": "Lin Jing-Zhi",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "行為活動調和器",
+                        "title": "Behavioral Activity Modulator",
+                        "descript_tw": "透過可調控的單元組合，調控所處環境的空間氛圍，透過行為活動重新感知或觀察空間。",
+                        "descript": "The spatial ambience of the environment is modulated through a combination of adjustable units, and the space is re-perceived or observed through behavioral activities.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1vjR3Nvv3QiCIT82EpkpmqaNIF9wQ-ZHl",
+                        "filename": "2024_2_Jing-Zhi.png",
+                        "img_path": "assets/img/approaches/2024_2_Jing-Zhi.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "林暐潔",
+                        "semester": 2,
+                        "name": "Lin Wei-Jie",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "摺疊與扭轉",
+                        "title": "Fold and Twist",
+                        "descript_tw": "從摺紙系統中發現立體結構能透過折疊的方式變成更小的形體或平面，定義單元並排列組合出可實用的狀態。 ",
+                        "descript": "From the origami system, we discovered that 3D structures can be transformed into smaller shapes or planes by folding. We defined and arranged the units to create a practical state.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1tmMtlVT16Ahj0WA7MrH_H0Ave5bgclDr",
+                        "filename": "2024_2_Wei-Jie.png",
+                        "img_path": "assets/img/approaches/2024_2_Wei-Jie.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "翁鉦琮",
+                        "semester": 2,
+                        "name": "Weng Zheng-Cong",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "閾間",
+                        "title": "Liminal boundary",
+                        "descript_tw": "此設計旨在創造一個沉浸式裝置藝術，融合PENUMBRA（半影）和LIMINAL SPACE（臨界空間）的特質。從霧的發想出發，聯想到PENUMBRA的光影過渡和模糊邊界，進一步引出臨界空間的過渡性與暫時性。通過光影的變化營造模糊與不確定的氛圍，設計一系列過渡空間，引發觀眾的情感反應和心理過渡。裝置利用光和霧在黑暗中塑造多變的形態，使觀眾在不確定性和\n過渡狀態中重新審視和理解空間的構成。",
+                        "descript": "This design aims to create an immersive art installation that integrates the characteristics of PENUMBRA and LIMINAL SPACE. Starting with the concept of fog, it draws on the light-shadow transitions and blurred boundaries of PENUMBRA to further explore the transitory and temporary nature of liminal spaces. By using light and shadow changes to create an atmosphere of ambiguity and uncertainty, the design features a series of transitional spaces that evoke emotional and psychological responses from the audience. The installation employs light and fog in the dark to shape ever-changing forms, encouraging viewers to \n reassess and understand the composition of space in states of uncertainty and transition.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1JVGugcIIZmYUm9PArOJVHNKEukrroUzB",
+                        "filename": "2024_2_Zheng-Cong.png",
+                        "img_path": "assets/img/approaches/2024_2_Zheng-Cong.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "高家明",
+                        "semester": 2,
+                        "name": "Kao Jia-Ming",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "如果 I人可以舒適地做自己…",
+                        "title": "If introverted persons can be themselves.",
+                        "descript_tw": "        在現行社會體制下，人們因為各種因素，必須溝通、交流、互動，因此，在各種社會壓力下，多數I型人格的人必須偽裝成E型人，而生為一個I型人，與陌生人交流成為了生活上的壓力，因此做出了”如果I人能舒適地做自己…”的假設。\n\t此次設計利用了我們生活中隨處可見但不可或缺的生活機能空間：便利商店，藉由現行社會中便利店分析，作為設計的依據，將各program打散隱藏偽裝在坡心市場商業大樓裡，並利用各種空間與單向廊道，創造減少I人遇到彼此的機會，使I人能舒適地做自己。\n",
+                        "descript": "In the current societal system, people must communicate, interact, and engage due to various factors. Consequently, under societal pressures, many Introverted (I-type) personalities find themselves compelled to disguise themselves as Extraverted (E-type) individuals. For Introverts, who naturally find interacting with strangers stressful, this becomes a significant challenge in daily life. Thus, the hypothesis arises: \"If Introverted persons could comfortably be themselves...\"\n\nThis design proposal leverages ubiquitous yet essential functional spaces in our lives: convenience stores. Drawing from an analysis of convenience stores in contemporary society, this forms the basis of the design. Various programs are dispersed and camouflaged within the heart of the Slope Market commercial building. Utilizing different spaces and one-way corridors, the design aims to minimize opportunities for Introverts to encounter each other, thereby allowing Introverts to comfortably be themselves.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1YM8BknHvVke30FkVdSnK7yEU-hNmBXZC",
+                        "filename": "2024_2_Jia-Ming.png",
+                        "img_path": "assets/img/approaches/2024_2_Jia-Ming.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "張宇叡",
+                        "semester": 2,
+                        "name": "Chang Yu-Ren",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "我所感受的世界",
+                        "title": "The world I feel",
+                        "descript_tw": "對於世界的認知與感知因人而異，儘管說著相同的語言，有時還是無法達成共識。\n而視覺是傳達最為直接的方式，我利用視覺將我的感受傳遞給他人。日常生活中有多個瞬間的畫面傳遞訊息給我們，這些不同的畫面組成了生活的體驗與感受。相機對我來說如同畫布一般，將情緒以快門的方式記錄下來，藉由攝影為媒介，記錄我所感受到的世界，之後將我想傳達的感情用後製凸顯強化。利用3D列印模型的方式，將感受解構，用另一種方式呈現我所感受的世界",
+                        "descript": "The perception and interpretation of the world vary from individual to individual, and even when they share a common language, consensus can sometimes be elusive. Vision serves as the most direct means of communication; I utilize vision to convey my emotions to others. Daily life presents numerous moments that impart information to us, and these diverse images collectively shape our experiences and feelings. To me, the camera functions as a canvas, capturing my emotions through the act of pressing the shutter release button, documenting the world I perceive through photography as a medium, and subsequently enhancing and intensifying the emotions I aim to convey through post-production techniques. Through 3D printing models, I deconstruct my emotions in order to present the world I perceive in an alternative manner.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=18LNps3VVHgznuuMMeBNssephUdD0fbAx",
+                        "filename": "2024_2_Yu-Ren.png",
+                        "img_path": "assets/img/approaches/2024_2_Yu-Ren.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "張哲瑋",
+                        "semester": 2,
+                        "name": "Zhang Zhe-Wei",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "音樂具象化",
+                        "title": "Reconstruct Music",
+                        "descript_tw": "將音樂透過一系列轉化過程嘗試將音樂的鑑賞去除感性的影響\n最終呈現出新的黑膠唱片形式",
+                        "descript": "Using music through a series of transformation processes, we attempt to remove the influence of perceptual influences from the appreciation of music.\nThe result is a new vinyl record format",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Y_Jv3dVZUYWgHKmYzeRRGE8iqejVOUJe",
+                        "filename": "2024_2_Zhe-Wei.png",
+                        "img_path": "assets/img/approaches/2024_2_Zhe-Wei.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "張琦",
+                        "semester": 2,
+                        "name": "Chang Ci",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "光容器",
+                        "title": "Container Of Light",
+                        "descript_tw": "基地位於系館出入口前面的枕木椅，是我們進入系館的必經之路，我希望透過互動性的構建使人在環境裡能夠有所停留，並且能在基地上討論人的行為與裝置本身的機制，與其裝置能夠產生各種不同狀態的可能。\n",
+                        "descript": "The sleeper chair located in front of the entrance\nof the department hall is the only way for us to\nenter the department hall. I hope that through interactive\nconstruction, people can stay in the environment.\nAnd we can discuss human behavior and the\nmechanism of the device itself on the base, as\nwell as the possibility that the device can produce various states.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1boXMiGLl0XliD1Zz3X38Dhqghbc7D3T6",
+                        "filename": "2024_2_Ci.png",
+                        "img_path": "assets/img/approaches/2024_2_Ci.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "張愷哲",
+                        "semester": 2,
+                        "name": "Chang Kai-Che",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "肩關節運動傷害之輔具",
+                        "title": "Assistive devices for shoulder joint  injuries",
+                        "descript_tw": "針對肩關節運動傷害設計輔具\n以tpu作為阻力材料\n在第一版設計中 發現到 此設計的某些部分結構不需那麼強\n利用磁力場分析軌跡中力量的分配\n最後 解體設計成多曲面。再偏移先前運算出的參數 讓每個曲面相互錯位  結構因此產生變化",
+                        "descript": "Using TPU as resistance material\nIn the first version of the design, it was discovered that some parts of the design did not need to be so strong.\nUsing magnetic fields to analyze force distribution in trajectories\nFinally, it is disassembled and designed into multiple curved surfaces. Then offset the previously calculated parameters, dislocating each surface from each other, and the structure will change as a result.\n",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1RYsWcyJtZv0YpDDfYz-KotTgcPQcPQkp",
+                        "filename": "2024_2_Kai-Che.png",
+                        "img_path": "assets/img/approaches/2024_2_Kai-Che.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "張詩涵",
+                        "semester": 2,
+                        "name": "Chang Shih-Han ",
+                        "advisor_tw": "洪世驊",
+                        "advisor": "Hong Shi-Hua",
+                        "title_tw": "軍事地景與聚落生成",
+                        "title": "Military landscapes and settlement formation",
+                        "descript_tw": "\n這學期主要為研讀馬祖相關文獻、歷史、搜集資料。為畢業設計前期做準備。\n大四下由洪老師帶領，以生成聚落的角度切入馬祖南竿島。我提出對於南竿發展局限性的主因來自於冷戰時期所做的基礎建設組織鬆散、市政無效率，演變出聚落組織僵化且無彈性。解決策略為:改善交通建設。打開地下的坑道系統、軍事據點，連結聚落內部的空間。試圖解決近年島內人口上升、容積不足等問題。\n最後以grasshopper 延坑道系統生成新聚落量體。\n        ",
+                        "descript": "This semester, the focus is on studying Matsu-related literature, history, and collecting data as preparation for the preliminary work of my graduation project. In the second semester of my senior year, under the guidance of Professor Hong, we will approach Nangan Island in Matsu from the perspective of settlement formation. \n\nI have proposed that the primary limitation to Nangan's development stems from the loosely organized infrastructure and inefficient municipal administration established during the Cold War period. This has led to rigid and inflexible settlement organization. The solution strategy includes improving transportation infrastructure by opening up the underground tunnel systems and military outposts, thereby connecting the internal spaces of the settlements. This approach aims to address recent issues such as the island's population increase and insufficient building capacity.\n\nFinally, I will use Grasshopper to extend the tunnel system and generate new settlement volumes.",
+                        "tags": [
+                          "bim",
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Nj8vUI94_mLzFXKG8aro5VbAT7uMkLdc",
+                        "filename": "2024_2_Shih-Han.png",
+                        "img_path": "assets/img/approaches/2024_2_Shih-Han.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "許弘易",
+                        "semester": 2,
+                        "name": "Hsu Hong-Yi",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "交通旅遊主義",
+                        "title": "TRANSPORTOURISM",
+                        "descript_tw": "清澄白河是一個充滿文化氣息和歷史背景的地區，吸引了大量觀光客。然而，當地的公共交通系統並不足以支撐這些觀光需求，特別是在地區內的移動上，存在明顯的不足。我們希望通過設計一個新的交通站來解決這一問題，同時結合一個社區商場，為當地居民和遊客提供便利的服務和休閒場所。",
+                        "descript": "Kiyosumi Shirakawa is a district rich in cultural atmosphere and historical background, attracting a large number of tourists. However, the local public transportation system is insufficient to meet the demands of these tourists, particularly in terms of intra-district mobility. We aim to address this issue by designing a new transportation hub that also integrates a community mall, providing convenient services and leisure spaces for both residents and visitors.",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1_AL9_ra5O8lbm89kOjc6N02jePQzvdOt",
+                        "filename": "2024_2_Hong-Yi.png",
+                        "img_path": "assets/img/approaches/2024_2_Hong-Yi.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "許安琇",
+                        "semester": 2,
+                        "name": "Hsu An-Hsiu ",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "如果時代可以被複製貼上",
+                        "title": "If eras could be copied and pasted.",
+                        "descript_tw": "人類從原始狀態進入到現代能夠雙腳站立行走，演化的盡頭卻是將初始樣態限制起來，假設\n能夠將舊時期的環境給複製過來，在中間被關住的其實是現在這個世代，那會是甚麼樣子呢",
+                        "descript": "From the primitive state to modern times, human beings can stand and walk on two feet. However, the end of evolution is to limit the initial form. Assume\nWhat would it be like to be able to replicate the environment of the old era, and the people trapped in the middle are actually the current generation?",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Rt_vQOWFR2MVox9eYE5zNKiFIKWqtWz_",
+                        "filename": "2024_2_An-Hsiu.png",
+                        "img_path": "assets/img/approaches/2024_2_An-Hsiu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "許婷瑜",
+                        "semester": 2,
+                        "name": "Hsu Ting-Yu",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "第一題：萬華三界/台日交流營：喚起清澄白河的記憶",
+                        "title": "Three orders of WHAHUA/Awakening Memories of Kiyosumi-shirakawa",
+                        "descript_tw": "在這個資訊爆炸的時代，人們理解世界的方式已經從實際體驗到接收資訊。 當資訊來源不再是真實的時，我們所知道的一切都很可能是錯誤的。 /重點是清隅白川的歷史和文化，我們的目標是透過設計將現場仍然存在的歷史痕跡聯絡起來。",
+                        "descript": "In this era of information explosion, the way people understand the world has changed from actual experience to receiving information. When the source of information is no longer real, everything we know is very likely to be wrong./The focus is on the history and culture of Kiyosumi-Shirakawa, and we aim to connect the historical traces still present on the site through our design. ",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1XbXXaFHktNWBt21hDXWl7--gREt0sgGs",
+                        "filename": "2024_2_Ting-Yu.png",
+                        "img_path": "assets/img/approaches/2024_2_Ting-Yu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "許詠傑",
+                        "semester": 2,
+                        "name": "Hus Yung-Cheih",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "正三角單元組織-內外翻轉",
+                        "title": "regular tetrahedron-OUTSIDE IN",
+                        "descript_tw": "利用正三角形單元變化嘗試製造pavilion",
+                        "descript": "Attempt to create a pavilion using unit variations of a regular tetrahedron.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1KbLFBp8Cp9gQTq9yyGHIVq9XCrd12Uxi",
+                        "filename": "2024_2_Yung-Cheih.png",
+                        "img_path": "assets/img/approaches/2024_2_Yung-Cheih.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "郭士禔",
+                        "semester": 2,
+                        "name": "Kuo Shih-Ti",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "巢",
+                        "title": "THE NEST-NOMADIC BRIDGEHAVEN",
+                        "descript_tw": "為了使現代城市游牧者在陌生城市中找到屬於自己的巢，在台北車站前設計了供他們休息交流的空間，並整合基地周圍空間，改善城市門面。",
+                        "descript": "In order to enable modern urban nomads to find their own nest in an unfamiliar city, a space for them to rest and communicate was designed in front of Taipei Main Station, and the space around the base was integrated to improve the city facade.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1ZpEruH781UwII1IudO4EpmoQXH-QwrDE",
+                        "filename": "2024_2_Shih-Ti.png",
+                        "img_path": "assets/img/approaches/2024_2_Shih-Ti.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "陳壬齊",
+                        "semester": 2,
+                        "name": "Chen Jen-Chi",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": " 被隱藏的慾望",
+                        "title": "The Hidden Desire ",
+                        "descript_tw": "透過搜集的照片，發現了在生活中我們被隱藏的慾望-一個能夠間接交流的地方-，因為每個人的當下的心境不同，也許是外相也許是內向，試著創造出能相對應使用的城市開放空間。",
+                        "descript": "Through the collection of photographs, we have discovered the hidden desires in our daily lives and a space for indirect communication. Since each person's mood varies at any given moment—sometimes extroverted, sometimes introverted—we strive to create a corresponding programmable space that can be used accordingly.\n\n",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=14eVZA9Sj77stHTB1XK4m9eVrxEEtKGuz",
+                        "filename": "2024_2_Jen-Chi.png",
+                        "img_path": "assets/img/approaches/2024_2_Jen-Chi.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "陳奕安",
+                        "semester": 2,
+                        "name": "Chen I-An",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "熊貓城市",
+                        "title": "Panda City",
+                        "descript_tw": "現今生活中處處可見外送人員四處接單，外送網絡已經成為都市中的一部份，本設計討論此網絡在都市中新的樣貌，如何在社區與都市之間形成實質的空間網絡。",
+                        "descript": "We can learn many things from this Foodpanda system. From delivery men to customers, there might be a new type of space responding the new living pattern of urbanism, as a kind \nof “Solo Collective”.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1j0mNoLhPuiHnHCKo6upLcZh5yOHtfrQg",
+                        "filename": "2024_2_I-An.png",
+                        "img_path": "assets/img/approaches/2024_2_I-An.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "陳姿吟",
+                        "semester": 2,
+                        "name": "Chen Tzu-Yin ",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "城市烏托邦",
+                        "title": "Utopia of all of us",
+                        "descript_tw": "以停車空間作為基地，散狀分布在基地各處，連接城市之中斷聯的綠地，使得生物能在城市之中與人類共生。",
+                        "descript": "Using the parking space as the site, it is scattered throughout the site, connecting disconnected green spaces between the city, allowing organisms to coexist with humans in the city.",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1n1t6kfMzZ2Z5grUhXwrbOXbBxNdX1JkU",
+                        "filename": "2024_2_Tzu-Yin.png",
+                        "img_path": "assets/img/approaches/2024_2_Tzu-Yin.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "陳柏宇",
+                        "semester": 2,
+                        "name": "Chen Pai-Yu",
+                        "advisor_tw": "蔡大仁",
+                        "advisor": "Cai Da-Ren",
+                        "title_tw": "相對領域-東區商圈男友寄放區",
+                        "title": "Relative domain - Boyfriend Drop-off Zone in the Eastern Shopping District",
+                        "descript_tw": "基地為位於東區商圈的捷運通風塔，周圍被百貨公司包圍，原通風塔量體強烈的排\n他性，導致旁邊的空地成為一般人不會接近，吸菸人士聚集的場所。我想延續這種\n領域感的特性沿用到我的設計中，成為一個特定族群暫時逃離周遭環境的場域，於\n是產生男友寄放區的構想，提供廣大女性寄放男友，安心購物的體驗。",
+                        "descript": "The base is located at the ventilation tower in the East District business area, surrounded by department stores. The original strong presence of the ventilation tower structure has caused the adjacent open space to become a gathering place for smokers, which ordinary people tend to avoid. I want to incorporate this characteristic of the area into my design, creating a space where a specific group can temporarily escape from their surroundings. Thus, the concept of a boyfriend storage area is conceived, providing a place for women to securely store their boyfriends and enjoy a worry-free shopping experience.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1lJMPRQ-fZ2J96Du9eODkg1RYcpaZ7fXe",
+                        "filename": "2024_2_Pai-Yu.png",
+                        "img_path": "assets/img/approaches/2024_2_Pai-Yu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "陳軍瑋",
+                        "semester": 2,
+                        "name": "Chen Chun-Wei",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "台日交流",
+                        "title": "TKU X TDU joint studio",
+                        "descript_tw": "這是一個與兩個日本夥伴合作的設計，基地位於日本東京江東區，有別於大城市的快速和繁忙，在這個具有歷史和文化氣息的近郊，我們決定做一個能讓不同使用者共融的社區公共空間。",
+                        "descript": "This is a design in collaboration with two Japanese partners, located in Koto Ward, Tokyo, Japan. Unlike the fast-paced and busy nature of big cities, we have decided to create a community public space in this historical and culturally rich suburb that allows for the integration of different users.\n",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Z4kbE6PSolD_whKQcHjKYbghsWQ0R-0A",
+                        "filename": "2024_2_Chun-Wei.png",
+                        "img_path": "assets/img/approaches/2024_2_Chun-Wei.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "彭彥苓",
+                        "semester": 2,
+                        "name": "Peng Yen-Lin",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "瞬間的橋",
+                        "title": "Instantaneous Bridge",
+                        "descript_tw": "人的思考不斷地在自我、大眾、意識和資訊四個世界中循環。我們在這些世界中不斷學習、接收、傳達和創造，透過這些經驗來回移動，建立起那座不斷移動的瞬間的橋，連接未曾經歷之處。",
+                        "descript": "Human thought continuously cycles through the four worlds of self, public, consciousness, and information. We continuously learn, receive, communicate, and create within these worlds. Through these experiences, we move back and forth, building the ever-moving instantaneous bridge that connects us to uncharted territories.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=12Dp6D9qSmjtvsTRbscmuVOKqPnGf2AUQ",
+                        "filename": "2024_2_Yen-Lin.png",
+                        "img_path": "assets/img/approaches/2024_2_Yen-Lin.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "曾俊霖",
+                        "semester": 2,
+                        "name": "Tseng Jim-Lin",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "摺光",
+                        "title": "Refraction",
+                        "descript_tw": "利用摺版作為遮陽板與玻璃，並且透過接頭與3D列印，將摺版型態發展為可以實踐之構造系統，在形成的空間裡置入健身活動，作為工作之餘的休憩活動。",
+                        "descript": "Utilizing folded panels as sunshades and glass, and employing joints and 3D printing, the folded panel design will be developed into a practical structural system. This system will incorporate fitness activities into the created spaces, serving as a recreational activity during work breaks.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1SvUSDfUOWrc8_q3Q-SFDH5_URPKPTVdV",
+                        "filename": "2024_2_Jim-Lin.png",
+                        "img_path": "assets/img/approaches/2024_2_Jim-Lin.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "黃子學",
+                        "semester": 2,
+                        "name": "Huang Tzu-Hsueh ",
+                        "advisor_tw": "蔡大仁老師",
+                        "advisor": "",
+                        "title_tw": "寂靈之境",
+                        "title": "Realm of silent spirits ",
+                        "descript_tw": "前期進行案例研究（森山邸），第二階段以學到的手法（例如西澤的佈局邏輯、設計概念或操作手法）結合基地上原有的通風塔，做一個紀念性的空間",
+                        "descript": "Conduct a case study on the Moriyama House in the initial phase. In the second phase, create a memorial space using the techniques learned (such as Nishizawa's layout logic, design concepts, or operational methods).",
+                        "tags": [],
+                        "cloudad": "https://drive.google.com/open?id=1T04IYEBrkkmgENhKmWJB_ZWC8_vWicTl",
+                        "filename": "2024_2_Tzu-Hsueh.png",
+                        "img_path": "assets/img/approaches/2024_2_Tzu-Hsueh.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "黃美愉",
+                        "semester": 2,
+                        "name": "Wong Mei-Yu",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "展館－平面與空間，藉充氣聯結",
+                        "title": "Pavilion - Flat to Space, Connect with Inflatable",
+                        "descript_tw": "通過研究摺疊發展空間，以及了解充氣體的構造和優劣處，利用雙方特性作融合設計的嘗試",
+                        "descript": "Study the folding development space and understand the structure, advantages and disadvantages of the inflatable, an attempt was made to use the characteristics of both parties to make an integrated design.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1FzNfa3oKHme_udv6RDG-NmjcSgaADcEs",
+                        "filename": "2024_2_Mei-Yu.png",
+                        "img_path": "assets/img/approaches/2024_2_Mei-Yu.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "黃鈺翔",
+                        "semester": 2,
+                        "name": "Huang Yi-Hsiang",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "充氣模具的可能性之初探",
+                        "title": "Inflatable Mold",
+                        "descript_tw": "普通建築上經常使用的模具是以面生成空間\n，由面狀的單元去圍塑出指定的型態。其形\n態與其模具之間的關聯是複製的關係。而充\n氣模具的運作方式是一種以空間生成空間的\n方式，這種方式將顛覆過往模具與灌注物之\n間指定與被指定之間的關係，重新建構空間\n的實虛、內外之間的邏輯。",
+                        "descript": "The molds commonly used in ordinary construction are designed to shape specified forms by enclosing space with unit-like elements in a planar manner. The relationship between their form and the molds is one of replication. In contrast, the operation of inflatable molds represents a method where space generates space, overturning the conventional relationship between molds and poured materials of designation and being designated. It reconstructs the logic between the reality and virtuality of space, and the inside and outside.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1wtWMVlBLygZsPbZZoYAeg-zI1bHg4KXN",
+                        "filename": "2024_2_Yi-Hsiang.png",
+                        "img_path": "assets/img/approaches/2024_2_Yi-Hsiang.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "楊承祐",
+                        "semester": 2,
+                        "name": "Yang Cheng-You",
+                        "advisor_tw": "蔡大仁",
+                        "advisor": "Cai Da-Ren",
+                        "title_tw": "街",
+                        "title": "Street",
+                        "descript_tw": "從長谷川豪的上尾長屋，利用樓梯串流了整棟房屋的空間，讓看似一棟房屋已分成上下兩層服務不同人的屋子，把這個概念帶進通風豎井，以另一種尺度詮釋，在解決城市需求同時也提供了另一個公共性，正負空間如同如何切割出都市空間的同時並存，最後在這格階梯中分跟出不同個性的街，由地面成延續而上的街",
+                        "descript": "Hasegawa Go's Ageo Nagaya utilizes stairs to flow through the entire house's space, creating the impression of a single house divided into two floors serving different individuals. This concept can be applied to a ventilation shaft on a different scale, addressing urban needs while also providing another layer of public utility. The coexistence of positive and negative spaces parallels the way urban spaces are segmented. Ultimately, within these staircases, different characteristics of the street emerge, extending the street from the ground upwards.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1_YQ2PCscYflrpQu8-ReYjVGp0bmbjcWb",
+                        "filename": "2024_2_Cheng-You.png",
+                        "img_path": "assets/img/approaches/2024_2_Cheng-You.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "廖澤文",
+                        "semester": 2,
+                        "name": "Liao Tze-Wen",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "充氣式互動平台",
+                        "title": "Inflatable Respondsive Platform",
+                        "descript_tw": "充氣式的平台，供使用者行走或休憩，同時利用高低變化呈現不同的使用方式",
+                        "descript": "Inflatable platform using height to form different ways of using,making it provie walking and resting at the same time.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1ohGM2UpRrcAZgWOeP_L--PUMYu4dnta4",
+                        "filename": "2024_2_Tze-Wen.png",
+                        "img_path": "assets/img/approaches/2024_2_Tze-Wen.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "熊行英",
+                        "semester": 2,
+                        "name": "Hsiung Hsing-Ying",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "迷失之徑",
+                        "title": "Path of Enigma",
+                        "descript_tw": "研究各種板擺放角度的三角形單元可能性，加以歸類，並為三角形單元中的每一條邊編碼，為2D平面中的迷宮生成邏輯奠定基礎的依據，再透過Cross reference呈現迷宮基礎型，接著找出其中能作為3D迷宮陣列中，上下層間連接功能的三角單元組合鏈，並思考陣列在2D平面變動的可能性，或是3D空間中變動(移動)重新排列的可能性，最後應用於實際生活空間中。",
+                        "descript": "Study and categorize the possibilities of triangular units at various placement angles, and encode each edge of the triangular units to establish the basis for the logic of maze generation in a 2D plane. Then, use cross-referencing to present the basic form of the maze, find the triangular unit combinations that can function as connections between layers in a 3D maze array, and consider the possibilities of array variations in a 2D plane or rearrangement (movement) in 3D space. Finally, apply these findings to actual living spaces.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1lDo5ScKHMxcdU3khagVUPw3GN0cXefHf",
+                        "filename": "2024_2_Hsing-Ying.png",
+                        "img_path": "assets/img/approaches/2024_2_Hsing-Ying.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蔡心悅",
+                        "semester": 2,
+                        "name": "Tsai Xin-Yue",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "共享餐桌",
+                        "title": "Sharing the table",
+                        "descript_tw": "我的設計是將兩棟緊鄰的工廠，將其串聯起來，一邊為共享廚房及餐廳，一邊為種植可食用植物的室內園，所種植植物可提供隔壁廚房及餐廳使用，空間也可提供居民及短期居留者使用，讓兩者有互動性。",
+                        "descript": "My design is to connect two adjacent factories. One side is a shared kitchen and dining room, and the other side is an indoor garden for growing edible plants. The plants grown can be used in the kitchen and dining room next door, and the space can also be used by residents and residents. Used by short-term residents to make the two interactive.",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1n3jl1Yr0maN5MyKMQBo2Y3gyTiUC5Y9A",
+                        "filename": "2024_2_Xin-Yue.png",
+                        "img_path": "assets/img/approaches/2024_2_Xin-Yue.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蔡立軒",
+                        "semester": 2,
+                        "name": "Tsai Li-Hsuan",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "跨物種設計",
+                        "title": "Trans-species design",
+                        "descript_tw": "我們的主題“城市酵母”旨在解決城市生活給居民帶來的壓力，尤其是在節假日期間，許多人尋求鄉村避難。我們致力於在城市中創造放鬆的空間，模仿鄉村生活的寧靜和魅力。",
+                        "descript": "Our main topic, Urban Yeast, addresses the pressure of city life on residents, particularly during the holiday season when many seek refuge in the countryside. We aim to create relaxing urban spaces that replicate the tranquility and charm of rural living.",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1OestPTYSRhRfSyBRjqGM2GT3moGo7DyP",
+                        "filename": "2024_2_Li-Hsuan.png",
+                        "img_path": "assets/img/approaches/2024_2_Li-Hsuan.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蕭伃伶",
+                        "semester": 2,
+                        "name": "Shiau Yu-Ling",
+                        "advisor_tw": "洪世驊",
+                        "advisor": "Hong Shi-Hua",
+                        "title_tw": "城市活化劑 -- 都市醫療區宜居的規劃策略",
+                        "title": "Urban Activator – Planning Strategies for Livable Urban Health Districts",
+                        "descript_tw": "提出大都市醫療區的規劃策略及改善現有成是因人口過度聚集而造成生活品質低弱的窘境。再透過一系列的宜居規則制定，最終藉由不同參數的設定來生成城市。",
+                        "descript": "\nPropose planning strategies for metropolitan medical districts and improve the poor quality of life caused by overcrowding. Then, through a series of livable rules, the city is finally generated through the setting of different parameters.",
+                        "tags": [
+                          "bim",
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1fQ43d3GTB9N2iJQg6Lb0jMkdzqofGOHX",
+                        "filename": "2024_2_Yu-Ling.png",
+                        "img_path": "assets/img/approaches/2024_2_Yu-Ling.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蕭勝翔",
+                        "semester": 2,
+                        "name": "Xiao Sheng-Xiang",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "雙向開合充氣單元組成研究",
+                        "title": "Research on the composition of two-way opening and closing inflatable unit",
+                        "descript_tw": "研究充氣體的單元模組，先進行了形態上的研究後，發展出雙向開合的充氣單元，透過面街面的排列組合來研究組成方式，最終以能夠達成內外翻轉的型態作為最終結果，並設計電腦軟體模擬抽吸器效果。",
+                        "descript": "After first conducting research on the shape of the inflatable unit, we developed a bidirectional opening and closing inflatable unit. We studied the composition through the arrangement and combination of surface joints, and finally achieved a form that can be turned inside and outside as the final result, and designed computer software.to simulate the effect of an aspirator.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=19aD0ENGgwGy0AL-iEjAA7Y10ZnsUBbLR",
+                        "filename": "2024_2_Sheng-Xiang.png",
+                        "img_path": "assets/img/approaches/2024_2_Sheng-Xiang.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蕭聖智",
+                        "semester": 2,
+                        "name": "Xiao Shang-Chi ",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "角色",
+                        "title": "Character ",
+                        "descript_tw": "這次我從一段引言發展了一個故事性的理論，這段引言是在講述一個社會現象，故事中，一個特定的個人戴上面具後會扮演一個特定的角色，在名為社會的舞台上透過凝視與其他角色互動，在這個故事中，面具、角色、凝視這三個元素分別從現實對應了三件事情，最後我將故事以影片的方式呈現，讓觀眾更好的代入。",
+                        "descript": "This time, I developed a theoretical narrative based on a quote. The quote describes a social phenomenon. In the story, a specific individual wears a mask and plays a particular role, interacting with other characters through gazes on the stage called society. In this story, the mask, role, and gaze correspond to three things in reality. Finally, I presented the story in a video format to help the audience immerse themselves better.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1OUPDtvyDEN7CoZB2svryEt3GPdZXSm5j",
+                        "filename": "2024_2_Shang-Chi.png",
+                        "img_path": "assets/img/approaches/2024_2_Shang-Chi.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "謝心汝",
+                        "semester": 2,
+                        "name": "Hsieh Hsin-Ju",
+                        "advisor_tw": "黃仁杰",
+                        "advisor": "Huang Ren-Jie",
+                        "title_tw": "啪啪啪啪啪",
+                        "title": "PAPAPAPAPA",
+                        "descript_tw": "透過arduino與grasshopper flrefly連接kinect控制馬達翻動一整列連接數塊3D列印而成的10*10方塊，且方塊本身因列印填充的比例不同而在翻動敲擊時有不同的聲音變化。當kinect偵測人體變化使其連續翻動發出不同音高的聲音效果，裝置在空間中介入並改變原本的空間狀態。",
+                        "descript": "Through Arduino and Grasshopper Firefly, connect Kinect to control motors flipping an entire row of connected 3D-printed blocks arranged in a 10x10 grid. Each block produces different sounds when flipped, influenced by its internal filling density from the printing process. As Kinect detects changes in human movement, it triggers continuous flipping with varying pitch effects, altering the spatial arrangement and dynamics of the environment.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1BMMypJN8bYX6bazBU8brRHoPaYs1D_UT",
+                        "filename": "2024_2_Hsin-Ju.png",
+                        "img_path": "assets/img/approaches/2024_2_Hsin-Ju.png"
                       },
                       {
                         "date_year": 2024,
@@ -733,13 +1514,69 @@
                         "advisor": "Hong Shi-Hua",
                         "title_tw": "末日再生草案",
                         "title": "Apocalypse's Regeneration Draftsss...",
-                        "descript_tw": "本案旨在提出城市在面臨洪水時的一個自動化生成撤離居所的草案，本案基地位在雅加達，是一個即將面臨洪水而消失的城市，我透過參數化的方法分析城市建物布局，希望提出自動化生成的操作流程結合循環系統的設計，讓城市運用原有資源去面對洪水甚至轉化災害為本體的關鍵元素。",
-                        "descript": "This project aims to propose a draft for the automated generation of evacuation shelters in urban areas facing flooding. The site is located in Jakarta, a city on the verge of being submerged by floods. By utilizing parametric methods to analyze the layout of urban buildings, I hope to present an automated process combined with a cyclical system design. This will enable the city to utilize its existing resources to confront flooding and even transform the disaster into a critical element of the city's essence.",
+                        "descript_tw": "本題旨在針對洪水對於城市的破壞提出一個可自動化快速生成撤離居所的草案，基地位於雅加達，是一個即將因為洪水而消失的城市，我透過參數化去分析城市布局及建物，希望透過提出一個可循環系統來面臨災害甚至轉化災害為新居所的關鍵元素，整個提案著重在自動化生成與循環系統設計上。",
+                        "descript": "The aim of this project is to propose a draft for the automated and rapid generation of evacuation shelters in response to the destruction caused by floods in urban areas. The base is located in Jakarta, a city on the brink of disappearance due to flooding. Through parameterization, I analyze the urban layout and buildings, aiming to propose a cyclical system to address disasters and even transform them into new habitats. The entire proposal focuses on automated generation and cyclical system design.",
                         "tags": [
                           "bim",
                           "big-data"
                         ],
+                        "cloudad": "https://drive.google.com/open?id=1v__jsT37AgH69KhjOU7bGacOSWC1THes",
+                        "filename": "2024_2_Xiao-Heng.png",
                         "img_path": "assets/img/approaches/2024_2_Xiao-Heng.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "簡莛融",
+                        "semester": 2,
+                        "name": "Chien Ting-Jung",
+                        "advisor_tw": "林珍瑩",
+                        "advisor": "Lin Chen-Ying",
+                        "title_tw": "清澄白河--編織計畫",
+                        "title": "TKU X TDU Joint Studio- The Weaving Project-C3",
+                        "descript_tw": "清澄白河--位於東京江東區之歷史街區，這裡的步調緩慢且優雅，充滿文藝氣息。我們期許在這裡可以以「非正式交流」的形式，在這個街區創造許多交流的機會，並置入技能換宿之機制，希望透過技能與日常上的交流，達到居民與觀光客的和諧共存之目標。",
+                        "descript": "Kiyosumi-Shirakawa, located in the historical district of Koto Ward, Tokyo, is a place where life moves at a slow and elegant pace, brimming with an artistic atmosphere. We aspire to create numerous opportunities for interaction in this neighborhood through \"informal exchanges.\" By introducing a skill-exchange accommodation mechanism, we hope to achieve harmonious coexistence between residents and tourists through the sharing of skills and daily interactions.",
+                        "tags": [
+                          "big-data"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1FuPtlC-beGz4VJWiTTgk4cf8ZOH3IuLl",
+                        "filename": "2024_2_Ting-Jung.png",
+                        "img_path": "assets/img/approaches/2024_2_Ting-Jung.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "蘇琬霞",
+                        "semester": 2,
+                        "name": "Su Wan-Xia",
+                        "advisor_tw": "鍾裕華",
+                        "advisor": "Chung Yu-Hua",
+                        "title_tw": "充氣旋轉氣球",
+                        "title": "TWIST",
+                        "descript_tw": "將充氣裝置設計成可旋轉的氣球，將氣球設計成單元，個別充氣組裝，過程中將收縮的兩種狀態，放置到空間中利用，形成休憩設施",
+                        "descript": "Design the inflatable device to be a rotating balloon, with each balloon designed as a unit to be inflated and assembled individually. Utilize the two states of expansion and contraction during the process, placing them in space to create recreational facilities.",
+                        "tags": [
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1_JcIuSfNIEL-WpE-iSj2-_8HXzt5FBAG",
+                        "filename": "2024_2_Wan-Xia.png",
+                        "img_path": "assets/img/approaches/2024_2_Wan-Xia.png"
+                      },
+                      {
+                        "date_year": 2024,
+                        "name_tw": "龔詠綸",
+                        "semester": 2,
+                        "name": "Kung Yung-Lun",
+                        "advisor_tw": "平原英樹",
+                        "advisor": "Hideki Hirahara",
+                        "title_tw": "千載難逢的邂逅",
+                        "title": "Once-in-a-lifetime encounter",
+                        "descript_tw": "這學期主要在探索城市對一個人的記憶，第一題我用第一人稱去描述我對我家鄉的城市記憶，第二題跟日本人合作去描述東京記憶，以及創造一個飯店",
+                        "descript": "This semester is mainly about exploring the city's memory of a person. In the first question, I used the first person to describe my memory of the city in my hometown. In the second question, I worked with Japanese people to describe the memory of Tokyo and create a hotel.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1hOdPa5tkkecvQwE962zLmYp4CYBL_Tjq",
+                        "filename": "2024_2_Yung-Lun.png",
+                        "img_path": "assets/img/approaches/2024_2_Yung-Lun.png"
                       }
                 ],
                 "gallery":[ 
