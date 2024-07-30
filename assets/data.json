@@ -3,6 +3,16 @@
                 "info":{
                     "menu":["About","Project","Studio","Gallery","Perspective","P5js","GH","Python","Contacts"],
                     "menu_tw":["關於","作品","教學團隊","集錦","設計方法","P5js","GH","Python","聯絡我們"],
+                    "footerlog":["More Information","Advisors","Studio Works","Gallery"],
+                    "footerlog_tw":["更多資訊","教學團隊","作品成果","活動集錦"],
+                    "footerMessage":[
+                      "IIA introducing the Information Science and Computer Application Technology workshop, and learning the ways of obtaining and analyzing data. Explore the concept of parameter, and address design challenges beyond the limitations of application instructions. ntroducing Visual Recognition and Mixture-Reality tools to transcript the information from surroundings and activities. Considering how to apply digital data to Spatial Design Methodology. Develop the ability of independent thinking with scientific recording, analysis, prediction, and verification.",
+                      "Copyright © 2023 Tamkang University。Dept. Architecture。IIA studio",
+                      "TEL: +886 2-2621-5656 #2610 | Email: chifu.research@gmail.com"],
+                    "footerMessage_tw":[
+                      "本教學研究室由淡江大學建築系的陳珍誠和陳信樟老師於1996年共同創立。以包浩斯的師徒制工作方式為藍本，研究室涵蓋空間場景寫作、永續環境經營、都市涵構閱讀、設計理論建構、數位科技製造、未來空間構造、木構形式創造、都市數據挖掘、構造藝術形式、景觀城市主義等領域。宗旨在深化高年級建築學生的專業程度，透過不同領域、議題和技術的角度，重新審視建築與人、環境及時代的連結，期待為學生提供多元觀點和設計思考工具，培養能夠整合當代技術並具個人風格的未來設計者。",
+                      "版權所有 © 2023 淡江大學。建築學系。智慧資訊建築工作室",
+                      "連絡電話：+886 2-2621-5656 #2610 | 電子信箱：chifu.research@gmail.com"],
                     "sections":[
                         {
                             "title":"<span class='section-title__highlight'>Supporters</span> and Facilities",
@@ -59,6 +69,12 @@
                             "subtitle":"visit for our achievement",
                             "title_tw":"活動 與 <span class='section-title__highlight'>成果</span>",
                             "subtitle_tw":"歡迎瀏覽我們的成果"
+                        },
+                        {
+                            "title":"Contact <span class='section-title__highlight'> us </span>",
+                            "subtitle":"contact us via email for further information",
+                            "title_tw":"<span class='section-title__highlight'>聯繫</span> 我們",
+                            "subtitle_tw":"與本教學團隊進一步聯繫"
                         },
                         {
                             "title":"Contact <span class='section-title__highlight'> us </span>",
@@ -1583,37 +1599,72 @@
                    {
                     "name":"review11211",
                     "name_tw":"1121期中評圖",
-                    "img_path":"assets/img/events/event_review11211.png"
+                    "gallery_title":"112 Fall Mid-term Review",
+                    "gallery_title_tw":"112學年度 第1學期 期中評圖",
+                    "gallery_sub":"Review Gallery",
+                    "gallery_sub_tw":"評圖集錦",
+                    "img_path":"assets/img/gallery/review11211/",
+                    "imgs_num":13
                    },
                    {
-                        "name":"workshop1",
-                        "name_tw":"系列工作坊1",
-                        "img_path":"assets/img/events/event_workshop1.png"
-                    },
-                    {
-                      "name":"review11212",
-                      "name_tw":"1121期末評圖",
-                      "img_path":"assets/img/events/event_review11212.png"
+                     "name":"review11212",
+                     "name_tw":"1121期末評圖",
+                     "gallery_title":"112 Fall Final Review",
+                     "gallery_title_tw":"112學年度 第1學期 期末評圖",
+                     "gallery_sub":"Review Gallery",
+                     "gallery_sub_tw":"評圖集錦",
+                     "img_path":"assets/img/gallery/review11212/",
+                     "imgs_num":12
+                   },
+                   {
+                    "name":"workshop1",
+                    "name_tw":"系列工作坊1",
+                    "gallery_sub":"Digital Empower Workshop Series I",
+                    "gallery_sub_tw":"數位增能工作坊 I",
+                    "gallery_title":"Data Mining & Visualization",
+                    "gallery_title_tw":"資訊探勘與視覺化",
+                    "img_path":"assets/img/gallery/workshop1/",
+                    "imgs_num":8
                     },
                     {
                       "name":"workshop2",
                       "name_tw":"系列工作坊2",
-                      "img_path":"assets/img/events/event_workshop2.png"
+                      "gallery_sub":"Digital Empower Workshop Series II",
+                      "gallery_sub_tw":"數位增能工作坊 II",
+                      "gallery_title":"Arduino Prototyping",
+                      "gallery_title_tw":"單晶片 Arduino 原型實踐",
+                      "img_path":"assets/img/gallery/workshop2/",
+                      "imgs_num":9
                     },
                     {
                       "name":"workshop3",
                       "name_tw":"系列工作坊3",
-                      "img_path":"assets/img/events/event_workshop3.png"
+                      "gallery_sub":"Digital Empower Workshop Series III",
+                      "gallery_sub_tw":"數位增能工作坊 III",
+                      "gallery_title":"Numerical Control Fabrication",
+                      "gallery_title_tw":"數值控制構築",
+                      "img_path":"assets/img/gallery/workshop3/",
+                      "imgs_num":11
                     },
                     {
                       "name":"review11221",
                       "name_tw":"1122期中評圖",
-                      "img_path":"assets/img/events/event_review11221.png"
+                      "gallery_title":"112 Spring Mid-term Review",
+                      "gallery_title_tw":"112學年度 第2學期 期中評圖",
+                      "gallery_sub":"Review Gallery",
+                      "gallery_sub_tw":"評圖集錦",
+                      "img_path":"assets/img/gallery/review11221/",
+                      "imgs_num":6
                     },
                     {
                       "name":"review1122",
                       "name_tw":"1122期末評圖",
-                      "img_path":"assets/img/events/event_review11222.png"
+                      "gallery_title":"112 Spring Final Review",
+                      "gallery_title_tw":"112學年度 第2學期 期末評圖",
+                      "gallery_sub":"Review Gallery",
+                      "gallery_sub_tw":"評圖集錦",
+                      "img_path":"assets/img/gallery/review11222/",
+                      "imgs_num":19
                     }
                 ]
         }

@@ -146,6 +146,17 @@ function update_info(data,lng){
         $("#subscribe .section-title")[0].innerHTML = data.sections[5].title
         $("#subscribe .section-subtitle")[0].classList.remove("twLight");
         $("#subscribe .section-subtitle")[0].innerHTML = data.sections[5].subtitle
+        // footer
+        data.footerlog.forEach((v,i)=>{
+            $("#footerlog .link-list__link")[i].classList.remove("twFont");
+            $("#footerlog .link-list__link")[i].textContent=v
+        })
+        $("#footerlog .footer__message")[0].classList.remove("twBold");
+        $("#footerlog .footer__message")[0].innerHTML = data.footerMessage[0]
+        $("#footerlog .footer__message")[1].classList.remove("twBold");
+        $("#footerlog .footer__message")[1].innerHTML = data.footerMessage[1]
+        $("#footerlog .footer__message")[2].classList.remove("twBold");
+        $("#footerlog .footer__message")[2].innerHTML = data.footerMessage[2]
     }else{
         data.menu_tw.forEach((v,i)=>{
             $(".mobile-menu__link")[i].classList.add("twFont");
@@ -209,7 +220,17 @@ function update_info(data,lng){
         $("#subscribe .section-title")[0].innerHTML = data.sections[5].title_tw
         $("#subscribe .section-subtitle")[0].classList.add("twLight");
         $("#subscribe .section-subtitle")[0].innerHTML = data.sections[5].subtitle_tw      
-        
+        // footer
+        data.footerlog_tw.forEach((v,i)=>{
+            $("#footerlog .link-list__link")[i].classList.remove("twFont");
+            $("#footerlog .link-list__link")[i].textContent=v
+        })
+        $("#footerlog .footer__message")[0].classList.remove("twBold");
+        $("#footerlog .footer__message")[0].innerHTML = data.footerMessage_tw[0]
+        $("#footerlog .footer__message")[1].classList.remove("twBold");
+        $("#footerlog .footer__message")[1].innerHTML = data.footerMessage_tw[1]
+        $("#footerlog .footer__message")[2].classList.remove("twBold");
+        $("#footerlog .footer__message")[2].innerHTML = data.footerMessage_tw[2]
     }
 }
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 approach 中
@@ -256,6 +277,113 @@ function input_approaches(data){
 }
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 置入資料到 gallery 中
 function input_gallery(data){
+    
+    // let cc = document.getElementById("studio_advisors")
+    // cc.setAttribute('data-micromodal-trigger', 'modal-1'); // add modal 
+
+    // data.forEach((d)=>{
+
+        
+    //     let ne = document.createElement("div")
+    //     // image size = 540X540
+    //     ne.classList.add("col-md-12","col-sm-12","col-lg-6")
+        
+        
+    //     let state='<img src="assets/img/common/note/inactive_60x60.png" class="column" style="float: left; height:1.2em;">'
+        
+    //     if (d.type == 3){
+    //         state='<img src="assets/img/common/note/active_60x60.png" class="column" style="float: left; height:1.2em;">'
+    //     }else{
+    //         if (d.type==1 && (dateNow.getMonth()>=7 || dateNow.getMonth()<1)){
+    //             state='<img src="assets/img/common/note/active_60x60.png" class="column" style="float: left; height:1.2em;">'
+    //         }else if (d.type==2 && (dateNow.getMonth()<7 && dateNow.getMonth()>=1)){
+    //             state='<img src="assets/img/common/note/active_60x60.png" class="column" style="float: left; height:1.2em;">'
+    //         }
+    //     }
+
+    //     ne.innerHTML=
+    //     `
+    //     <div class="member  ">
+    //         <div class="member__photo-wrapper" >
+    //             <img src="`+d.img_path+`" class="member__photo" alt="Advisor Photo" >
+    //             <div class="member__cover">
+    //                 <blockquote class="member__quote" >`+d.studio_title+`</blockquote>
+    //             </div>
+    //         </div>
+    //         <div class="row" style="margin-top:-0.5em; margin-bottom:1em;text-align: center;">
+    //             `+state+`
+    //             <h2 class="member__name column" style="float: left;">`+d.name+`</h3>
+    //         </div>
+    //     </div>
+    //     `
+    //     ne.setAttribute('data-modal-trigger', 'modalAdvisor');
+    //     ne.setAttribute('data-custom-data', JSON.stringify(d));
+
+    //     ne.addEventListener('click',(e)=>{
+    //             // window.location.reload();
+    //         // $(window).on('load',()=>{
+    //             let tmodal = ne.getAttribute('data-modal-trigger');
+    //             $('#'+tmodal).css("display","block");
+    //             let tdata = JSON.parse(ne.getAttribute('data-custom-data'));
+    
+    //             $("#modalCarousel .owl-stage").css("display:flex !important; height: 300px !important")
+                
+    //             let necc = $("#modalCarousel");
+
+    //             // necc.trigger("destroy.owl.carousel");
+
+                
+    //             // console.log('a')
+    //             // $(window).on('load',()=>{
+                
+
+                
+    //             tdata.img_paths.forEach((d)=>{
+    //                 let newItem=
+    //                 `<div class="item">
+    //                     <img src="`+d+`" class="member__photo" alt="Carousel Slide Image" style="height: 300px !important">
+    //                 </div>
+    //                 ` 
+    //                 necc.trigger('add.owl.carousel', [$(newItem)]);
+    //             })
+    //             // console.log(necc.find(".owl-item"))
+                
+    //             necc.owlCarousel({
+    //                 autoWidth: true,
+    //                 margin: 10, 
+    //                 nav:false,
+    //             });
+
+    //             necc.trigger('refresh.owl.carousel');     
+    
+    //             // en
+    //             if (lng==="en"){
+    //                 console.log('acen')
+    //                 $('#'+tmodal+' .modal__title')[0].innerHTML=state+tdata.name
+    //                 $('#'+tmodal+' .modal__studio_title')[0].textContent = tdata.studio_title;
+    //                 $('#'+tmodal+' .modal__content .desc').html('<p>'+tdata.descript.replace(/\r\n?/g, '<br />')+'</p>');
+    //                 // console.log($('#'+tmodal+' .modal__content .desc').innerHTML)
+    //                 // $('#'+tmodal+' .modal__content .desc').innerHTML = tdata.descript;
+    //             }else{
+    //                 console.log('ac')
+    //                 $('#'+tmodal+' .modal__title')[0].innerHTML=state+tdata.name_tw
+    //                 $('#'+tmodal+' .modal__studio_title')[0].textContent = tdata.studio_title_tw;
+    //                 $('#'+tmodal+' .modal__content .desc').html('<p>'+tdata.descript_tw.replace(/\r\n?/g, '<br />')+'</p>');
+    
+    //                 // console.log($('#'+tmodal+' .modal__content p'))
+    //                 // $('#'+tmodal+' .modal__content .desc').innerHTML = tdata.descript_tw;
+    //             }
+                
+                
+
+
+    //         // })
+    //     })
+        
+    //     // cc.appendChild(ne)
+    // })  
+
+
     let cc = $("#gallery_carousel")
     cc.owlCarousel({
         items: data.length,
@@ -264,16 +392,127 @@ function input_gallery(data){
       });
 
     data.forEach((d)=>{
-        let newItem=
-        `<div class="carousel__slide">
-            <img src="`+d.img_path+`" class="carousel__image" alt="Carousel Slide Image" >
-		    <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
+        // let newItem=
+        // `<div class="carousel__slide">
+        //     <img src="`+d.img_path+d.imgs_data[0].filename+`" class="carousel__image" alt="Carousel Slide Image" >
+		//     <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
+        // </div>
+        // ` 
+
+        let ne = document.createElement("div")
+
+        ne.innerHTML=
+        `
+        <div class="carousel__slide">
+             <img src="`+d.img_path+`00.png" class="carousel__image" alt="Carousel Slide Image" >
+		     <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
         </div>
-        ` 
-        cc.trigger('add.owl.carousel', [$(newItem)]);
+        `
+        ne.setAttribute('data-modal-trigger', 'modalGallery');
+        ne.setAttribute('data-custom-data', JSON.stringify(d));
+
+        ne.addEventListener('click',(e)=>{
+                // window.location.reload();
+            // $(window).on('load',()=>{
+                let tmodal = ne.getAttribute('data-modal-trigger');
+                $('#'+tmodal).css("display","block");
+                let tdata = JSON.parse(ne.getAttribute('data-custom-data'));
+    
+                $("#modalCarousel .owl-stage").css("display:flex !important; height: 300px !important")
+                
+                let necc = $("#modalCarousel_gallery");
+
+                // necc.trigger("destroy.owl.carousel");
+
+                
+                // console.log('a')
+                // $(window).on('load',()=>{
+                
+
+                
+                for (let k =0;k<tdata.imgs_num;k+=1 ){
+                    let ff= tdata.img_path
+                    if (k<10){
+                        ff+='0'+k+'.png'
+                    }else{
+                        ff+=k+'.png'
+                    }
+                    let newItem=
+                    `<div class="item">
+                        <img src="`+ ff + `" class="member__photo" alt="Carousel Slide Image" style="height: 300px !important">
+                    </div>
+                    ` 
+                    necc.trigger('add.owl.carousel', [$(newItem)]);
+                }
+                // console.log(necc.find(".owl-item"))
+                
+                necc.owlCarousel({
+                    autoWidth: true,
+                    margin: 10, 
+                    nav:false,
+                });
+
+                necc.trigger('refresh.owl.carousel');     
+    
+                // en
+                if (lng==="en"){
+                    // console.log('acen')
+                    $('#'+tmodal+' .modal__title')[0].innerHTML=tdata.gallery_title
+                    $('#'+tmodal+' .modal__studio_title')[0].textContent = tdata.gallery_sub;
+                    // $('#'+tmodal+' .modal__content .desc').html('<p>'+tdata.descript.replace(/\r\n?/g, '<br />')+'</p>');
+                    // console.log($('#'+tmodal+' .modal__content .desc').innerHTML)
+                    // $('#'+tmodal+' .modal__content .desc').innerHTML = tdata.descript;
+                }else{
+                    // console.log('ac')
+                    $('#'+tmodal+' .modal__title')[0].innerHTML=tdata.gallery_title_tw
+                    $('#'+tmodal+' .modal__studio_title')[0].textContent = tdata.gallery_sub_tw;
+                    // $('#'+tmodal+' .modal__content .desc').html('<p>'+tdata.descript_tw.replace(/\r\n?/g, '<br />')+'</p>');
+    
+                    // console.log($('#'+tmodal+' .modal__content p'))
+                    // $('#'+tmodal+' .modal__content .desc').innerHTML = tdata.descript_tw;
+                }
+                
+                
+
+
+            // })
+        })
+
+
+
+
+
+        cc.trigger('add.owl.carousel', [ne]);
     })
     cc.trigger('refresh.owl.carousel');
+
+
+
+
+
+
+
+
+
+    // let cc = $("#gallery_carousel")
+    // cc.owlCarousel({
+    //     items: data.length,
+    //     loop: true,
+    //     margin: 10
+    //   });
+
+    // data.forEach((d)=>{
+    //     let newItem=
+    //     `<div class="carousel__slide">
+    //         <img src="`+d.img_path+d.imgs_data[0].filename+`" class="carousel__image" alt="Carousel Slide Image" >
+	// 	    <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
+    //     </div>
+    //     ` 
+    //     cc.trigger('add.owl.carousel', [$(newItem)]);
+    // })
+    // cc.trigger('refresh.owl.carousel');
 }
+
 function update_gallery(data,lng){
     let owlcs = $("#gallery_carousel .active .carousel__title")
 
@@ -375,8 +614,10 @@ function input_events(data){
     data.forEach((d)=>{
         let newItem=
         `<div class="carousel__slide">
-            <img src="`+d.img_path+`" class="carousel__image" alt="Carousel Slide Image" >
-		    <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
+            <a href="#gallery" class="js-scroll-to">
+                <img src="`+d.img_path+`" class="carousel__image" alt="Carousel Slide Image">
+                <h3 class="carousel__title"><span class='section-title__highlight'>`+d.name+`</span></h3>
+            </a>
         </div>
         ` 
         cc.trigger('add.owl.carousel', [$(newItem)]);

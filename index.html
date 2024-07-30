@@ -409,13 +409,13 @@
 		</section>
 		<!-- End of Section -->
 		<!-- ####################################### subscribe #######################################-->
-		<section class="section section--large ">
+		<!-- <section class="section section--large ">
 			<a href="#" class="footer__scroll-top js-scroll-top">
 				<i class="fontello-level-up footer__scroll-icon"></i>
-			</a>
+			</a> -->
 			<!-- End of Push -->
 			<!-- Instagram Widget -->
-			<ul class="instagram-widget  ">
+			<!-- <ul class="instagram-widget  ">
 				<li class="instagram-widget__item">
 					<img src="assets/img/gallery/g001.png" class="instagram-widget__image" alt="Instagram Photo" id="g001"
 					data-micromodal-trigger="modal-1"
@@ -426,7 +426,7 @@
 					data-micromodal-trigger="modal-1"
 					data-custom-data="{'title':'Review','descript':'this is review pic'}">
 				</li>
-			</ul>
+			</ul> -->
 			<!-- End of Instagram Widget -->
 			
 			<!-- Socials -->
@@ -458,15 +458,15 @@
 				</li>
 			</ul> -->
 			<!-- End of Socials -->
-		</section>
+		<!-- </section> -->
 		<!-- End of Section -->
 		<!-- ####################################### gallery #######################################  -->
-		<section class="section section--grey section--large " id='gallery'>
+		<section class="section section--skin-3 section--large " id='gallery'>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-24">
 						<!-- Section Title -->
-						<h2 class="section-title section-title--center " > Activities and <span class='section-title__highlight'>Achievement</span></h2>
+						<h2 class="section-title section-title--center section-title--light" > Activities and <span class='section-title__highlight'>Achievement</span></h2>
 						<!-- End of Section Title -->
 						<!-- Section Subtitle -->
 						<p class="section-subtitle section-subtitle--center "> visit for further information </p>
@@ -575,10 +575,9 @@
 					</div>
 				</div>
 			</div>
-			<section class="section section--grey section--large">
+			<section class="section section--grey section--large" id="footerlog">
 				<div class="container">
 					<div class="row">
-
 						<div class="col-md-4 col-sm-12 col-xs-12">
 							<!-- Link List -->
 							<nav class="link-list  ">
@@ -593,15 +592,12 @@
 										<a href="#approaches" class="link-list__link js-scroll-to">Studio Works</a>
 									</li>
 									<li class="link-list__item">
-										<a href="#" class="link-list__link ">Terms</a> | <a href="#" class="link-list__link ">Privacy</a>										
+										<a href="#gallery" class="link-list__link js-scroll-to">Gallery</a>									
 									</li>
 								</ul>
 							</nav>
 							<!-- End of Link List -->
 						</div>
-						
-
-
 						<!-- Logo -->
 						<!-- <div class="logo col-md-4">
 							<a href="index.html" class="logo__link">
@@ -611,8 +607,8 @@
 						<!-- descript -->
 						<div class="col-md-offset-2 col-md-18">
 							<p class="footer__message">IIA introducing the Information Science and Computer Application Technology workshop, and learning the ways of obtaining and analyzing data. Explore the concept of parameter, and address design challenges beyond the limitations of application instructions. ntroducing Visual Recognition and Mixture-Reality tools to transcript the information from surroundings and activities. Considering how to apply digital data to Spatial Design Methodology. Develop the ability of independent thinking with scientific recording, analysis, prediction, and verification.</p>
-							<p>Copyright©2015 Tamkang University。Dept. Architecture。IIA studio</p>
-							<p>TEL: +886 2-2621-5656 #2610 | Email: chifu.research@gmail.com</p>
+							<p class="footer__message">Copyright © 2023 Tamkang University。Dept. Architecture。IIA studio</p>
+							<p class="footer__message">TEL: +886 2-2621-5656 #2610 | Email: chifu.research@gmail.com</p>
 						</div>
 						<!-- End of descript -->
 						
@@ -626,7 +622,7 @@
 	<!-- End of Page -->
 	
 	<!-- Overlay Modal -->
-	<!-- Modal -->
+	<!-- Modal advisor-->
 	<div id="modalAdvisor" aria-hidden="true" class="modal" tabindex="-1">
 		<div class="modal-content" >
 
@@ -659,7 +655,38 @@
 			<!-- </div> -->
 		</div>
 	</div>
-			
+
+
+	<!-- Modal gallery-->
+	<div id="modalGallery" aria-hidden="true" class="modal" tabindex="-1">
+		<div class="modal-content" >
+			<!-- <span class="close">&times;</span>
+			<p>This is a modal. You can put any content here.</p> -->
+			<!-- <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title"> -->
+				<header class="modal__header" >
+						<div class="row" >
+							<h1 class="modal__title">Modal Title</h2>
+							<h5 class="modal__studio_title" style="padding-top:0.5em;">Modal Second Title</h5>
+						</div>
+						<button class="modal__close"></button>
+				</header>
+				<main class="modal__content" >
+					
+					<div class="row" >
+						<hr style="border-width:2px; margin-top:-1em;">
+						<div class="col-lg-24 imgview">
+							<div class="owl-carousel" id="modalCarousel_gallery">
+										
+							</div>
+						</div>
+					</div>
+				</main>
+				<footer class="modal__footer">
+				<!-- <button class="modal__btn" data-micromodal-close aria-label="Close modal">Close</button> -->
+				</footer>
+			<!-- </div> -->
+		</div>
+	</div>			
 
 	<!-- Scripts -->
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
