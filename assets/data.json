@@ -92,9 +92,9 @@
                     "img_path":"assets/img/events/event_review11211.png"
                    },
                    {
-                        "name":"workshop1",
-                        "name_tw":"系列工作坊1",
-                        "img_path":"assets/img/events/event_workshop1.png"
+                        "name":"workshop1_112",
+                        "name_tw":"112系列工作坊1",
+                        "img_path":"assets/img/events/event_workshop1_112.png"
                     },
                     {
                       "name":"review11212",
@@ -102,14 +102,14 @@
                       "img_path":"assets/img/events/event_review11212.png"
                     },
                     {
-                      "name":"workshop2",
-                      "name_tw":"系列工作坊2",
-                      "img_path":"assets/img/events/event_workshop2.png"
+                      "name":"workshop2_112",
+                      "name_tw":"112系列工作坊2",
+                      "img_path":"assets/img/events/event_workshop2_112.png"
                     },
                     {
-                      "name":"workshop3",
-                      "name_tw":"系列工作坊3",
-                      "img_path":"assets/img/events/event_workshop3.png"
+                      "name":"workshop3_112",
+                      "name_tw":"112系列工作坊3",
+                      "img_path":"assets/img/events/event_workshop3_112.png"
                     },
                     {
                       "name":"review11221",
@@ -120,6 +120,11 @@
                       "name":"review11222",
                       "name_tw":"1122期末評圖",
                       "img_path":"assets/img/events/event_review11222.png"
+                    },
+                    {
+                      "name":"workshop1_113",
+                      "name_tw":"113系列工作坊1",
+                      "img_path":"assets/img/events/event_workshop1_113.png"
                     }
                 ],
                 "supporters":[
@@ -194,7 +199,7 @@
                         "descript_tw":" 探討建築的未來 \r\n \r\n 在 社會空間條件 急劇變化的當代趨勢下 \r\n 通過可用的 工具 | 創新思維 \r\n 界定 | 預見  隨時代變動的未來生活模式 \r\n \r\n 發展 小 | 中 | 大 3 種 不同 時空條件的 游居未來 與 空間。"
                     },
                     {
-                        "type":3,
+                        "type":0,
                         "name":"Hideki Hirahara",
                         "studio_title":"Notation",
                         "img_path":"assets/img/studios/hiraka.png",
@@ -224,7 +229,7 @@
                         "descript_tw":" 探索 具智慧的 嵌入式 響應系統 在建築空間中的潛力 \r\n\r\n 發展向生物學習的仿生材料系統 \r\n\r\n 探究 基於 仿生學 的 演算建模 | 數位模擬 | 數位製造技術 \r\n\r\n 研究 型式生成算法 並應用於 氣候 | 社會 涵構當中。"
                     },
                     {
-                        "type":2,
+                        "type":0,
                         "name":"Chung Yu-Hua",
                         "studio_title":"Responsive Environment",
                         "img_path":"assets/img/studios/yu-wua.png",
@@ -240,7 +245,7 @@
                         "descript_tw":" 發展 與行為互動的 空間介面裝置 \r\n \r\n 探究 混和材料 與 創造 新的空間形式 \r\n \r\n 藉由感測裝置 反饋 空間與使用行為關係 \r\n \r\n 通過 互動介面 研究 人 | 自然 | 介面 | 空間 的 動態關係。"
                     },
                     {
-                        "type":2,
+                        "type":0,
                         "name":"Cai Da-Ren",
                         "studio_title":"Architectural Standards",
                         "img_path":"assets/img/studios/da-ren.png",
@@ -256,7 +261,7 @@
                         "descript_tw":" 觀察城市中 理所當然的 特殊存在 \r\n \r\n 研究 建築學中 正 | 負 空間的可能性 \r\n \r\n 創造出 肉體 | 精神 的 庇護所 \r\n \r\n 探究 構造 | 材料 與 特殊空間氛圍  \r\n \r\n 新 氛圍 | 機能 | 型態 置入涵構後 的 再思考。"
                     },
                     {
-                        "type":2,
+                        "type":0,
                         "name":"Huang Ren-Jie",
                         "studio_title":"Additive",
                         "img_path":"assets/img/studios/ren-jei.png",
@@ -285,7 +290,7 @@
                         "descript_tw":" 面對 在地生活 | 文化特質 | 環境天候 的 國際競圖 議題 \r\n\r\n 提出 原創 | 具永續觀點 的 設計提案 \r\n\r\n 在限定版面中 呈現 明確的 設計程序分析 \r\n\r\n 回應 空間設計 | 可及性 | 安全性 | 環境影響評估。"
                     },
                     {
-                        "type":3,
+                        "type":2,
                         "name":"Weng Wei-Chen",
                         "studio_title":"Schematic",
                         "img_path":"assets/img/studios/wei-chen.png",
@@ -329,6 +334,84 @@
                         "name_tw":"林泓宇",
                         "studio_title_tw":"園建築",
                         "descript_tw":" 融合 親生命設計 | 有機建築 | 中國園林 \r\n \r\n 基於設計者個人的空間經驗出發 \r\n \r\n 思考如何使用 空間 | 行為 \r\n 回應 當代的 城市住居 | 避風港 心理狀態 \r\n \r\n 探討 城市 | 生活 | 自然 與 不同尺度的 當代生活模式。"
+                    },
+                    {
+                        "type":3,
+                        "name":"Huang Jui-Mao",
+                        "studio_title":"Urban Design Studio",
+                        "img_path":"assets/img/studios/jui-mao.png",
+                        "img_paths":["assets/img/studios/jui-mao/00.png",
+                        "assets/img/studios/jui-mao/01.png","assets/img/studios/jui-mao/02.png","assets/img/studios/jui-mao/03.png",
+                        "assets/img/studios/jui-mao/04.png","assets/img/studios/jui-mao/05.png"],
+                        "descript":" This studio explores AI as educational infrastructure \r\n \r\n to redefine spatial forms and interactions, \r\n \r\n creating adaptive, empathic, and intelligent learning environments.",
+                        "name_tw":"黃瑞茂",
+                        "studio_title_tw":"都市設計",
+                        "descript_tw":" 本工作室探討 \r\n \r\n AI作為教育基礎設施，\r\n \r\n 如何重新定義 \r\n \r\n 學習空間的形式 與 互動模式，\r\n \r\n 創造適應性、共感 與 智能化的學習環境。"
+                    },
+                    {
+                        "type":2,
+                        "name":"Hsieh Chen-Yuan",
+                        "studio_title":"Digital Design and Fabrication Studio",
+                        "img_path":"assets/img/studios/chen-yuan.png",
+                        "img_paths":["assets/img/studios/chen-yuan/00.png",
+                        "assets/img/studios/chen-yuan/01.png","assets/img/studios/chen-yuan/02.png","assets/img/studios/chen-yuan/03.png",
+                        "assets/img/studios/chen-yuan/04.png","assets/img/studios/chen-yuan/05.png"],
+                        "descript":" This studio applies AI tools.\r\n \r\n It explores the potential of computational fabrication.\r\n \r\n Including collaboration between CNC and robotic arms.\r\n \r\n It develops innovative and precise construction workflows.\r\n \r\n The aim is to integrate intelligent design and fabrication.",
+                        "name_tw":"謝禎原",
+                        "studio_title_tw":"數位游牧設計與自主製造工作室",
+                        "descript_tw":" 本工作室研究 \r\n \r\n 如何運用AI工具。 \r\n \r\n 探索數值運算設備的潛力。\r\n \r\n 思考 CNC 與 機械手臂 的協同作業。\r\n \r\n 發展創新與精確的構築流程。\r\n \r\n 實驗智能設計與製造的整合方式。"
+                    },
+                    {
+                        "type":2,
+                        "name":"Tsai Ting-Yi",
+                        "studio_title":"Intelligence Diverge-Converge Making Studio",
+                        "img_path":"assets/img/studios/ting-yi.png",
+                        "img_paths":["assets/img/studios/ting-yi/00.png",
+                        "assets/img/studios/ting-yi/01.png","assets/img/studios/ting-yi/02.png","assets/img/studios/ting-yi/03.png",
+                        "assets/img/studios/ting-yi/04.png","assets/img/studios/ting-yi/05.png"],
+                        "descript":" This studio applies AI tools.\r\n \r\n It analyzes the efficiency of sustainable energy deployment.\r\n \r\n It designs spatial strategies for interactive energy devices.\r\n \r\n It explores integration between architecture and energy systems.\r\n \r\n It proposes forward-looking planning methods.",
+                        "name_tw":"蔡丁毅",
+                        "studio_title_tw":"智慧思維製造工作室",
+                        "descript_tw":" 本工作室研究 \r\n \r\n 如何運用AI工具。 \r\n \r\n 分析永續能源的配置效率。\r\n \r\n 設計互動型能源機具的空間部署。\r\n \r\n 探索建築與能源系統的整合潛力。\r\n \r\n 提出具前瞻性的規劃策略。"
+                    },
+                    {
+                        "type":2,
+                        "name":"Ho Hsiang-Yi",
+                        "studio_title":"Urban Tapestry Studio",
+                        "img_path":"assets/img/studios/hsiang-yi.png",
+                        "img_paths":["assets/img/studios/hsiang-yi/00.png",
+                        "assets/img/studios/hsiang-yi/01.png","assets/img/studios/hsiang-yi/02.png","assets/img/studios/hsiang-yi/03.png",
+                        "assets/img/studios/hsiang-yi/04.png","assets/img/studios/hsiang-yi/05.png"],
+                        "descript":" This studio applies AI tools.\r\n \r\n It analyzes the spatial and social structure of aging urban districts.\r\n \r\n It identifies potential opportunities for renewal.\r\n \r\n It simulates diverse future scenarios.\r\n \r\n It proposes forward-thinking urban regeneration strategies.",
+                        "name_tw":"何相儀",
+                        "studio_title_tw":"都市織造工作室",
+                        "descript_tw":" 本工作室研究 \r\n \r\n 如何運用AI工具。 \r\n \r\n 解析老舊街區的空間與社會結構。\r\n \r\n 挖掘潛在更新機會。\r\n \r\n 模擬多元未來發展場景。\r\n \r\n 提出具前瞻性的都市再生策略。"
+                    },
+                    {
+                        "type":1,
+                        "name":"Clive John Eveleigh",
+                        "studio_title":"Biomaterial Laboratory Studio",
+                        "img_path":"assets/img/studios/clive.png",
+                        "img_paths":["assets/img/studios/clive/00.png",
+                        "assets/img/studios/clive/01.png","assets/img/studios/clive/02.png","assets/img/studios/clive/03.png",
+                        "assets/img/studios/clive/04.png","assets/img/studios/clive/05.png"],
+                        "descript":" This studio explores the architectural potential of bio-materials.\r\n \r\n It studies their application in structural systems.\r\n \r\n It develops material strategies responsive to the environment.\r\n \r\n It simulates spatial conditions blending nature and technology.\r\n \r\n It proposes future-oriented architectural solutions.",
+                        "name_tw":"尹克強",
+                        "studio_title_tw":"生化材料實驗工作室",
+                        "descript_tw":" 本工作室探索 \r\n \r\n 生化材料的建築潛力。\r\n \r\n 研究其在構造系統中的應用方式。\r\n \r\n 發展回應環境的材質策略。\r\n \r\n 模擬自然與人工整合的空間狀態。\r\n \r\n 提出具未來性的建築解方。"
+                    },
+                    {
+                        "type":3,
+                        "name":"Jeng Hoang-Ell",
+                        "studio_title":"Intelligence Integrated Design Studio",
+                        "img_path":"assets/img/studios/hoang-ell.png",
+                        "img_paths":["assets/img/studios/hoang-ell/00.png",
+                        "assets/img/studios/hoang-ell/01.png","assets/img/studios/hoang-ell/02.png","assets/img/studios/hoang-ell/03.png",
+                        "assets/img/studios/hoang-ell/04.png"],
+                        "descript":" This studio applies AI tools.\r\n \r\n It analyzes resource distribution and usage under environmental stress.\r\n \r\n It develops spatial planning strategies for adaptation and regulation.\r\n \r\n It enhances ecological resilience and resource efficiency.\r\n \r\n It explores intelligent management systems.",
+                        "name_tw":"鄭晃二",
+                        "studio_title_tw":"智慧整合建築工作室",
+                        "descript_tw":" 本工作室研究 \r\n \r\n 如何運用AI工具。 \r\n \r\n 分析環境衝擊下的資源分布與使用模式。\r\n \r\n 建立應變與調節的空間規劃策略。\r\n \r\n 強化生態韌性與資源效率。\r\n \r\n 探索智能化的管理系統。\r\n \r\n 模擬多元未來發展場景。"
                     }
                 ],
                 "approaches":[
@@ -1593,6 +1676,834 @@
                         "cloudad": "https://drive.google.com/open?id=1hOdPa5tkkecvQwE962zLmYp4CYBL_Tjq",
                         "filename": "2024_2_Yung-Lun.png",
                         "img_path": "assets/img/approaches/2024_2_Yung-Lun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "黃品嘉",
+                        "semester": 1,
+                        "name": "Huang Pin-Jia",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "感．空間",
+                        "title": "FEEL THE SPACE",
+                        "descript_tw": "空間傳遞的訊息能直接影響我們的感受，從氛圍出發，進而引發情緒體驗。因此，我希望以空間作為切入點，探討其與人類之間的深層關聯。透過數位與類比方式的結合，形塑出一個具有療癒效果的互動式展覽空間，並藉由這種互動引發人們的情感共鳴。\n在設計中，我將光作為主要的操作手法，打造一個場域性的實驗場所。透過進一步的實驗，我希望觀察空間如何影響人類的心理狀態，並探索空間在治癒層",
+                        "descript": "The messages conveyed by a space can directly influence our perceptions, shaping the atmosphere and evoking emotional experiences. Thus, I aim to examine the deep connection between space and human emotions. By combining digital and analog methods, I seek to create an interactive exhibition space with therapeutic effects, using interaction to resonate with people's emotions.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1w6ghrbVX5G96709x76DLPg5GjWUJ6lr_",
+                        "filename": "2025_1_Pin-Jia.png",
+                        "img_path": "assets/img/approaches/2025_1_Pin-Jia.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "楊文豪",
+                        "semester": 1,
+                        "name": "Yang Wen-Hao",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "1 淨望之梯、2 無界織廊",
+                        "title": " 1 Ladder of Pure Hope, 2 Unbounded Corridor",
+                        "descript_tw": "1 從引導觀察到反思的過程，逐步提升對水質汙染與環境的認識\n以社子島外觀的三角板做為結構與樓板相互卡接，藉由卡出的縫隙做為過道及平台引導人們觀察水質汙染的變化\n2 開放過道與結構間的無遮蔽性，象徵與周遭環境的共融\n藉由只能行走過道至各空間的不適感(紛爭)讓人了解環境、設施、配置之間的關係",
+                        "descript": "1. From guided observation to reflection, gradually improve the understanding of water pollution and the environment.\nThe triangular plates with the appearance of Shezi Island are used as the structure and the floor plates are connected to each other, and the stuck gaps are used as aisles and platforms to guide people to observe changes in water pollution.\n2 The open aisles and the lack of shelter between structures symbolize communion with the surrounding environment.\nThrough the discomfort (dispute) of only being able to walk through the aisles to each space, people can understand the relationship between the environment, facilities, and configurations.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1ius-Y2hNWZos-VSnVCokfPCMTBS1is6_",
+                        "filename": "2025_1_Wen-Hao.png",
+                        "img_path": "assets/img/approaches/2025_1_Wen-Hao.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "林芊均",
+                        "semester": 1,
+                        "name": "Lin Qian-Chun",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "枝織-接頭設計與數位構築的木材模組化系統",
+                        "title": "Modular wood systems: joints and digital Fabrication",
+                        "descript_tw": "我選擇木材這一日常生活中廣泛應用的材料作為設計單元的主要材質。通過分\n解五角形幾何，提取出 Y 字型結構，並將其作為模組的基礎單元。完成單元設\n計後，我運用電腦運算技術制定形式生成的規則，對這些單元進行組合設計。\n在數位設計的基礎上，我進行了 1:1 的實體製作，測試材料特性與組裝方式。\n此階段的重點在於優化單元模具和接頭設計，通過多代原型的反覆迭代，提升\n了組裝效率，同時在穩定性與靈活性之間找到平衡。最終，通過反覆實驗和改\n進，成功實現了快速組裝的設計目標。",
+                        "descript": "PI selected wood, a material widely used in daily life, as the primary material\nfor the design units. By deconstructing pentagonal geometry, I extracted a\nY-shaped structure and utilized it as the foundational unit for the module.\nAfter completing the unit design, I employed computational techniques to\nestablish rules for form generation and applied them to assemble the units.\nBuilding on the digital design, I conducted 1:1 scale physical prototypes to\ntest material properties and assembly methods. This stage focused on\noptimizing the unit molds and joint designs, iteratively refining multiple\nprototypes to enhance assembly efficiency while balancing stability and\nflexibility. Ultimately, through repeated experimentation and improvements,\nI successfully achieved the goal of rapid assembly.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1JOvI9f1Tv1giK-7FyJYMp5A_-Ocq4K1r",
+                        "filename": "2025_1_Qian-Chun.png",
+                        "img_path": "assets/img/approaches/2025_1_Qian-Chun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "楊博智",
+                        "semester": 1,
+                        "name": "Yang Po-Chin",
+                        "advisor_tw": "宋偉祥",
+                        "advisor": "Song Wei-Xiang",
+                        "title_tw": "漂浮村落",
+                        "title": "Aqua Haven",
+                        "descript_tw": "極端氣候加劇水患威脅，為應對挑戰，我設計了「與水共生」漂浮村落，打造永續、高品質居住環境。",
+                        "descript": "Extreme weather exacerbates the threat of flooding. To address this challenge, I designed a \"Living with Water\" floating village, creating a sustainable and high-quality living environment.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1NKIebHiPXvyGlTHDSqFH_wDib4kVXw5m",
+                        "filename": "2025_1_Po-Chin.png",
+                        "img_path": "assets/img/approaches/2025_1_Po-Chin.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "林姮蓉",
+                        "semester": 1,
+                        "name": "Lin Heng-Jung",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "動態跨平台遊戲",
+                        "title": "DYNAMIC CROSS- PLATFORM GAMING",
+                        "descript_tw": "以紀念碑谷這個遊戲作為設計發想的基礎，設計的一個虛實整合的互動遊戲。從分析紀念碑谷\n的操作手法，到提出新的可能性且進行實驗，在得到所有元素後選出符合條件的基地，並進行\n設計操作。以1:1實體空間裝置的互動遊戲，並搭配投影角色和路徑，現實中通過移動旋轉裝置\n並搭配手機或鍵盤操縱虛擬角色觸碰機關推動遊戲關卡。基於空間與時間的限制，這次將會以\n1:15的模型呈現。",
+                        "descript": "Based on the game Monument Valley, this project designs a mixed-reality interactive game. \nStarting with an analysis of Monument Valley’s gameplay mechanics, the goal is to propo\nse new possibilities and conduct experiments. After gathering all the elements, a suitable si\nte is selected to implement the design. The envisioned game features a 1:1 scale interactive \ninstallation in a physical space, incorporating projected characters and pathways. Players in\nteract with the game by physically moving and rotating the installation while using a mobile\n device or keyboard to control virtual characters, activate mechanisms, and advance through\n game levels. Due to spatial and temporal constraints, this project will be presented as a 1:15 scale model.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1mpVS8HLtcgdoSYLXp49dOtkzppRZuBdD",
+                        "filename": "2025_1_Heng-Jung.png",
+                        "img_path": "assets/img/approaches/2025_1_Heng-Jung.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "邱弘翔",
+                        "semester": 1,
+                        "name": "Chiu Hung-Hsiang",
+                        "advisor_tw": "陳右昇",
+                        "advisor": "Chen Yo-Sheng",
+                        "title_tw": "高與低",
+                        "title": "The Heights and the Depths",
+                        "descript_tw": "用不同大小和高度的板子來創造不同活動，並慢慢往上疊到上方的窗口，大致的操作方式是每片木板高差50公分，用來當座椅，並在其中穿插一些高差25公分的木板，當樓梯使用，並讓下方的結構盡量減少，讓板下方的空間也可以使用",
+                        "descript": "Using panels of varying sizes and heights to create different activities, the structure gradually stacks upward toward the window above. The general approach is to have each panel differ in height by 50 cm, serving as seating, while interspersing some panels with a height difference of 25 cm to function as steps. The underlying structure is minimized to ensure the space beneath the panels can also be utilized effectively.",
+                        "tags": [
+                          "construction"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1QH-jj3ouxpehr54J4Hg0y02BnkLAYsRX",
+                        "filename": "2025_1_Hung-Hsiang.png",
+                        "img_path": "assets/img/approaches/2025_1_Hung-Hsiang.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "曾伃瑈",
+                        "semester": 1,
+                        "name": "Zeng Yu-Rou",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "介入與共生",
+                        "title": "Intervention and Symbiosis",
+                        "descript_tw": "藉由「自然介入人造物」這件事，分析植物是如何介入空間，並梳理元素來輔助空間構成，藉此來設計一個個人住所，探討人如何與自然共生。",
+                        "descript": "By examining the phenomenon of 'nature intervening in artificial structures,' this project analyzes how plants integrate into spaces and organizes key elements to assist in spatial composition. Through this process, it aims to design a personal residence that explores how humans can coexist with nature.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Jv_1VqB3f4Y0W-WpHpye10Fzu7DJBkfb",
+                        "filename": "2025_1_Yu-Rou.png",
+                        "img_path": "assets/img/approaches/2025_1_Yu-Rou.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "林楷博",
+                        "semester": 1,
+                        "name": "Lin Kai-Po",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "烏來文化館",
+                        "title": "Wulai Cultural Center",
+                        "descript_tw": "本次的設計從先研究了三本耀司的設計風格，再去找了與他相關聯風格的三位藝術家 ，\n接著整合他們的設計特色和風格，進行本次文化館的設計",
+                        "descript": "This design project began with a study of Yohji Yamamoto's design style, followed by research on three artists whose styles are closely associated with his. The design features and styles of these artists were then integrated to create the design for this cultural center.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1GOD3nVMqEXcljuK8sC4GZhCF6v2q39gP",
+                        "filename": "2025_1_Kai-Po.png",
+                        "img_path": "assets/img/approaches/2025_1_Kai-Po.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "鄭承岳",
+                        "semester": 1,
+                        "name": "Cheng Cheng-Yueh",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "宇宙建築",
+                        "title": "One Universe",
+                        "descript_tw": "本次設計主要探討人之住居與自然之間的對話，我的設計主軸圍繞在地質的觸感，以材質給人的五感分析，試圖找到每種行為情境適合的場域並創造出建築與自然共生狀態的居所。",
+                        "descript": "This design primarily explores the dialogue between human habitation and nature. By focusing on the tactile quality of geological elements, I analyze how materials influence our perception and endeavor to identify environments suited to each behavioral context. Through this process, I aim to create a residence that fosters a symbiotic relationship between architecture and the natural world.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1OrZLvKry2Ba4aAjOwTIH9GtG-aI3qncM",
+                        "filename": "2025_1_Cheng-Yueh.png",
+                        "img_path": "assets/img/approaches/2025_1_Cheng-Yueh.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "蘇楷勛",
+                        "semester": 1,
+                        "name": "Su Kai-Syun",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "《伊甸》文本與場景再現",
+                        "title": "Eden -Textual Scene Reproduction",
+                        "descript_tw": "透過文本寫作、基地元素與劇場機能的結合，敘事得以透過投影疊加於基地之上。基地不只是投影布幕，同時立面上的材質、分割，甚至是顏色與原本的使用機能，都成為協助完成敘事的線索，甚至環境中元素與元素之間的關係也因為敘事而被重新詮釋後串聯。文本的想像空間與現實環境在不同維度上相互呼應，被再現出來的文本場景最終以融合基地現況的姿態而被觀眾閱讀。",
+                        "descript": "Through the integration of textual writing, site elements, and theatrical functions, the narrative is projected and layered onto the site, which is not merely a projection screen; its materials, divisions, colors, and original functions become clues that enhance the narrative. Even the relationships between elements in the environment are reinterpreted and connected through the narrative.\nThe imagined spaces of the text and the physical environment resonate across different dimensions, with the reproduced textual scenes ultimately presented in harmony with the site's existing conditions, inviting the audience to interpret them.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1_ptP_XhWREeMkW6f9rMnggiAKzoMbBS1",
+                        "filename": "2025_1_Kai-Syun.png",
+                        "img_path": "assets/img/approaches/2025_1_Kai-Syun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "林緗庭",
+                        "semester": 1,
+                        "name": "Lin Shiang-Ting",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "往返之間的傳送媒介",
+                        "title": "between",
+                        "descript_tw": "溜滑梯的爬與溜，透過一連串心境的轉變構成。昔日隨著礦區興衰的碩仁國小，曾經的生活被展示出來，居民與遊客相互成為觀眾與表演者，角色不斷切換、穿梭於廢棄校園。不同空間的前後場關係 - 相當於爬與溜及其主導心境，也像是生活及儀式，交織在舊校舍與新的鋼構造之間。",
+                        "descript": "The climb and slide of the slide are composed of a series of changes in mood. With the rise and fall of the mining area in the past, Shuoren Elementary School's past life is displayed. Residents and tourists become audiences and performers for each other, and the roles are constantly switched and shuttled through the abandoned campus. The relationship between the front and rear of different spaces - equivalent to climbing and sliding and its dominant mood, also like life and rituals, intertwined between the old school building and the new steel structure.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1owHY8Jds17_DTkfEAFb7K-IVnnqCf1_R",
+                        "filename": "2025_1_Shiang-Ting.png",
+                        "img_path": "assets/img/approaches/2025_1_Shiang-Ting.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "陳盈曄",
+                        "semester": 1,
+                        "name": "Chen Ying-Ye",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "光的明度、暗度與過渡",
+                        "title": " Lightness, darkness and transition of light",
+                        "descript_tw": "我的設計主題是關於光的明度、暗度及過渡。   但更精準的描述應該是，這是為了強化關於身體對於光感知的探索所發展而出的設計。操作主要分為四個階段。  第一部分是設計的起源，也就是我所感興趣的光藝術家的介紹。   第二部分是整理、分析並且重現藝術家的作品。  第三部分是在分析後，發現藝術家沒有作品呈現的層次，並且將其創造出來。最後則是將其置入建築設計中。",
+                        "descript": "My design theme is about lightness, darkness and transitions of light.   But a more accurate description should be that this is a design developed to strengthen the exploration of the body’s perception of light. The operation is mainly divided into four stages.  The first part is the origin of design, which is the introduction of light artists that interest me.   The second part is to organize, analyze and reproduce the artist's works.  The third part is after analysis, it is discovered that the artist does not have the level of presentation of the work, and creates it. Finally, it is integrated into the architectural design. ",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1cKTraPUvYg1fFFYrqdWTU-2bDln9Oeje",
+                        "filename": "2025_1_Ying-Ye.png",
+                        "img_path": "assets/img/approaches/2025_1_Ying-Ye.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "蔡聖杰",
+                        "semester": 1,
+                        "name": "Tsai Sheng-Chieh",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "比例錯置 : PCB住宅的邊界控制",
+                        "title": "Scale Remixed: Boundary Control of PCB Residences",
+                        "descript_tw": "以電路版為概念去控制由「公共」進入「私密」狀態，樓層平面與動線設計重視「層級」觀念。",
+                        "descript": "\nThe concept of a circuit board is used to control the transition from \"public\" to \"private\" states. The floor plan and circulation design emphasize the idea of \"hierarchy.\"",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1AOKG9oYZEdaTGgWK8FYZFWguB_Mcd4M1",
+                        "filename": "2025_1_Sheng-Chieh.png",
+                        "img_path": "assets/img/approaches/2025_1_Sheng-Chieh.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "簡駿安",
+                        "semester": 1,
+                        "name": "Chien Chun-An",
+                        "advisor_tw": "尹克強",
+                        "advisor": "Clive John Eveleigh",
+                        "title_tw": "生物材料實驗與雕塑",
+                        "title": "Biopolymers experiment and sculpture",
+                        "descript_tw": "利用牡蠣殼內的成分碳酸鈣，魚鱗中的膠原蛋白，結合海藻酸鈉製造出不同物理性質的材料組合成雕塑，最終回歸海洋。",
+                        "descript": "\n\nUsing the calcium carbonate found in oyster shells, the collagen in fish scales, and combining them with sodium alginate, create materials with varying physical properties to assemble a sculpture that ultimately returns to the ocean.",
+                        "tags": [
+                          "transcript",
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=16x0CPZdQO1jv_WeAorPLE5Ii2OBWqeKy",
+                        "filename": "2025_1_Chun-An.png",
+                        "img_path": "assets/img/approaches/2025_1_Chun-An.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "呂文理",
+                        "semester": 1,
+                        "name": "Lu Wen-Li",
+                        "advisor_tw": "宋偉祥",
+                        "advisor": "Song Wei-Xiang",
+                        "title_tw": "垂直綠洲：貧民社區的洪水適應與社會融合",
+                        "title": "Vertical Oasis:  Flood Adaptation and Social Integration in Ghetto Communities",
+                        "descript_tw": "在氣候變遷的影響下，洪水問題成為貧民社區的重大挑戰，本次設計選擇的兩個貧民窟即是典型案例。因河岸周圍無計劃的城市侵占導致洪水惡化。同時，貧民窟與相鄰的中產階級社區被一條馬路分隔，社會階層與生活習慣的差異導致彼此缺乏互動，加劇社會分裂的問題。\n本設計旨在透過垂直化社區改造與綠地復育的方式，改善貧民社區的洪水適應力，並將原有土地轉化為城市生態公園，作為貧民與中產階層居民的共享空間，促進不同階層的社會融合。",
+                        "descript": "Under the impact of climate change, flooding has become a significant challenge for impoverished communities. The two slums selected for this design are typical examples. Unplanned urban encroachment along riverbanks has exacerbated flooding issues. At the same time, a road separates the slums from adjacent middle-class neighborhoods, and the differences in social strata and lifestyles have led to a lack of interaction, further deepening social divides.  \nThis design aims to enhance the flood resilience of impoverished communities through vertical community redevelopment and green space restoration. The original land will be transformed into an urban ecological park, serving as a shared space for residents of both impoverished and middle-class communities, fostering social integration across different societal levels.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1MZaPLJrCFdyQJpPffIPCS2RU6tDd0Zvb",
+                        "filename": "2025_1_Wen-Li.png",
+                        "img_path": "assets/img/approaches/2025_1_Wen-Li.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "李世翎",
+                        "semester": 1,
+                        "name": "Lee Shih-Ling",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "腦迴路具象化:思緒之港",
+                        "title": "Thought Embodiment of neural pathways: the harbor of thoughts.",
+                        "descript_tw": "單看兩者時無法馬上辨認出哪個是開心或放空，單是若將兩者\n      擺在一起時便能看出其中的差異性。而就是這兩種設定的差異\n      性將被我擷取下來作為這次設計的轉化。",
+                        "descript": "On their own, you can’t really tell which one is happy or zoning out. But if you put them together, you can see the difference. I’m going to take that difference and use it for this design.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1OuH0kIZne4lofyIrpyEcgPV_rzj0m6G4",
+                        "filename": "2025_1_Shih-Ling.png",
+                        "img_path": "assets/img/approaches/2025_1_Shih-Ling.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "李仲薇",
+                        "semester": 1,
+                        "name": "Lee Jhong-Wei",
+                        "advisor_tw": "宋偉祥",
+                        "advisor": "Song Wei-Xiang",
+                        "title_tw": "城市漣漪：威尼斯多層次商業活動",
+                        "title": "Urban Ripples - Venice’s Multilevel Commercial Activity",
+                        "descript_tw": "威尼斯因受洪水影響到市場運作，故透過浮筒、升降平台及空中廊道設計，讓市場可隨潮汐起伏運作，結合漁網元素，重現漁業歷史，實現市場與自然共存並促進社區交流。",
+                        "descript": "Venice’s markets are affected by flooding, inspiring a design that uses floating platforms, lifting mechanisms, and aerial walkways to adapt to tides. Incorporating fishing net elements, it revives fishing history, harmonizes with nature, and fosters community connections.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1I_JcpzJcsEL1Cjt2fa7yBQzv5LKf1cBe",
+                        "filename": "2025_1_Jhong-Wei.png",
+                        "img_path": "assets/img/approaches/2025_1_Jhong-Wei.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "胡雅筠",
+                        "semester": 1,
+                        "name": "Hu Ya-Yun",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "蘋果遊戲",
+                        "title": "Apple game",
+                        "descript_tw": "過程分為四個階段，第一階段維文本創作，再以文本為發想其中內容的幻象以麥塊遊戲操作，進行建築系館空間的重組，\n設計出一個迷宮模型，第二階段為以文本中的陰影繪製 truchet pattern ，並且定義空間性質設計不同的通關出口造型，\n第三階段將繪製的 truchet pattern 進行立體化，使 pattern 產生三向維度的連結，並且包圍著通關口給予視覺上的錯亂\n與線索，第四階段將 3D truchet pattern 植入進第一階段的麥塊迷宮，最後形成一個解謎虛擬的迷宮遊戲。 ",
+                        "descript": "The process is divided into four stages:\n1. Textual Creation : This text serves as the inspiration for designing hallucinations, which are then translated into \nthe reorganization of the architecture department's space within the Minecraft game. \n2. Truchet Pattern Design : the shadows mentioned in the narrative are used to draw Truchet patterns. \n3. 3D Truchet Patterns : involves transforming the drawn Truchet patterns into three-dimensional forms.\n4. Integration : the 3D Truchet patterns are integrated into the Minecraft Maze created in the first stage.  ",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1UVV9FH7-Fk3lvXjbC5gQmQcV3Q2eeL1H",
+                        "filename": "2025_1_Ya-Yun.png",
+                        "img_path": "assets/img/approaches/2025_1_Ya-Yun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "楊承霖",
+                        "semester": 1,
+                        "name": "Yang Chenh-Lin",
+                        "advisor_tw": "尹克強",
+                        "advisor": "Clive John Eveleigh",
+                        "title_tw": "生物材料",
+                        "title": "biopolymers",
+                        "descript_tw": "利用以海洋生物為原料的生物材料，利用其特性，製作出骨架和薄膜來構成雕塑。我們想藉由雕塑去建構出我們與沙灘和海洋的對話，最後讓材料經過海水的分解再度回歸海洋，進入循環。",
+                        "descript": "Using biodegradable materials made of seafood waste and taking advantage s of their properties, we create structure and film to build sculptures. Through these sculptures, we aim to construct a dialogue between ourselves, the beach, and the ocean. Ultimately, the materials will decompose in seawater and return to the ocean, re-entering the cycle.",
+                        "tags": [
+                          "transcript",
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1CrRMhhLemOh8MM_2EUlpKiODv5O0Ps6A",
+                        "filename": "2025_1_Chenh-Lin.png",
+                        "img_path": "assets/img/approaches/2025_1_Chenh-Lin.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "李采蓁",
+                        "semester": 1,
+                        "name": "Lee Cai-Zhen",
+                        "advisor_tw": "陳右昇",
+                        "advisor": "Chen Yo-Sheng",
+                        "title_tw": "設計建造",
+                        "title": "DESIGN AND BUILD",
+                        "descript_tw": "藉由我的設計提供大肆同學一個舒適且可以休憩閱讀的角落，並可以有陽光以及窗外的植栽。暫時脫離工作室僵化的環境。",
+                        "descript": "My design aims to provide the students with a comfortable corner for resting and reading, with sunlight and outdoor plants. It offers a temporary escape from the rigid environment of the studio.",
+                        "tags": [
+                          "construction"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=18tslDiuqDfbzzMlPwN6uqukzcZRuOrCl",
+                        "filename": "2025_1_Cai-Zhen.png",
+                        "img_path": "assets/img/approaches/2025_1_Cai-Zhen.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "葉詠駿",
+                        "semester": 1,
+                        "name": "Yeh Yung-Chun",
+                        "advisor_tw": "宋偉祥",
+                        "advisor": "Song Wei-Xiang",
+                        "title_tw": "水之森林- 抗洪社區設計",
+                        "title": "Aqua Vana-a community capable of resisting floods.",
+                        "descript_tw": "我這學期的設計主要是在應對孟買的洪災問題，由於當地的基礎設施本就不良，因此除了排水效率不良導致的洪災之外，當地日常也面臨水資源不足的問題，因此我在設計上，透過下沉的景觀斜坡和筏基來累積雨季時的洪水，並將其作為居民的生活用水和垂直農場的灌溉用水使用。",
+                        "descript": "\nThis semester, my design primarily addresses the flooding issues in Mumbai. Due to the city's poor infrastructure, in addition to floods caused by inefficient drainage, the region also faces daily water shortages. In my design, I incorporate sunken landscaped slopes and raft foundations to collect floodwaters during the rainy season, repurposing them for residents' domestic use and irrigation for vertical farms.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Xud3LuvtNo9rwg3zbym-UgQ3YIK36QBe",
+                        "filename": "2025_1_Yung-Chun.png",
+                        "img_path": "assets/img/approaches/2025_1_Yung-Chun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "張可忻",
+                        "semester": 1,
+                        "name": "Chang Ke-Shing",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "日常。框景",
+                        "title": "Daily-Framed view",
+                        "descript_tw": "透過住宅行為看到城市與自然的景色。從空間中捕捉不同景觀與變化。",
+                        "descript": "Viewing urban and natural scenery through residential activities, capturing diverse landscapes and changes from space .",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1pKb_vc0F7PU5vnHwg4I_8Ynl2ZCy40rr",
+                        "filename": "2025_1_Ke-Shing.png",
+                        "img_path": "assets/img/approaches/2025_1_Ke-Shing.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "温旺霖",
+                        "semester": 1,
+                        "name": "Wen Wang-Lin",
+                        "advisor_tw": "鄭晃二",
+                        "advisor": "Jeng Hoang-Ell",
+                        "title_tw": "囚築",
+                        "title": "Captive Construction",
+                        "descript_tw": "利用颱風能量轉化為建築運轉能源，並結合建築旋轉概念，實現360度環景視野，打造具未來想像的示範性建築。",
+                        "descript": "Harnessing typhoon energy for building operations, combined with a rotating structure concept, creates a 360-degree panoramic view and showcases futuristic architectural design.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1AgGETiPhl7wx7M-URgQUD279iCHnRlsL",
+                        "filename": "2025_1_Wang-Lin.png",
+                        "img_path": "assets/img/approaches/2025_1_Wang-Lin.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "曾以筑",
+                        "semester": 1,
+                        "name": "Tseng Yi-Chu",
+                        "advisor_tw": "陳右昇",
+                        "advisor": "Chen Yo-Sheng",
+                        "title_tw": "序   續",
+                        "title": "continuing order",
+                        "descript_tw": "利用基地鐵欄杆的軸線，用線組成不同高層的使用面，強化單一秩序，以覆蓋形式和材料混亂的現況，並回應基地高層豐富的特性。",
+                        "descript": "Using the axis of the base's iron railings, lines are used to create usage surfaces at different levels, enhancing a singular order to cover the current chaos of forms and materials, while responding to the rich characteristics of the base's upper levels.",
+                        "tags": [
+                          "construction"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1j2A2NEYvuRbdNzv3avNsamS_V2Yirj3c",
+                        "filename": "2025_1_Yi-Chu.png",
+                        "img_path": "assets/img/approaches/2025_1_Yi-Chu.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "吳宜樺",
+                        "semester": 1,
+                        "name": "Wu Yi-Hua",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "庇護所、住所",
+                        "title": "One shelter 、One Universe",
+                        "descript_tw": "平常我們身處高樓旁，難以一覽自然及城市的全貌。但當我們進入城市旁的自然，從不同高度及視角回望，就能發現全新視野，這樣的城市與自然的體驗轉換十分有趣。",
+                        "descript": "We are usually surrounded by tall buildings, making it difficult to take in the full view of nature and the city. However, when we enter the natural areas near the city and look back from different heights and perspectives, we can discover a whole new outlook. This transition between experiencing the city and nature is truly fascinating.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1C8YmNPzoLya_9LcnmN_FPWBoAsRgPo1S",
+                        "filename": "2025_1_Yi-Hua.png",
+                        "img_path": "assets/img/approaches/2025_1_Yi-Hua.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "黃紹恩",
+                        "semester": 1,
+                        "name": "Huang Shao-En",
+                        "advisor_tw": "鄭晃二",
+                        "advisor": "Jeng Hoang-Ell",
+                        "title_tw": "纏鬥 x 模 天大樓",
+                        "title": "DOGFIGHT in the Airway a building in a future City",
+                        "descript_tw": "《纏鬥》探討人機共存未來，啟發建築設計，以現代主義風格提供無人機航道與平台，結合功能與哲學反思，實現科技與建築融合。",
+                        "descript": "\"Dogfight\" explores a future of human-drone coexistence, inspiring modernist architecture with drone pathways and platforms, blending functionality and philosophy for tech-architecture integration.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1CzsE73B2WY7b75f3k4U4g9ig31VrRKQ4",
+                        "filename": "2025_1_Shao-En.png",
+                        "img_path": "assets/img/approaches/2025_1_Shao-En.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "盧承昀",
+                        "semester": 1,
+                        "name": "Lu Cheng-Yun ",
+                        "advisor_tw": "陳右昇",
+                        "advisor": "Chen Yo-Sheng",
+                        "title_tw": "众",
+                        "title": "Together ",
+                        "descript_tw": "此設計以竹子打造四面體遊樂結構，結合自然與趣味，設有水泥平台與網子，讓孩子嬉戲、觀賞植物，結構高度不超過180公分，兼顧安全與互動性。",
+                        "descript": "This design features a tetrahedral play structure made of bamboo, combining nature and fun. It includes concrete platforms and nets, allowing children to play and enjoy the surrounding plants. The structure's height is limited to 180 cm, ensuring safety and interactivity.",
+                        "tags": [
+                          "construction"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1pgJ0QSSeYfs4WwfIcc9Q5g91ZsNp9eNf",
+                        "filename": "2025_1_Cheng-Yun.png",
+                        "img_path": "assets/img/approaches/2025_1_Cheng-Yun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "陳姮嘉",
+                        "semester": 1,
+                        "name": "Chen Heng-Jia",
+                        "advisor_tw": "宋偉祥",
+                        "advisor": "Song Wei-Xiang",
+                        "title_tw": "集雨流景:將廣場塑造為雨水的舞台",
+                        "title": "Rainflow Vista:Shaping The Plaza Into A Stage For Rain's Choreography,Colaba,Mumbai",
+                        "descript_tw": "位於科拉巴印度門附近的廣場四周環繞著歷史古蹟，但因雨水和海水的影響，洪水時其連接功能和公共活動空間會中斷。通過引入滯洪措施，該廣場在旱季可成為多層次的活動空間，雨季則可轉化為線性公園，同時保護周邊遺址並保持全年功能。",
+                        "descript": "The square near the Gateway of India in Colaba, surrounded by historic landmarks, faces flooding from rain and seawater, disrupting its role as a connector and public space. By integrating flood mitigation, it can transform into a dynamic, multi-level plaza in dry seasons and a linear park during rains, protecting nearby heritage sites and ensuring year-round functionality.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Co4NTMMQDVDSr7qlJAE14lp4HHYFIcrc",
+                        "filename": "2025_1_Heng-Jia.png",
+                        "img_path": "assets/img/approaches/2025_1_Heng-Jia.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "劉家蓁",
+                        "semester": 1,
+                        "name": "Liu Chia-Chen",
+                        "advisor_tw": "翁偉真",
+                        "advisor": "Weng Wei-Chen",
+                        "title_tw": "現實的倒置",
+                        "title": "Inversion of reality",
+                        "descript_tw": "以鏡子的反射與延展特性為主要設計手法，將其融入K書中心，探索不同使用群體在空間中互動的特性，並揭示鏡子在引導視覺、情感與專注力中所扮演的重要角色。",
+                        "descript": "Using the reflective and expansive characteristics of mirrors as the primary design approach, this project integrates them into the K-Book Center to explore how different user groups interact within the space, emphasizing the pivotal role mirrors play in guiding vision, emotions, and focus.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1oZVIpvc_r-BM8Gw98IF83kIdUPXwgekw",
+                        "filename": "2025_1_Chia-Chen.png",
+                        "img_path": "assets/img/approaches/2025_1_Chia-Chen.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "黃煒騰",
+                        "semester": 1,
+                        "name": "Huang Wei-Teng ",
+                        "advisor_tw": "宋偉祥",
+                        "advisor": "Song Wei-Xiang",
+                        "title_tw": "垃圾山的重生：Bantar Gebang拾荒生活空間設計",
+                        "title": "The Rebirth of the Landfill: Living Space Design for Scavengers at Bantar Gebang",
+                        "descript_tw": "本設計以模組化建築、資源回收與社區營造為核心策略，不僅改善了Bantar Gebang垃圾山居民的居住條件，還為他們提供了可持續發展的生活模式。這一方案重塑了拾荒者的生活方式，幫助他們從污染與貧困中走向健康與生產力的未來，並實現「從危機中產生希望，創造拾荒者安全生活新藍圖」的可能性。",
+                        "descript": "This design focuses on modular construction, resource recycling, and community building as core strategies. It not only improves living conditions for the residents of Bantar Gebang landfill but also offers them a sustainable lifestyle. The project redefines the way scavengers live, helping them transition from pollution and poverty to a future of health and productivity. It demonstrates the potential to \"generate hope from crises and create a new blueprint for the safe living of scavengers.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1v7m06GD3D9o_5YVKHoyP33AJz8snycs2",
+                        "filename": "2025_1_Wei-Teng.png",
+                        "img_path": "assets/img/approaches/2025_1_Wei-Teng.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "范引璇",
+                        "semester": 1,
+                        "name": "Fan Yin-Hsuan",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "映射與對話-服飾、電影及窗作為媒介的第二層皮膚",
+                        "title": "Reflecting and conversing-clothing, film and window",
+                        "descript_tw": "研究電影、服飾、窗作為其媒介「第二層皮膚second skin」的特性，他們都是不斷的在與時空對話、與環境對話、與人對話，思考並映射出自身。電影將虛構串連向真實，服飾與時代對話，窗正是建築中人、環境、時空對話的媒介。將分析出的特色以三種窗的形式置入設計結合機能，在基隆車站口形成一大型都市雨傘，串聯四周運輸站體。",
+                        "descript": "Exploring the characteristics of film, clothing, and windows as mediums of “second skin,” they continuously engage in dialogues with time and space, the environment, and individuals, reflecting and projecting their essence. Films weave fiction into reality, clothing converses with the era, and windows serve as the medium for dialogues among people, the environment, and time within architecture. The unique features derived from this analysis are integrated into a design expressed through three types of windows, combined with functional elements to form a large urban umbrella at the Keelung Station entrance, connecting surrounding transportation hubs.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Ruf3hWLIyPaDAWsUKht5wgZoJOH9TUdc",
+                        "filename": "2025_1_Yin-Hsuan.png",
+                        "img_path": "assets/img/approaches/2025_1_Yin-Hsuan.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "劉誌皓",
+                        "semester": 1,
+                        "name": "Liu Chih-Hao",
+                        "advisor_tw": "陳右昇",
+                        "advisor": "Chen Yo-Sheng",
+                        "title_tw": "庇護所",
+                        "title": "SHELTR",
+                        "descript_tw": "這個庇護所為學生提供了一個暫時逃離的地方無論是壓力很大的科目，即使對老師也是如此。\n過去，用戶只使用長凳聚集在街角聊天，天氣惡化時漏水。這次設計挑戰處裡原先糟糕的環境。使其成為更好的使用場所。適合不同使用者的需求。（通過、停留、離開、聊天）",
+                        "descript": "This shelter provides students a place to temporarily escape from stressful subjects,even for teachers. In the past, users only use benches gather around the corner to chat, \nleaks while the weather goes worse. This project is challenging the original awful enviroment.Trying to make it a better palce to use.Also fitting different users nedded.\n(pass,stay,leaving,chatting)",
+                        "tags": [
+                          "construction"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1RrNI4-XQ2rjUVErGv1PkXLdy7w21P07R",
+                        "filename": "2025_1_Chih-Hao.png",
+                        "img_path": "assets/img/approaches/2025_1_Chih-Hao.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "江蓉瑄",
+                        "semester": 1,
+                        "name": "Chiang Rong-Xuan",
+                        "advisor_tw": "尹克強",
+                        "advisor": "Clive John Eveleigh",
+                        "title_tw": "生物可降解材料製成",
+                        "title": "Biomaterials design",
+                        "descript_tw": "隨著建築對自然資源的消耗加劇，廢棄材料帶來的環境壓力越來越難以忽視。如何讓建築材料在滿足功能與美感的同時，最終回歸自然，成為可持續發展的重要課題。\n生物可降解材料能自然分解為無害物質，實現生命周期閉環，減少污染並帶來綠色建築的更多可能。本實驗旨在探索這類材料的應用，尋求自然與建築的平衡，共創環保未來。",
+                        "descript": "As the consumption of natural resources in construction intensifies, the environmental pressure caused by waste materials has become increasingly difficult to ignore. Finding ways for building materials to meet both functional and aesthetic needs while ultimately returning to nature has become a key issue for sustainable development.\n\nBiodegradable materials naturally decompose into harmless substances, realizing a closed-loop life cycle, ",
+                        "tags": [
+                          "transcript",
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1iJjOZEDqpzOTZg59tGnjswE2wtzHkGo6",
+                        "filename": "2025_1_Rong-Xuan.png",
+                        "img_path": "assets/img/approaches/2025_1_Rong-Xuan.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "蔡育軒",
+                        "semester": 1,
+                        "name": "Tsai I-An",
+                        "advisor_tw": "鄭晃二",
+                        "advisor": "Jeng Hoang-Ell",
+                        "title_tw": "隱蔽之路",
+                        "title": "A Hidden Path",
+                        "descript_tw": "本設計透過以虛構的故事架構來建立敘事的建築，當中運用電影故事中的場景以及角色特質來設定與定義空間中的場域以及空間的特性，讓故事的感受性存在於空間之中。",
+                        "descript": "This design uses the fictional story structure to establish the narrative architecture, and uses the scenes and character characteristics of the movie story to set and define the field and spatial characteristics in the space, so that the sensibility of the story exists in the space.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Ol9_4h5KL7p3Ox6eBsyOqHwbki1S6yGL",
+                        "filename": "2025_1_I-An.png",
+                        "img_path": "assets/img/approaches/2025_1_I-An.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "呂冠霆",
+                        "semester": 1,
+                        "name": "Lu Kuan-Ting",
+                        "advisor_tw": "鄭晃二",
+                        "advisor": "Jeng Hoang-Ell",
+                        "title_tw": "城市之渴",
+                        "title": "The Thirst of the City",
+                        "descript_tw": "本作品創造一個以水源為核心的未來城市，透過主角的視角看到資源匱乏所帶來的困境。並作為都市空間設計的概念與構想。設計概念著重於水資源中心化，融合建築與環境，促進生態、綠地與公共空間的共生。透過小型人工濕地、綠色廊道及多功能休閒空間，創造人與空間的共生關係。",
+                        "descript": "This work envisions a future city centered around water resources, viewed through the perspective of the protagonist to highlight the challenges brought by resource scarcity. It serves as a concept and vision for urban spatial design. The design emphasizes the centralization of water resources, integrating architecture with the environment to promote coexistence between ecosystems, green spaces, and public areas. By incorporating small artificial wetlands, green corridors, and multifunctional recreational spaces, it creates a harmonious relationship between people and their surroundings.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=15PUvJ8MoZKDdNTlQiZpPCTiZMD58zAgr",
+                        "filename": "2025_1_Kuan-Ting.png",
+                        "img_path": "assets/img/approaches/2025_1_Kuan-Ting.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "盧俐婷",
+                        "semester": 1,
+                        "name": "Lu Li-Ting",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "一個宇宙",
+                        "title": "One Universe",
+                        "descript_tw": "以自身感興趣的事物出發，逐步發展成小尺度的庇護所，再發展成為較大尺度的自宅。",
+                        "descript": "Starting from things of personal interest, gradually developing into a small-scale shelter, and eventually evolving into a larger-scale residence.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1gIUTxY2L04xyByEh0l2-CsZ4IzqRBArA",
+                        "filename": "2025_1_Li-Ting.png",
+                        "img_path": "assets/img/approaches/2025_1_Li-Ting.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "邱方楷",
+                        "semester": 1,
+                        "name": "Chiu Fang-Kai",
+                        "advisor_tw": "蕭吉甫",
+                        "advisor": "Hsiao Chi-Fu",
+                        "title_tw": "輕量化光的重量：用回收PET塑造未來",
+                        "title": " Lightweight Light: Crafting the Future with Recycled PET",
+                        "descript_tw": "首先，我構想創立一間名為 BottleForm Studio 的環保工程顧問公司，專注\n於永續發展，並深信材料的再生與循環利用是未來工程設計的關鍵。我們的核\n心材料是回收寶特瓶，透過善用其透明度、色澤、形狀和紋理等獨特特性，探\n索此材料在光線照射下的互動效果。\n藉由研究光線如何在回收PET材料中傳遞與轉化，形成漸層效果和流動的圖案\n。同時，利用寶特瓶作為主要結構，並結合寶特瓶之間的專屬連接構件作為次\n結構，進一步開發出我們公司專屬的工程服務!!",
+                        "descript": "To begin, I envision establishing an environmental engineering consultancy \ncalled BottleForm Studio, dedicated to sustainability and rooted in the \nbelief that material regeneration and recycling are the future of engineer\ning design. Our core material is recycled PET bottles, which we leverage for \ntheir unique properties, such as transparency, color, shape, and texture, to \nexplore their interaction with light. By studying how light transmits and \ntransforms within PET materials, and using PET bottles as primary \nstructures with custom connectors, we develop innovative solutions to \nredefine sustainable architecture.",
+                        "tags": [
+                          "bim",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=19EgJoCPuoXPkf72I2sV6T3aCkhbeN3Vm",
+                        "filename": "2025_1_Fang-Kai.png",
+                        "img_path": "assets/img/approaches/2025_1_Fang-Kai.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "李泰",
+                        "semester": 1,
+                        "name": "Li Tai",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "末日、自然、拼湊",
+                        "title": "Apocalypse、Nature、Collage",
+                        "descript_tw": "本次主題取自我選擇的三條支線，三組服裝設計師以及相對應的藝術家。運用ai生成圖像連結現實中的案例、材料、工法，並從末日的背景、自然的主題、拼湊的手法，找出了我這次的program，也就是末日的種子保存庫。",
+                        "descript": "This theme is derived from the three subtopics I selected, each featuring a different set of fashion designers and corresponding artists. By using AI-generated images connected to real-world examples, materials, and methods—and drawing from the apocalyptic setting, the theme of nature, and the collage approach—I arrived at my current program: the post-apocalyptic seed vault.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1_vZ7DTGRAiysj3tV5j1tV0LWjgzmYopY",
+                        "filename": "2025_1_Tai.png",
+                        "img_path": "assets/img/approaches/2025_1_Tai.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "王建鈞",
+                        "semester": 1,
+                        "name": "Wang Chien-Chun",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "山海之間—重塑自然與人為的界線",
+                        "title": "“Between Mountains and Seas: Redefining the Boundaries Between Nature and Humanity”",
+                        "descript_tw": "自然生態議題作為發想\n以金山磺港漁港作為基地\n山海河作為自然元素\n期望人與人能在這裡互相交會交流\n透過4處大尺度的設計置入於基地中\n分別為沙灘、溫泉區、市集區及橋作為動線串連基地\n以小花作為prototype \n在不同區域做出轉化放置於四區\n串連起基地中遊客與在地者的生\n",
+                        "descript": "Using ecological issues as inspiration, Jinshan Sulfur Port Fishing Harbor serves as the base for this project. The natural elements of mountains, seas, and rivers are integrated, aiming to create a space where people can connect and interact.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Q4VKrYN-yGZfnAjA0JrvymFj3tTVcTa7",
+                        "filename": "2025_1_Chien-Chun.png",
+                        "img_path": "assets/img/approaches/2025_1_Chien-Chun.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "楊智堯",
+                        "semester": 1,
+                        "name": "Yang Zhi-Yao",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "青年圖書站",
+                        "title": "Youth Book Station",
+                        "descript_tw": "從服裝設計細節延伸發展，創造一座地標性建築，提供多功能場所，主導交換活動和青少族群的行為空間",
+                        "descript": "Extend the development from the details of clothing design to create a landmark building, provide a multi-functional place, lead exchange activities and behavioral space for young people.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=120uVpBF9jSL7rINDfz65CEms1ThOpYSy",
+                        "filename": "2025_1_Zhi-Yao,.png",
+                        "img_path": "assets/img/approaches/2025_1_Zhi-Yao,.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "鍾金蓮",
+                        "semester": 1,
+                        "name": "Felicia Christian Setiawan",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "蠟染文化中心",
+                        "title": "Batik Cultural Center",
+                        "descript_tw": "從時裝設計師到藝術家到AI圖到建築。使用三個概念：拼湊、物件重新檢視、光技術。主要使用AI圖像來幫助生成設計並將其與印尼蠟染相結合，創造出可以操縱自然光的蠟染拼圖外觀的超現實主義建築。",
+                        "descript": "From fashion designers to artists to AI images to architecture. Three concepts are used: patchwork, object re-examination, and light technology. Mainly using AI images to help generate designs and combining them with Indonesian batik, creating surreal architecture with the look of batik puzzles that manipulate natural light.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1W4F-B6zemQDXCFe0jKsDi9onbLaMn-2l",
+                        "filename": "2025_1_Christian.png",
+                        "img_path": "assets/img/approaches/2025_1_Christian.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "王念主",
+                        "semester": 1,
+                        "name": "Wang Nian-Jhu",
+                        "advisor_tw": "游瑛樟",
+                        "advisor": "Yu Ying-Chang",
+                        "title_tw": "無視覺之界-感知盲人視角的沉浸式圖書館",
+                        "title": "Beyond Vision: An Immersive Library Experience from the Perspective of the Visually Impaired",
+                        "descript_tw": "這次的設計先結合三位藝術家及設計師，再透過AI的生成出的圖片進行分析，最後做成盲人圖書館。",
+                        "descript": "This design will first combine the work of three artists and designers, then analyze the images generated by AI, and finally create a library for the visually impaired.",
+                        "tags": [
+                          "construction",
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1tyHKPNF071stf3mjAnC3i7TfczDaH9dV",
+                        "filename": "2025_1_Nian-Jhu.png",
+                        "img_path": "assets/img/approaches/2025_1_Nian-Jhu.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "塗賀琦",
+                        "semester": 1,
+                        "name": "Tu He-Ci ",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "宇宙工作室 - 植力互動",
+                        "title": "One Universe - Live within Interaction",
+                        "descript_tw": "本設計於天橋與行道樹間打造隱藏平台與空間，透過各樣介面讓植物與空間互動，呈現自然與人造間的對抗與共生，探索空間使用的動態轉換。",
+                        "descript": "This design creates hidden platforms and spaces between the skybridge and street trees, utilizing various interfaces to facilitate interaction between plants and spaces. It explores the tension and coexistence between nature and man-made structures, emphasizing the dynamic transformation of spatial usage.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=1Un_fVOxDOEohwVicdDUUXLngDj6cl8t3",
+                        "filename": "2025_1_He-Ci.png",
+                        "img_path": "assets/img/approaches/2025_1_He-Ci.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "趙君綾",
+                        "semester": 1,
+                        "name": "Chao Chun-Ling",
+                        "advisor_tw": "尹克強",
+                        "advisor": "Clive John Eveleigh",
+                        "title_tw": "茶跡",
+                        "title": "Tea Trace",
+                        "descript_tw": "利用不同方式所製作的茶葉可降解材料去構成雕塑，並以其不同的特性去構建。以茶樹林作為概念，使人們可以在此穿梭，並利用感觀體驗，進而重拾淡水的茶記憶。讓雕塑在基地中衰敗，讓材料回到自然。",
+                        "descript": "Creating sculptures using biodegradable materials made from tea leaves in various ways, leveraging their unique properties to shape the structures. Inspired by the concept of a tea forest, the design invites people to wander through and engage their senses, reconnecting with the tea heritage of Tamsui. Allowing the sculpture to decay on-site, returning the materials back to nature.",
+                        "tags": [
+                          "transcript",
+                          "cam"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=15z4quNu8n1neeTkGKdzdHR_ICIF8enBE",
+                        "filename": "2025_1_Chun-Ling.png",
+                        "img_path": "assets/img/approaches/2025_1_Chun-Ling.png"
+                      },
+                      {
+                        "date_year": 2025,
+                        "name_tw": "胡佳欣",
+                        "semester": 1,
+                        "name": "Jacinth Hunkins",
+                        "advisor_tw": "林泓宇",
+                        "advisor": "Lin Hon-Yui",
+                        "title_tw": "第1階段：一個庇護所第2階段：同一個宇宙",
+                        "title": "Phase 1: One Shelter Phase 2: One Universe",
+                        "descript_tw": "1. 該庇護所旨在為客人提供一個冒險而又冒險的度假勝地，讓他們在與自然元素互動的同時欣賞風景。遊客可以在這個令人興奮的世界中度過幾分鐘或幾個小時，然後像往常一樣恢復生活。 \n2. 這個家住著我自己、我的寵物鳥，並有一個客臥可接待朋友和家人探訪。室內設計將具有從安全到危險的各種空間設有一個鳥類互動露台，該露台設有我們的世界融合的不同點，我們可以交互。",
+                        "descript": "1.The shelter is designed to provide guests with a risky yet adventurous getaway, integrated with existing surfing activities, allowing them to enjoy the scenery while interacting with natural elements. Visitors can spend a few minutes or hours in this world of excitement before returning to life as usual.  \n2.This home houses myself, my pet bird and has a guest bedroom to accommodate friends and family visits. The interior design would have various spaces ranging from safe to risky and features a bird-interactive terrace which has various points at which our worlds merge and we can interact.",
+                        "tags": [
+                          "transcript"
+                        ],
+                        "cloudad": "https://drive.google.com/open?id=17OYyn18pXdeMuJJEIpRltxIApN6U4GlG",
+                        "filename": "2025_1_Hunkins.png",
+                        "img_path": "assets/img/approaches/2025_1_Hunkins.png"
                       }
                 ],
                 "gallery":[ 
