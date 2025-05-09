@@ -887,20 +887,70 @@ function lngclick(elt){
 // <!-- End of Member -->
 // </div>
 function update_carousel(){
-    console.log('ab')
-    let necc = $("#modalCarousel")
-    necc.owlCarousel({
-        autoWidth: true,
-        autoHeight: false,
-        items:5,
-        margin: 20,
-        responsiveClass:true,
-        loop: false,   
-        nav:false,
-        responsive:{
-            0:{
-            items:1,
-            autoHeight:true
+    const $modal = $('#modalAdvisor');
+    const $carousel = $('#modalCarousel');
+
+    $modal.on('shown.bs.modal', function () {
+        const $images = $carousel.find('img');
+        let loadedCount = 0;
+
+        // 檢查圖片是否已經全部載入
+        $images.each(function () {
+            if (this.complete) {
+                loadedCount++;
+            } else {
+                $(this).on('load', function () {
+                    loadedCount++;
+                    if (loadedCount === $images.length) {
+                        initOwl();
+                    }
+                });
             }
-    }});
+        });
+
+        // 若圖片已經全部載入（例如快取），直接初始化
+        if (loadedCount === $images.length) {
+            initOwl();
+        }
+
+        function initOwl() {
+            if (!$carousel.hasClass('owl-loaded')) {
+                $carousel.owlCarousel({
+                    autoWidth: true,
+                    autoHeight: false,
+                    items: 5,
+                    margin: 20,
+                    responsiveClass: true,
+                    loop: false,
+                    nav: false,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            autoHeight: true
+                        }
+                    }
+                });
+            } else {
+                $carousel.trigger('refresh.owl.carousel');
+            }
+        }
+    });
 }
+// function update_carousel(){
+//     console.log('ab')
+//     let necc = $("#modalCarousel")
+//     necc.owlCarousel({
+//         autoWidth: true,
+//         autoHeight: false,
+//         items:5,
+//         margin: 20,
+//         responsiveClass:true,
+//         loop: false,   
+//         nav:false,
+//         responsive:{
+//             0:{
+//             items:1,
+//             autoHeight:true
+//             }
+//     }});
+// }
