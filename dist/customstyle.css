@@ -268,3 +268,9 @@ input:checked + .slider:before {
       background-color: #00449e;
       color: #fff;
     }
+    .owl-stage {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    display: box;
+    }

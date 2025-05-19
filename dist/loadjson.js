@@ -24,22 +24,8 @@ fetch("assets/data.json")
 });
 
 // modal
-$(window).on('load',()=>{
+$(document).ready(()=>{
     update_carousel();
-    // $('#modalCarousel').imagesLoaded( ()=> {
-        // $('#modalCarousel').owlCarousel({
-        //     autoWidth: true,
-        //     margin: 20,
-        //     height:50px,
-        //     afterAction : ()=>{
-        //         var elem = this.owl.owlItems;
-        //         var index = this.owl.visibleItems;
-        //         var height = elem.eq(index).height();
-        //         //.owl-wrapper is the element that we are high.
-        //         elem.parents('.owl-wrapper, .owl-carousel').css('height', height);
-        //     }
-        // });
-    // });
 
     $(".modal__close").click((e)=>{
         // close_btn ^ header ^ content ^ modal
@@ -56,32 +42,6 @@ $(window).on('load',()=>{
 
 });
 
-// MicroModal.init();
-
-
-// const sketch = (p)=>{
-//     p.preload = ()=>{
-        
-        
-//     }
-//     p.setup = ()=>{
-//         // p.loadJSON("https://rawcdn.githack.com/mediaplusarchi/json/a1652cb6317a598ee1f8d8ebf0571996e8da59c7/data.json",input_advisors)
-        
-//         // 
-//         // fetch("../data.json")
-//         // .then(response => response.json())
-//         // .then(data => {
-//         //     console.log(data)
-//         //     //jsondata=p.loadJSON(data)
-//         // })
-//         // .catch(error => {
-//         //     console.error("error_alert:", error);
-//         // });
-        
-//         // 
-//     }
-// }
-// new p5(sketch);
 function update_info(data,lng){
     if (lng==="en"){
         data.menu.forEach((v,i)=>{
@@ -837,87 +797,68 @@ function lngclick(elt){
     update_approaches(res.approaches,lng)
     update_gallery(res.gallery,lng)
 }
-// `
-// <img src="http://placehold.it/432x768" class="carousel__image" alt="Carousel Slide Image">
-// 							<h3 class="carousel__title"><span class='section-title__highlight'>Event 1</span></h3>
-// `
 
-
-
-// <div class="col-lg-6 col-md-8 col-lg-offset-2">
-//     <!-- Download Button -->
-//     <a class="download-button  " href="#">
-//         <img src="http://placehold.it/80x80" class="download-button__icon" alt="Platform Icon">
-//         <span class="download-button__platform">IOS app on</span>
-//         <span class="download-button__store">App Store</span>
-//     </a>
-//     <!-- End of Download Button -->
-// </div>
-
-		
-// <div class="col-md-12 col-sm-12 col-lg-6" >
-// <!-- Member -->
-// <div class="member  ">
-//     <div class="member__photo-wrapper">
-//         <img src="http://placehold.it/540x540" class="member__photo" alt="Member Photo">
-//         <div class="member__cover">
-//             <blockquote class="member__quote">Eum rerum, animi facilis perspiciatis iste molestiae, minima exercitationem quod amet! Natus dolor animi quasi, cupiditate harum.</blockquote>
-//         </div>
-//     </div>
-//     <h3 class="member__name">Matt Walden</h3>
-//     <p class="member__position">web designer</p>
-//     <ul class="member__socials">
-//         <li class="member__social">
-//             <a href="#" class="member__link">
-//                 <i class="fontello-facebook"></i>
-//             </a>
-//         </li>
-//         <li class="member__social">
-//             <a href="#" class="member__link">
-//                 <i class="fontello-twitter-bird"></i>
-//             </a>
-//         </li>
-//         <li class="member__social">
-//             <a href="#" class="member__link">
-//                 <i class="fontello-linkedin"></i>
-//             </a>
-//         </li>
-//     </ul>
-// </div>
-// <!-- End of Member -->
-// </div>
-function update_carousel(){
+function update_carousel() {
     const $modal = $('#modalAdvisor');
     const $carousel = $('#modalCarousel');
+    const fixedImageHeight = 540; // 設定固定的圖片高度
+
+    // 在 modal 顯示前先添加 loading 元素
+    $modal.on('show.bs.modal', function () {
+        // 添加 loading 元素到 modal 內
+        if ($modal.find('.carousel-loading').length === 0) {
+            const $loading = $('<div class="carousel-loading" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,0.8); display: flex; justify-content: center; align-items: center; z-index: 10;"><div class="spinner-border text-primary" role="status"><span class="visually-hidden">Loading...</span></div></div>');
+            $carousel.css('position', 'relative').append($loading);
+        }
+        // 隱藏所有圖片，等待加載完成後再顯示
+        $carousel.find('img').css('opacity', '0');
+    });
 
     $modal.on('shown.bs.modal', function () {
-        const $images = $carousel.find('img');
-        let loadedCount = 0;
+        // 先設定最小高度，避免容器塌陷
+        $carousel.css('min-height', fixedImageHeight + 'px');
 
-        // 檢查圖片是否已經全部載入
-        $images.each(function () {
-            if (this.complete) {
-                loadedCount++;
+        const $images = $carousel.find('img');
+        let loadedImages = 0;
+        const totalImages = $images.length;
+
+        if (totalImages === 0) {
+            initOwlCarousel();
+            removeLoading();
+            return;
+        }
+
+        $images.each(function() {
+            const img = this;
+            if (img.complete) {
+                handleImageLoad();
             } else {
-                $(this).on('load', function () {
-                    loadedCount++;
-                    if (loadedCount === $images.length) {
-                        initOwl();
-                    }
-                });
+                $(img).on('load', handleImageLoad).on('error', handleImageLoad);
             }
         });
 
-        // 若圖片已經全部載入（例如快取），直接初始化
-        if (loadedCount === $images.length) {
-            initOwl();
+        function handleImageLoad() {
+            loadedImages++;
+            if (loadedImages === totalImages) {
+                initOwlCarousel();
+                removeLoading();
+            }
         }
 
-        function initOwl() {
+        // 設置超時，以防某些圖片加載時間過長
+        setTimeout(function() {
+            if (!$carousel.hasClass('owl-loaded')) {
+                console.log('Some images may not have loaded, initializing carousel anyway');
+                initOwlCarousel();
+                removeLoading();
+            }
+        }, 3000);
+
+        function initOwlCarousel() {
             if (!$carousel.hasClass('owl-loaded')) {
                 $carousel.owlCarousel({
                     autoWidth: true,
-                    autoHeight: false,
+                    autoHeight: false, // 由於設定了固定高度，這裡保持 false
                     items: 5,
                     margin: 20,
                     responsiveClass: true,
@@ -925,32 +866,36 @@ function update_carousel(){
                     nav: false,
                     responsive: {
                         0: {
-                            items: 1,
-                            autoHeight: true
+                            items: 1
                         }
+                    },
+                    onInitialized: function() {
+                        // 初始化後確保最小高度 (雖然 HTML 已設定，但這裡再次確保)
+                        $carousel.css('min-height', fixedImageHeight + 'px');
+                        // 當 Carousel 初始化完成後，顯示所有圖片
+                        $carousel.find('img').animate({opacity: 1}, 300);
                     }
                 });
             } else {
                 $carousel.trigger('refresh.owl.carousel');
+                // 刷新後顯示所有圖片
+                $carousel.find('img').animate({opacity: 1}, 300);
             }
         }
+
+        function removeLoading() {
+            $carousel.find('.carousel-loading').fadeOut(300, function() {
+                $(this).remove();
+            });
+        }
+    });
+
+    // 當 modal 關閉時，重置 carousel
+    $modal.on('hidden.bs.modal', function () {
+        if ($carousel.hasClass('owl-loaded')) {
+            $carousel.trigger('destroy.owl.carousel');
+        }
+        // 確保在關閉時移除 loading 元素
+        $carousel.find('.carousel-loading').remove();
     });
 }
-// function update_carousel(){
-//     console.log('ab')
-//     let necc = $("#modalCarousel")
-//     necc.owlCarousel({
-//         autoWidth: true,
-//         autoHeight: false,
-//         items:5,
-//         margin: 20,
-//         responsiveClass:true,
-//         loop: false,   
-//         nav:false,
-//         responsive:{
-//             0:{
-//             items:1,
-//             autoHeight:true
-//             }
-//     }});
-// }
